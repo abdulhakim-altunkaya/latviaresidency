@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Main from "./components/Main";
+import "./styles/main.css";
 
 function App() {
   return (
-    <div>App</div>
+    <div className='App' >
+      <Main />
+    </div>
+    
   )
 }
 

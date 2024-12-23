@@ -18,16 +18,28 @@
 html {
   font-size: 14px;
   font-family: "Ubuntu", sans-serif;
+  height: 100%; /* Ensure html fills the viewport */
 }
 
 body {
   margin: 0;
-  background-color: white;
+  height: 100%; /* Ensure body fills the viewport */
+  background-image: url("../public/riga.jpg");
+  background-size: cover; /* Ensures the image covers the viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  overflow: hidden; /* Prevent scrolling */
 }
+
 .App {
   width: 60%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Full viewport height */
+  height: 100vh; /* Allow `.App` to take full height of the body */
+  max-height: 100%; /* Restrict `.App` height to viewport */
+  overflow-y: auto; /* Enable vertical scrolling within `.App` */
+  background-color: white; /* Ensure visibility of content */
+  box-shadow: -10px 0 15px -5px rgba(127, 1, 1, 0.3), 10px 0 15px -5px rgba(0, 0, 0, 0.3); /* Left and right shadow */
+
+  scrollbar-width: thin; /* For Firefox: Use default width */
+  scrollbar-color: #b30000 #f0f0f0; /* For Firefox: Thumb and track color */
 }

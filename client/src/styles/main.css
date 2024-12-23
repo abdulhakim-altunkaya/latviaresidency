@@ -1,0 +1,56 @@
+.mainArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.AreaTop {
+    height: 20%;
+}
+
+.AreaBottom {
+    height: 80%;
+    background-color: white;
+}
+
+.AreaTopTitle {
+    height: 75%;
+    background-color:  #00203FFF;
+    color: #ADEFD1FF;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.AreaTopNavbar {
+    height: 25%;
+    background-color: #fd7e00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.AreaTopNavbar span {
+    flex: 1; /* Each span takes up equal width */
+    text-align: center; 
+    height: 100%;
+    display: flex; /* Enable flexbox for the span */
+    align-items: center; /* Center the text vertically within the span */
+    justify-content: center; /* Center the text horizontally within the span */
+    color: #00203FFF;
+    font-family: "Monda";
+    font-weight: bold;
+    font-size: 17px;
+}
+.AreaTopNavbar span:hover {
+    cursor: pointer;
+    background-color: #884400;
+    font-weight: bolder;
+    color: white;
+}
+/*Nunito Maven Pro Righteous Monda Concert One Courgette Fredoka One Lobster Nerko One Poppins Playwrite HU*/
+.titleSpan {
+    font-family: "Maven Pro";
+    font-weight: bolder;
+    font-size: 30px;
+}
