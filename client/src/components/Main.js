@@ -1,12 +1,12 @@
 import React from 'react';
-import AreaTop from "./AreaTop";
-import AreaBottom from "./AreaBottom";
+import Top from "./Top";
+import Bottom from "./Bottom";
 
 function Main() {
   return (
     <div className='mainArea'>
-        <AreaTop />
-        <AreaBottom />
+        <Top />
+        <Bottom />
     </div>
   )
 }

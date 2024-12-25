@@ -1,11 +1,14 @@
 import React from 'react';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Main from "./components/Main";
 import "./styles/main.css";
 
 function App() {
   return (
     <div className='App' >
-      <Main />
+      <Router>
+        <Main />
+      </Router>
     </div>
     
   )

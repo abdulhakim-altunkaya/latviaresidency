@@ -12,6 +12,8 @@
 .AreaBottom {
     height: 80%;
     background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .AreaTopTitle {
@@ -21,6 +23,9 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+}
+.AreaTopTitle img {
+    width: 50px;
 }
 .AreaTopNavbar {
     height: 25%;
@@ -53,4 +58,7 @@
     font-family: "Maven Pro";
     font-weight: bolder;
     font-size: 30px;
+}
+.titleSpan:hover {
+    cursor: pointer;
 }
