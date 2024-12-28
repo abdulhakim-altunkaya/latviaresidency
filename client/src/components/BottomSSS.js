@@ -9,4 +9,4 @@ function BottomSSS() {
   )
 }
 
-export default BottomSSS
+export default BottomSSS;

@@ -57,7 +57,7 @@ app.post("/serversavevisitor", async (req, res) => {
         //save visitor to database
         client = await pool.connect();
         const result =  await client.query(
-            `INSERT INTO visitors_latviaresidency (ip, op, browser, date)
+            `INSERT INTO latviaresidency_visitors (ip, op, browser, date)
             VALUES ($1, $2, $3, $4)`, [visitorData.ip, visitorData.os, visitorData.browser, visitorData.visitDate]
         );
         res.status(200).json({myMessage: "Visitor successfully logged"});//for console.log
@@ -69,47 +69,8 @@ app.post("/serversavevisitor", async (req, res) => {
     }
 })
 
-//This line must be under all server routes. Otherwise you will have like not being able to fetch comments etc.
-//This code helps with managing routes that are not defined on react frontend. If you dont add, only index 
-//route will be visible.
-//this line can be commented out during development.
-/* app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-}); */
 
-
-const PORT = process.env.PORT ||5000;
-app.listen(PORT, () => {
-  console.log("Port is open on " + PORT);
-})
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //A temporary cache to save ip addresses and it will prevent spam comments and replies for 1 minute.
 //I can do that by checking each ip with database ip addresses but then it will be too many requests to db
@@ -194,7 +155,19 @@ app.get("/servergetcomments/:pageId", async (req, res) => {
 });
 
 
+//This line must be under all server routes. Otherwise you will have like not being able to fetch comments etc.
+//This code helps with managing routes that are not defined on react frontend. If you dont add, only index 
+//route will be visible.
+//this line can be commented out during development.
+/* app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+}); */
 
+
+const PORT = process.env.PORT ||5000;
+app.listen(PORT, () => {
+  console.log("Port is open on " + PORT);
+})
 
 //remove "build" from gitignore before production deployment
 //create "build" folder-- npm run build in client folder
@@ -203,8 +176,5 @@ app.get("/servergetcomments/:pageId", async (req, res) => {
 //add environment variables
 /*Also add this otherwise only index route will be visible when you deploy app to production
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
 
 */
