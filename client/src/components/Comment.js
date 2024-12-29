@@ -6,17 +6,17 @@ function Comment() {
     const [name, setName] = useState("");
     const [text, setText] = useState("");
 
-    const [commentTitle1, setCommentTitle1] = useState("Name and Surname");
-    const [commentTitle2, setCommentTitle2] = useState("Comment");
-    const [commentTitle3, setCommentTitle3] = useState("Save")
+    const [commentTitle1, setCommentTitle1] = useState("İsim-Soyisim");
+    const [commentTitle2, setCommentTitle2] = useState("Soru/Yorum");
+    const [commentTitle3, setCommentTitle3] = useState("Kaydet")
 
     const handleSubmit = async (e) => {
         if (name.length > 30 || text.length > 300) {
-            alert("Name or comment fields must be shorter");
+            alert("İsim alanı çok uzun");
             return;
         }
         if(name.length < 5 || text.length < 5) {
-            alert("Name or comment fields must be longer");
+            alert("İsim alanı çok kısa");
             return;
         }
         e.preventDefault();
@@ -28,36 +28,34 @@ function Comment() {
                 date
             } 
             try {
-                const response = await axios.post("/serversavecomment", newComment)
+                const response = await axios.post("http://localhost:5000/serversavecomment", newComment)
                 alert(response.data.message);
             } catch (error) {
                 if (error.response && error.response.status === 429) {
-                    alert("Please wait for making a new comment");
+                    alert("Yeni yorum için biraz bekleyiniz.");
                 } else {
-                    alert("Error while saving comment. Please try again later or inform the manager drysoftware1@gmail.com ");
+                    alert("Yorum kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyiniz.");
                 } 
             } finally {
                 setName("");
                 setText("");
             }
         } else {
-            alert("Please fill out all fields");
+            alert("Bütün alanları doldurunuz.");
         } 
     }
     return (
         <div className="comment-container">
             <form className="comment-form" onSubmit={handleSubmit}> 
                 <div className="form-group">
-                    {/* <label htmlFor='name'>{commentTitle1}</label> */}
                     <input type='text' id='name' required maxLength={30} 
                         value={name} placeholder={commentTitle1}
-                        onChange={ (e) => setName(e.target.value)} aria-label="Name and Surname" />
+                        onChange={ (e) => setName(e.target.value)} aria-label="İsim soyisim" />
                 </div>
                 <div className="form-group">
-                    {/* <label htmlFor='text'>{commentTitle2}</label> */}
                     <textarea type='text' id='text' required maxLength={300}
                         value={text} placeholder={commentTitle2}
-                        onChange={ (e) => setText(e.target.value)} aria-label="Comment" > 
+                        onChange={ (e) => setText(e.target.value)} aria-label="Soru veya yorumlarınız" > 
                     </textarea>
                 </div>
                 <button type='submit' aria-label={commentTitle3}>{commentTitle3}</button>

@@ -12,12 +12,12 @@ function CommentDisplay() {
   const [isCommentReply, setIsCommentReply] = useState(false);
   const [replies, setReplies] = useState([]);
 
-  const [commentTitle4, setCommentTitle4] = useState("Reply");
+  const [commentTitle4, setCommentTitle4] = useState("Cevapla");
 
   useEffect(() => {
       const getComments = async () => {
         try {
-          const response = await axios.get("/servergetcomments");
+          const response = await axios.get("http://localhost:5000/servergetcomments");
           const fetchedComments = Array.isArray(response.data) ? response.data : [];
           setComments(fetchedComments);
           const replies = fetchedComments.filter(comment => comment.parent_id !== null);
@@ -51,7 +51,7 @@ function CommentDisplay() {
     <>
       { isReply ? <Comment /> : <div></div> }
       {comments.length > 0 && (
-      <div className="comments-list" aria-label="List of comments">
+      <div className="comments-list" aria-label="Yorumlar listesi">
         {/*error ? <div aria-live="polite">Error fetching comments: {error}</div> : <></>*/}
         {comments.filter(comment => comment.parent_id === null).map( (comment, index) => (
             <div key={index} className="comment-item">

@@ -2,6 +2,7 @@
 @media (min-width: 781px) {
     .comment-container {
       width: 725px;
+      margin: auto;
       padding: 20px;
       border: 1px solid #ddd;
       border-radius: 4px;

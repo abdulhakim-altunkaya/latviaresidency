@@ -1,6 +1,7 @@
 @media (min-width: 781px) {
 .comments-list {
     width: 725px;
+    margin: auto;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;

@@ -2,22 +2,22 @@ import React, {useState } from 'react';
 import axios from "axios";
 import "../styles/Comment.css";
 
-function CommentReply({commentId2, pageId3, cancelReply}) {
+function CommentReply({commentId2, cancelReply}) {
     const [name, setName] = useState("");
     const [text, setText] = useState("");
 
-    const [commentTitle1, setCommentTitle1] = useState("Name and Surname");
-    const [commentTitle2, setCommentTitle2] = useState("Comment");
-    const [commentTitle3, setCommentTitle3] = useState("Save")
-    const [commentTitle4, setCommentTitle4] = useState("Cancel")
+    const [commentTitle1, setCommentTitle1] = useState("İsim soyisim");
+    const [commentTitle2, setCommentTitle2] = useState("Yorum");
+    const [commentTitle3, setCommentTitle3] = useState("Kaydet")
+    const [commentTitle4, setCommentTitle4] = useState("İptal")
     
     const handleSubmit = async (e) => {
         if (name.length > 30 || text.length > 300) {
-            alert("Name and comment fields must be shorter");
+            alert("İsim alanı çok uzun");
             return;
         }
         if(name.length < 5 || text.length < 5) {
-            alert("Name and comment fields must be longer");
+            alert("İsim alanı çok kısa");
             return;
         }
         e.preventDefault();
@@ -30,20 +30,20 @@ function CommentReply({commentId2, pageId3, cancelReply}) {
                 commentId: Number(commentId2)
             }
             try {
-                const response = await axios.post("/serversavecommentreply", newComment)
+                const response = await axios.post("http://localhost:5000/serversavecommentreply", newComment)
                 alert(response.data.message);
             } catch (error) {
                 if (error.response && error.response.status === 429) {
-                    alert("Please wait for new reply");
+                    alert("Yeni yorum için bekleyiniz");
                 } else {
-                    alert("Error while saving reply. Please try again later or inform manager drysoftware1@gmail.com");
+                    alert("Yorum kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyiniz.");
                 } 
             } finally {
                 setName("");
                 setText("");
             }
         } else {
-            alert("Please fill out all fields");
+            alert("Lütfen bütün alanları doldurun");
         } 
     }
 
