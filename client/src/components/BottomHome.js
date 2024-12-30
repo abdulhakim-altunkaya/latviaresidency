@@ -1,5 +1,6 @@
 import React from 'react';
 import CommentDisplay from './CommentDisplay'; 
+import Footer from './Footer'; 
 
 function BottomHome() {
   return (
@@ -114,6 +115,8 @@ function BottomHome() {
       </div>
       <div> <br/><br/><br/><br/><br/><br/><br/> </div>
       <div> <CommentDisplay /></div>
+      <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      <div className='footerArea'> <Footer /> </div>
     </div>
   )
 }

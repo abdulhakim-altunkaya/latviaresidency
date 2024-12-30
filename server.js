@@ -176,4 +176,5 @@ add "::1", to the ignored ip list
 change 1000 to 3600000 in the time limit of serversavevisitor endpoint
 change 1000 to 60000 in the serversavecomment endpoint
 change 1000 to 60000 in the serversavecommentreply endpoint
+change all xxxxx things in the footer component 
 */

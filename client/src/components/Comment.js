@@ -6,9 +6,9 @@ function Comment() {
     const [name, setName] = useState("");
     const [text, setText] = useState("");
 
-    const [commentTitle1, setCommentTitle1] = useState("İsim-Soyisim");
-    const [commentTitle2, setCommentTitle2] = useState("Soru/Yorum");
-    const [commentTitle3, setCommentTitle3] = useState("Kaydet")
+    const commentTitle1 = "İsim-Soyisim";
+    const commentTitle2 = "Soru/Yorum";
+    const commentTitle3 = "Kaydet";
 
     const handleSubmit = async (e) => {
         if (name.length > 30 || text.length > 300) {
