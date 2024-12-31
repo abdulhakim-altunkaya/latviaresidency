@@ -20,3 +20,8 @@ https://www.svgrepo.com/svg/438910/travel-round
 
 2c9bcc
 
+
+Letonya'da şirket veya bireysel banka hesabı açılması zannedildiği kadar kolay
+            olmayıp, Letonya'da yatırımı olan pekçok Türk şirketinin banka hesabı açsa bile transferlerinde sorunlar 
+            yaşadığı görülmektedir. Bankacılık işlemlerinde sorun yaşayan veya banka hesabı açmak isteyen vatandaş 
+            ve şirketler gerekli yardımı sağlamaktayız.

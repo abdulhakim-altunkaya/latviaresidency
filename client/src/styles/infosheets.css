@@ -47,8 +47,33 @@
     padding-right: 10px;
     padding-bottom: 10px;
     line-height: 1.2; /* Improve readability */
-    color: #565656;
+    color: #474747;
     font-style: italic;
+}
+
+#companyBox {
+    background-color: aliceblue;
+    transition: box-shadow 0.3s ease; /* Smooth transition for both effects */
+}
+#companyBox:hover {
+    cursor: default;
+    box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.3); /* Moves shadow to the top-left */
+}
+#companyBox2 {
+    transition: box-shadow 0.3s ease; /* Smooth transition for both effects */
+}
+#companyBox2:hover {
+    cursor: default;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); /* Moves shadow to the bottom-right */
+}
+#companyBox3 {
+    background-color: aliceblue;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for both effects */
+}
+#companyBox3:hover {
+    cursor: pointer;
+    box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.3); /* Moves shadow to the top-left */
+    transform: translate(-4px, -4px); /* Moves the element slightly to the top-left */
 }
 
 .countryInfoArea {

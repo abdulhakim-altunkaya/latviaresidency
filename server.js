@@ -177,4 +177,5 @@ change 1000 to 3600000 in the time limit of serversavevisitor endpoint
 change 1000 to 60000 in the serversavecomment endpoint
 change 1000 to 60000 in the serversavecommentreply endpoint
 change all xxxxx things in the footer component 
+create a component for company set up
 */
