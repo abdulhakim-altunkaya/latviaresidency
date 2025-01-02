@@ -1,0 +1,55 @@
+.contactFormArea {
+    background-color: #e8edf0;
+    padding: 20px;
+    max-width: 450px;
+    border-radius: 8px;
+}
+.formUpperInputs {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.formUpperInputs input {
+    box-sizing: border-box; /* Includes padding and border in the total width */
+    border: none;
+    outline: none;
+    width: 180px;
+    border-radius: 4px;
+    height: 35px;
+    padding: 8px;
+    font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.formTextArea textarea {
+    box-sizing: border-box; /* Includes padding and border in the total width */
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px;
+    resize: none;
+    font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.formTextArea textarea {
+    width: 100%;
+}
+
+
+.button1111 {
+  font-family: "Maven Pro", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  width: 110px;
+  background: #4822cc;
+  border-radius: 4px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+.button1111:hover {
+    background-color: #33188f;
+    font-weight: bolder;
+}
