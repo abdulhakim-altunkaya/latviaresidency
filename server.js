@@ -33,7 +33,7 @@ app.post("/api/save-message", async (req, res) => {
     };
     client = await pool.connect();
     const result = await client.query(
-      `INSERT INTO latviaresidency_messages (name, email, message, visitDate) 
+      `INSERT INTO latviaresidency_messages (name, email, message, visitdate) 
       VALUES ($1, $2, $3, $4)`, 
       [msgLoad.name1, msgLoad.email1, msgLoad.message1, msgLoad.visitDate1]
     );
