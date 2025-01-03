@@ -18,6 +18,32 @@ app.get("/serversendhello", (req, res) => {
   res.status(200).json({myMessage: "Hello from backend"});
 })
 
+
+/* //Then go to server.js file and make sure you serve static files from build directory:
+app.use(express.static(path.join(__dirname, 'client/build'))); */
+
+app.post("/api/save-message", async (req, res) => {
+  const messageObject = req.body;
+  try {
+    const msgLoad = {
+      name1: messageObject.inputName.trim(),
+      email1: messageObject.inputMail.trim(),     // Ensure text values are trimmed
+      message1: messageObject.inputMessage.trim(),     // Ensure date is trimmed (still stored as text in DB)
+      visitDate1: new Date().toLocaleDateString('en-GB')
+    };
+    client = await pool.connect();
+    const result = await client.query(
+      `INSERT INTO latviaresidency_messages (name, email, message, visitDate) 
+      VALUES ($1, $2, $3, $4)`, 
+      [msgLoad.name1, msgLoad.email1, msgLoad.message1, msgLoad.visitDate1]
+    );
+    res.status(200).json({message: "Mesajınız gönderildi."});
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: 'Mesaj kaydedilirken hata oluştu. Lütfen doğrudan mail atınız.' });
+  }
+});
+
 //A temporary cache to save ip addresses and it will prevent saving same ip addresses for 1 hour.
 //I can do that by checking each ip with database ip addresses but then it will be too many requests to db
 //We will save each visitor data to database. 
@@ -160,6 +186,10 @@ app.get("/servergetcomments", async (req, res) => {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 }); */
 
+/*
+UNCOMMENT THIS IN SERVER.JS: app.use(express.static(path.join(__dirname, 'client/build'))); 
+*/
+
 
 const PORT = process.env.PORT ||5000;
 app.listen(PORT, () => {
@@ -179,4 +209,5 @@ change 1000 to 60000 in the serversavecommentreply endpoint
 change all xxxxx things in the footer component 
 create a component for company set up
 Add limits for contact form inputs and textarea
+
 */
