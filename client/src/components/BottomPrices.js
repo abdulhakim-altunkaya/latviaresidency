@@ -16,25 +16,25 @@ function BottomPrices() {
   const [isVisible10, setIsVisible10] = useState(false);
 
   const toggleDetail = (num) => {
-    if(num == 1) {
+    if(num === 1) {
       setIsVisible1(!isVisible1);
-    } else if (num == 2) {
+    } else if (num === 2) {
       setIsVisible2(!isVisible2);
-    } else if (num == 3) {
+    } else if (num === 3) {
       setIsVisible3(!isVisible3);
-    } else if (num == 4) {
+    } else if (num === 4) {
       setIsVisible4(!isVisible4);
-    } else if (num == 5) {
+    } else if (num === 5) {
       setIsVisible5(!isVisible5);
-    } else if (num == 6) {
+    } else if (num === 6) {
       setIsVisible6(!isVisible6);
-    } else if (num == 7) {
+    } else if (num === 7) {
       setIsVisible7(!isVisible7);
-    } else if (num == 8) {
+    } else if (num === 8) {
       setIsVisible8(!isVisible8);
-    } else if (num == 9) {
+    } else if (num === 9) {
       setIsVisible9(!isVisible9);
-    } else if (num == 10) {
+    } else if (num === 10) {
       setIsVisible10(!isVisible10);
     }
     
@@ -96,7 +96,7 @@ function BottomPrices() {
 
             <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
               <span className='spanListTitle'>Limited şirket yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>
+              <span className='spanPrices'> 6000 Euro</span></div>
               {isVisible3 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
@@ -123,9 +123,11 @@ function BottomPrices() {
                     <li>Tercüme işlemleri,</li>
                     <li>Refakat,</li>
                     <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
+                    <li>Şirket için 1 yıllık adres</li>
+                    <li>Şirket için mühür ve kaşe çıkarılması</li>
                     <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
+                    <li>Banka hesabı açılması fiyata dahil değildir. Banka hesabı açmak istemeniz halinde 
+                      ayrıca fiyat teklifi isteyebilirsiniz</li>
                   </ul>
               </div>
               : <></>}
@@ -135,15 +137,12 @@ function BottomPrices() {
               <span className='spanPrices'> 80 Euro</span></div>
               {isVisible5 ? 
               <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
+                    <li>Letonya'da takip gerektiren herhangi bir durumunuz olması halinde bu hizmetimize başvurabilirsiniz.</li>
+                    <li>Saatlik 80 kısa süreli işler için belirlenen fiyat olup, uzun süreli takip gerektirecek 
+                      bir işiniz olması halinde ayrıca fiyat teklifi sunabiliriz.</li>
+                    <li>Bu hizmetimiz kapsamında yakınlarınızın, çocuklarınızın durumlarını takip etmemizi de isteyebilirsiniz.</li>
+                    <li>Letonya'da hastalanan veya hastanelik olan ve yakınlarınız için bu hizmetimizden faydalanabilirsiniz.</li>
                   </ul>
               </div>
               : <></>}
@@ -153,15 +152,8 @@ function BottomPrices() {
               <span className='spanPrices'> 80 Euro</span></div>
               {isVisible6 ? 
               <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
+                    <li>Aklınızdaki bütün soruları, danışmak istediğiniz bütün konuları bize sorabilirsiniz.</li>
                   </ul>
               </div>
               : <></>}
@@ -171,7 +163,6 @@ function BottomPrices() {
               <span className='spanPrices'> 650 Euro</span></div>
               {isVisible7 ? 
               <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
                     <li>Rehberlerimiz Türkçe, Letonca, Rusça, İngilizce dillerinde hizmet vermektedirler.</li>
                     <li>Rehberlerimiz arzu edilmesi halinde sadece Letonya değil, Litvanya, Estonya, İsveç,
