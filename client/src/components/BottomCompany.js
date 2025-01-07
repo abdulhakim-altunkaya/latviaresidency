@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../styles/bottomCompany.css";
 
 function BottomCompany() {
   return (
@@ -7,9 +8,9 @@ function BottomCompany() {
           <h1>ŞİRKET KURULUMU</h1>
         </div>
         <div>
-          <h3>1. Limited Şirket ("Sabiedrība ar ierobežotu atbildību (SIA)")</h3>
+          <h3>Limited Şirket ("Sabiedrība ar ierobežotu atbildību (SIA)")</h3>
           <div>
-            <p>Limited Şirket Letonya ekonomik hayatında en geniş yer kaplayan kurulması kolay bir şirket türüdür.
+            <p>Limited Şirket Letonya'da popüler ve kurulması kolay bir şirket türüdür.
               Limited Şirketler kendi içinde ikiye ayrılır: Standart sermayeli (minimum sermaye 2800 Euro) ve 
               Küçük sermayeli (1 ila 2799 Euro arası).
             </p>
@@ -28,8 +29,38 @@ function BottomCompany() {
             <p>Limited şirket kurulumu için Letonya'yı ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
               işinize yarayacak elektronik imzanızı da alabilirsiniz.
             </p>
+
+            <div className='processTable'>
+              <div className='processTableRows'>
+                <span className='processTableBox'>Müşterimizin bilgi ve belgeleri alınır.</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>Müşterimiz şirketimize vekaletname verir.</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>Şirket adresi belirlenir, başvuru dosyası hazırlanır.
+                </span>
+              </div>
+              <div className='processTableRows processTableRowMiddle'>
+                <span className='processTableBox'>Geçici banka hesabı açılır. Müşterimiz tarafından 
+                şirket sermayesi transfer edilir.</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na ilgili harçlar ödenir ve başvuru
+                  dosyası sunulur. </span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'></span>
+              </div>
+              <div className='processTableRows'>
+                <span className='processTableBox'>elektronik</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>elektronik</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>elektronik</span>
+              </div>
+            </div>
+
             <p><strong>Süreç:</strong>: </p>
-              
+              <ol>
+                <li></li>
+              </ol>
           </div> 
           
 
