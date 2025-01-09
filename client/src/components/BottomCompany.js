@@ -3,11 +3,60 @@ import "../styles/bottomCompany.css";
 
 function BottomCompany() {
   return (
-    <div className='bottomPricesMainArea'>
-        <div className='bottomPricesHeader'>
+    <div className='bottomCompanyMainArea'>
+        <div className='bottomCompanyHeader'>
           <h1>ŞİRKET KURULUMU</h1>
         </div>
         <div>
+
+          <h3>Şirket Türleri</h3>
+          <div>
+            <table className='companyTypesTable'>
+              <tr>
+                <th></th>
+                <th>Limited Şirket (Standart Sermaye)</th>
+                <th>Limited Şirket (Küçük Sermaye)</th>
+                <th>Anomim Şirket</th>
+                <th>Şahıs Şirketi</th>
+              </tr>
+              <tr>
+                <td>Letonca isim</td>
+                <td>Sabiedrība ar ierobežotu atbildību SIA</td>
+                <td>Mazkapitāla SIA</td>
+                <td>Akciju sabiedrība AS</td>
+                <td>Individuālais komersants IK</td>
+              </tr>
+              <tr>
+                <td>Minimum Sermaye Tutaru</td>
+                <td>2800 Euro</td>
+                <td>1-2799 Euro</td>
+                <td>25000</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Oturum Hakkı</td>
+                <td>Verir</td>
+                <td>Vermez</td>
+                <td>Verir</td>
+                <td>Vermez</td>
+              </tr>
+              <tr>
+                <td>Kurucu Sayısı</td>
+                <td>Birden çok</td>
+                <td>1-5 arası</td>
+                <td>Birden çok</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Kurucu Tipi</td>
+                <td>Gerçek ve/veya Tüzel</td>
+                <td>Sadece Gerçek</td>
+                <td>Gerçek ve/veya Tüzel</td>
+                <td>Sadece Gerçek</td>
+              </tr>
+            </table>
+          </div>
+
           <h3>Limited Şirket ("Sabiedrība ar ierobežotu atbildību (SIA)")</h3>
           <div>
             <p>Limited Şirket Letonya'da popüler ve kurulması kolay bir şirket türüdür.
@@ -29,7 +78,7 @@ function BottomCompany() {
             <p>Limited şirket kurulumu için Letonya'yı ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
               işinize yarayacak elektronik imzanızı da alabilirsiniz.
             </p>
-
+            <p><strong>Süreç:</strong></p>
             <div className='processTable'>
               <div className='processTableRows'>
                 <span className='processTableBox'>Müşterimizin bilgi ve belgeleri alınır.</span>
@@ -43,40 +92,28 @@ function BottomCompany() {
                 <span className='processTableBox'>Geçici banka hesabı açılır. Müşterimiz tarafından 
                 şirket sermayesi transfer edilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na ilgili harçlar ödenir ve başvuru
-                  dosyası sunulur. </span>
+                <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na başvuru
+                  dosyası sunulur (3 gün). </span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'></span>
+                <span className='processTableBox'>Sicil Kurumu şirketin kurulmasına onay verdikten sonra KDV 
+                  numarası çıkarılır </span>
               </div>
               <div className='processTableRows'>
-                <span className='processTableBox'>elektronik</span>
+                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip e-imza başvurusu yapabilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>elektronik</span>
+                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip asıl banka hesabı 
+                  başvurusu yapabilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>elektronik</span>
+                <span className='processTableBox'>Müşterimize kaşeleri ve şirket belgeleri teslim edilir.</span>
               </div>
             </div>
 
-            <p><strong>Süreç:</strong>: </p>
+            
               <ol>
                 <li></li>
               </ol>
           </div> 
           
-
-
-İstenen tüm bilgiler müşteriden alındığından, kuruluş belgelerinin 1. bölümünü taslak haline getirip müşteriye e-postayla 
-gönderiyoruz (1-2 iş günü). Kurucular kuruluş belgelerinin 1. bölümünü imzalar ve bize geri gönderir.
-Bankada/ödeme kuruluşunda geçici bir hesap açarız ve müşteriye ödeme ayrıntılarını sağlarız (bankaya/ödeme kuruluşuna bağlı olarak 1-5 gün).
-Kurucular hisse sermayesinin tutarını geçici banka/ödeme kuruluşu hesabına aktarır.
-Sermaye ödendiğinden, müşteriye kuruluş belgelerinin 2. bölümünü e-postayla göndeririz.
-Müşteri belgelerin 2. bölümünü imzalar (bazılarının noter tasdikli ve yasallaştırılması gerekir - net talimatlar vereceğiz) ve bize geri gönderir.
-Belgeler alındığında, belgeleri Letoncaya çevirir ve tescil için göndeririz (ödenen devlet ücretlerine bağlı olarak 1-3 iş günü, ekspres tescil mevcuttur).
-Genel olarak, kuruluş süreci 15 - 20 gün sürebilir.
-
-2.2. Letonya'ya kişisel ziyaret:
-
-Kurucular ve yönetim kurulu üyeleri Letonya'yı ziyaret etmeye karar verirse, belgelerin posta yoluyla gönderilmesi ve hisse sermayesinin geçici banka hesabına aktarılması için gereken süre kısaltılabilir (kurucular şahsen bankayı ziyaret edebilir ve tutarı nakit olarak yatırabilir)
         </div>
     </div>
   )
