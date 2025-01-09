@@ -18,7 +18,6 @@
     overflow-wrap: break-word; /* Wraps text within the container */
     white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
     overflow-x: hidden; /* Hides any overflowing content horizontally */
-    
 }
 
 .bottomPricesContent2 {

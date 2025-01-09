@@ -2,6 +2,14 @@
     width: 100%;
     margin: 15px;
 }
+.bottomCompanyText {
+    width: 90%;
+    word-wrap: break-word; /* Ensures words break within the container */
+    word-break: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Wraps text within the container */
+    white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
+    overflow-x: hidden; /* Hides any overflowing content horizontally */
+}
 .bottomCompanyHeader {
     width: 100%;
     margin: auto;
@@ -43,10 +51,21 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 15px;
+    
 }
 .processTableArrows {
     width: 30px;
+}
+
+.companyTypesTable tr td,
+.companyTypesTable tr th {
+    width: 160px; /* Maximum width for cells */
+    overflow: visible; /* Allows content to be fully visible */
+    white-space: normal; /* Allows text to wrap onto the next line */
+    word-wrap: break-word; /* Ensures words wrap properly if they are too long */
+    word-break: break-word; /* Breaks long words into the next line */
+    font-size: 14px;
+    padding: 5px;
 }
 
 .companyTypesTable th {
