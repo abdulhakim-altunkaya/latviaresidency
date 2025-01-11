@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/bottomCompany.css";
+import Footer from "./Footer.js";
 
 function BottomCompany() {
   return (
@@ -100,7 +101,12 @@ function BottomCompany() {
               kayıt işlemleri yapılırken alınabilir.
             </p>
             <p>Limited şirket kurulumu için Letonya'yı ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
-              işinize yarayacak elektronik imzanızı da alabilirsiniz.
+              işinize yarayacak elektronik imzanızı da alabilir ve şirketin geçici banka hesabını kalıcı banka hesabına 
+              dönüştürebilirsiniz.
+            </p>
+            <p>Şirket kurulumu bitince, müşterimize kaşelerini temsil ediyoruz. Müşterimiz arzu ederse, güvenilir muhasebeci ve
+              personel bulması konusunda yardımcı da oluyoruz. Ayrıca, faaliyet ve yatırım konusunda net bir planı olmayan 
+              müşterilerimize iş planı, iş fikirleri ve lisanslar konusunda da yardımcı olabiliriz.
             </p>
             
             <div className='processTable'>
@@ -179,10 +185,21 @@ function BottomCompany() {
                     Njord Letonya Kurumsal Hizmetler Firması
                   </a>
                 </li>
+                <li>
+                  <a href='https://www.minioffice.lv/en/company-formation-latvia/how-to-open-company-latvia/'>
+                    Minioffice Kurumsal Hizmetler Firması
+                  </a>
+                </li>
+                <li>
+                  <a href='https://gramatvedis24.lv/en/company-registration-in-latvia/'>
+                    Grāmatvedis24 Kurumsal Hizmetler Firması
+                  </a>
+                </li>
               </ul>
             </div>
           </div> 
-          
+          <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+          <div className='footerArea'> <Footer /> </div>
         </div>
     </div>
   )

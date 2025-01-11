@@ -114,7 +114,7 @@ function BottomPrices() {
 
             <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
               <span className='spanListTitle'>Şirket Kurulumu: </span> 
-              <span className='spanPrices'> 1000 Euro</span></div>
+              <span className='spanPrices'> 1500 Euro</span></div>
               {isVisible4 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
