@@ -59,7 +59,7 @@ function BottomPrices() {
 
             <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
               <span className='spanListTitle'>Gayrımenkul yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>  
+              <span className='spanPrices'> 6000 Euro</span></div>  
               {isVisible1 ? 
               <div className='subDetails'>
                 <span>Fiyata dahil hizmetler: </span> <br/>
@@ -78,7 +78,7 @@ function BottomPrices() {
             
             <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
               <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 2500 Euro</span></div>
+              <span className='spanPrices'> 4000 Euro</span></div>
               {isVisible2 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>

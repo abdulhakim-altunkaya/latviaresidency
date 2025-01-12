@@ -83,28 +83,34 @@ function BottomCompany() {
           
           <div className='bottomCompanyText'>
           <h3>Limited Şirket (Sabiedrība ar ierobežotu atbildību  SIA)</h3>
-            <p>Limited Şirket Letonya'da popüler ve kurulması kolay bir şirket türüdür.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket Letonya'da popüler 
+              ve kurulması kolay bir şirket türüdür.
               Limited Şirketler kendi içinde ikiye ayrılır: Standart sermayeli (minimum sermaye 2800 Euro) ve 
               Küçük sermayeli (1 ila 2799 Euro arası).
             </p>
-            <p>Standart sermayeli Limited şirketler, bir veya birden çok gerçek veya tüzel kişiler tarafından kurulabilir.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Standart sermayeli Limited şirketler, 
+              bir veya birden çok gerçek veya tüzel kişiler tarafından kurulabilir.
               Küçük sermayeli Limited şirketler başka bir Küçük sermayeli Limited şirkette hissedar olmayan maksimum 5 kişi 
               tarafından kurulabilir. İleride oturum izni almak isteyen vatandaşlarımızın standart sermayeli Limited şirket
               kurması gerekmektedir.
             </p>
-            <p>Limited Şirket kurucuları şirket kurulduktan sonra şirket hissedarı olurlar. Şirket kurucusu/hissedarı olmak 
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket kurucuları şirket 
+              kurulduktan sonra şirket hissedarı olurlar. Şirket kurucusu/hissedarı olmak 
               için Letonya vatandaşı olma veya Letonya'da ikamet etme şartı yoktur. Limited Şirkete verilecek adın Letonya'da
               başka bir şirket adıyla veya marka ismiyle aynı olmaması gerekmektedir. Kurucular şirketin yönetim kuruluna en 
               az bir kişiyi atarlar. Yönetim kurulu üyesi olmak için Letonya vatandaşı olma veya Letonya'da yaşama şartı yoktur.
             </p>
-            <p>Limited Şirket Ticaret Siciline kaydedildiği anda vergi mükellefi de olur. Limited Şirketini için KDV numarasını
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket Ticaret Siciline 
+              kaydedildiği anda vergi mükellefi de olur. Limited Şirketini için KDV numarasını
               kayıt işlemleri yapılırken alınabilir.
             </p>
-            <p>Limited şirket kurulumu için Letonya'yı ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited şirket kurulumu için Letonya'yı 
+              ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
               işinize yarayacak elektronik imzanızı da alabilir ve şirketin geçici banka hesabını kalıcı banka hesabına 
               dönüştürebilirsiniz.
             </p>
-            <p>Şirket kurulumu bitince, müşterimize kaşelerini temsil ediyoruz. Müşterimiz arzu ederse, güvenilir muhasebeci ve
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket kurulumu bitince, müşterimize 
+              kaşelerini temsil ediyoruz. Müşterimiz arzu ederse, güvenilir muhasebeci ve
               personel bulması konusunda yardımcı da oluyoruz. Ayrıca, faaliyet ve yatırım konusunda net bir planı olmayan 
               müşterilerimize iş planı, iş fikirleri ve lisanslar konusunda da yardımcı olabiliriz.
             </p>
@@ -160,7 +166,7 @@ function BottomCompany() {
                 <br/> - Faaliyet belgesi
               </li>
             </ol>
-            <div>
+            <div className='bottomCompanyLinks'>
               <br/>
               <ul>
               Daha detaylı bilgi için:

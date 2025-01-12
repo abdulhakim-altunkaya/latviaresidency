@@ -75,3 +75,11 @@
 .companyTypesTable td {
     background-color: rgba(162, 223, 254, 0.4);
 }
+
+.bottomCompanyLinks a {
+    text-decoration: none;
+}
+
+.leavesCompany {
+    width: 18px;
+}
