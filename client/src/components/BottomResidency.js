@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/bottomResidency.css"
+import "../styles/bottomCompany.css";
 
 function BottomResidency() {
   return (
@@ -73,6 +74,75 @@ function BottomResidency() {
 
         </div>
 
+        <div>
+            <p>Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
+            <table className='companyTypesTable'>
+              <tr>
+                <th></th>
+                <th>Gayrımenkul</th>
+                <th>Limited Şirket</th>
+                <th>Faizsiz Devlet Tahvili</th>
+                <th>Banka Mevduatı</th>
+              </tr>
+              <tr>
+                <td><strong>Minimum Yatırım</strong></td>
+                <td>250.000 Euro</td>
+                <td>50.000 Euro</td>
+                <td>250.000 Euro</td>
+                <td>280.000 Euro</td>
+              </tr>
+              <tr>
+                <td><strong>Devlet Harcı</strong></td>
+                <td>2800 Euro</td>
+                <td>1-2799 Euro</td>
+                <td>25000</td>
+                <td>25.000 Euro</td>
+              </tr>
+              <tr>
+                <td><strong>Oturum Hakkı</strong></td>
+                <td>Verir</td>
+                <td>Vermez</td>
+                <td>Verir</td>
+                <td>Vermez</td>
+              </tr>
+              <tr>
+                <td><strong>Kurucu Sayısı</strong></td>
+                <td>Birden çok</td>
+                <td>1-5 arası</td>
+                <td>Birden çok</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td><strong>Kurucu Tipi</strong></td>
+                <td>Gerçek ve/veya Tüzel</td>
+                <td>Sadece Gerçek</td>
+                <td>Gerçek ve/veya Tüzel</td>
+                <td>Sadece Gerçek</td>
+              </tr>
+              <tr>
+                <td><strong>Yönetim Kurulu (YK) Üyeleri</strong></td>
+                <td>Kurucular en az bir YK üyesi atar.</td>
+                <td>Bütün Kurucular aynı zamanda YK üyesidir</td>
+                <td>Kurucular ve YK üyeleri farklı olabilir</td>
+                <td>Yönetim kurulu yoktur.</td>
+              </tr>
+              <tr>
+                <td><strong>Kurumlar Vergisi (Yıllık karın %20-%25'i)</strong></td>
+                <td>Öder</td>
+                <td>Öder</td>
+                <td>Öder</td>
+                <td>Ödemez</td>
+              </tr>
+              <tr>
+                <td><strong>KDV</strong></td>
+                <td>Öder</td>
+                <td>Öder</td>
+                <td>Öder</td>
+                <td>Öder</td>
+              </tr>
+            </table>
+          </div>
+        
         <div>Yatırım Yoluyla Oturum izni türleri</div>
         <div>1. Gayrımenkul yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
         <div>1. Şirket yatırımı yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
