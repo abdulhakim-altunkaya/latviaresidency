@@ -80,7 +80,7 @@ function BottomResidency() {
               <tr>
                 <th></th>
                 <th>Gayrımenkul</th>
-                <th>Limited Şirket</th>
+                <th>Şirket</th>
                 <th>Faizsiz Devlet Tahvili</th>
                 <th>Banka Mevduatı</th>
               </tr>
@@ -93,24 +93,24 @@ function BottomResidency() {
               </tr>
               <tr>
                 <td><strong>Devlet Harcı</strong></td>
-                <td>2800 Euro</td>
-                <td>1-2799 Euro</td>
-                <td>25000</td>
+                <td>%5</td>
+                <td>10.000 Euro</td>
+                <td>38.000</td>
                 <td>25.000 Euro</td>
               </tr>
               <tr>
-                <td><strong>Oturum Hakkı</strong></td>
-                <td>Verir</td>
-                <td>Vermez</td>
-                <td>Verir</td>
-                <td>Vermez</td>
+                <td><strong>Yatırımın değer kazanması</strong></td>
+                <td>Mümkündür</td>
+                <td>Değildir</td>
+                <td>Değildir</td>
+                <td>Mümkündür</td>
               </tr>
               <tr>
-                <td><strong>Kurucu Sayısı</strong></td>
-                <td>Birden çok</td>
-                <td>1-5 arası</td>
-                <td>Birden çok</td>
-                <td>1</td>
+                <td><strong>Yatırımdan aylık/senelik kâr</strong></td>
+                <td>Mümkündür</td>
+                <td>Değildir</td>
+                <td>Değildir</td>
+                <td>Mümkündür</td>
               </tr>
               <tr>
                 <td><strong>Kurucu Tipi</strong></td>
@@ -142,13 +142,75 @@ function BottomResidency() {
               </tr>
             </table>
           </div>
-        
-        <div>Yatırım Yoluyla Oturum izni türleri</div>
-        <div>1. Gayrımenkul yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
-        <div>1. Şirket yatırımı yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
-        <div>1. Devlet Tahvili yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
-        <div>1. Finansal yatırım yoluyla oturum izni - sartlar - gerekli belgeler - süreç</div>
-        <div>tablo genel karşılaştırma</div>
+
+          <div className='bottomCompanyText'>
+            <h3>1. Gayrımenkul Yatırımı</h3>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 12.500 
+              + Danışmalığımız 5.000 = Toplam 267.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya emlak fiyatları diğer AB
+              ülkelerine kıyasla oldukça uygun olup, 2025 yılı itibariyle ülkemizden bile ucuzdur. En çok tavsiye ettiğimiz 
+              yatırım türüdür.
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında herşey dahil anahtar
+              ve oturum kartı teslim fiyatımız 5000 Euro'dur. Alacağınız emlakın en az 250.000 Euro olacağı olacağı düşünüldüğünde,
+              harçlar ve danışmanlık ücretimiz ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
+              vergi ödeyen bir şirketten veya Letonya'da yaşayan bir yabancıdan emlak alabilirsiniz. Emlak bedelinin banka transferi
+              ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı değerinin
+              de en az 80.000 Euro olması gerekmektedir.
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Gayrımenkul yatırımı en çok tavsiye ettiğimiz
+              yatırım türü olup, alacağınız emlakın her sene değer kazanması ve üstüne kira geliri elde etmeniz mümkündür. 
+              Riga emlak piyasasını yakından takip eden uzman ekibimiz doğru gayrımenkul seçiminde size pekçok opsiyon sunacaktır.
+              </p>
+            <h3>2. Şirket Yatırımı</h3>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
+              + Danışmalığımız 5.000 = Toplam 65.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
+              yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
+              <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
+              <strong>100.000 Euro</strong>: Diğer şirketler
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
+              yatırımızın değer kazanması ve yatırımınızdan aylık veya senelik kâr elde etmeniz pratikte pek mümkün olmayabilir.
+              Ayrıca, yatırımınızın karşılığı olarak aldığınız hisseleri birgün satmak istemeniz halinde, aldığınız bedelin
+              çok altında ve hatta hiç alıcı olmazsa sıfır bedelle satmanız gerekebilir. Dahası, hissesini aldığınız şirket
+              eğer iflas ederse alacağınız oturum kartı iptal edilecektir. Özetle, şirket yatırımı için ayırdığınız para size
+              sadece oturum kartı verecek olup, o paranın geri dönüşünün ve kârının olmayabileceğini gözönünde bulundurmanızı 
+              tavsiye ederiz.</p>
+            <h3>3. Faizsiz Devlet Tahvili</h3>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
+              + Danışmalığımız 5.000 = Toplam 293.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
+              yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
+              <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
+              <strong>100.000 Euro</strong>: Diğer şirketler
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
+              yatırımızın değer kazanması ve yatırımınızdan aylık veya senelik kâr elde etmeniz pratikte pek mümkün olmayabilir.
+              Ayrıca, yatırımınızın karşılığı olarak aldığınız hisseleri birgün satmak istemeniz halinde, aldığınız bedelin
+              çok altında ve hatta hiç alıcı olmazsa sıfır bedelle satmanız gerekebilir. Dahası, hissesini aldığınız şirket
+              eğer iflas ederse alacağınız oturum kartı iptal edilecektir. Özetle, şirket yatırımı için ayırdığınız para size
+              sadece oturum kartı verecek olup, o paranın geri dönüşünün ve kârının olmayabileceğini gözönünde bulundurmanızı 
+              tavsiye ederiz.</p>   
+            <h3>4. Banka Mevduatı</h3>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
+              + Danışmalığımız 5.000 = Toplam 310.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
+              yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. Yani 280.000 Euroluk yatırımınızı
+              5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
+              </p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'daki bankalara yapacağınız 
+              mevduat transferinin en az 280.000 Euro olması gerekmektedir. Mevduatınız banka sisteminde 
+              "ikincil yükümlülük" ("Subordinate liability") olarak kayıt edilecek olup, bunun manası olur da banka iflas 
+              ederse bankadan birincil alacağı olan kişi ve kurumlar bittikten sonra sıranın size gelmesidir. Bankanın 
+              iflas etmesini düşük bir ihtimal olarak değerlendirirsek, bu detayın çok da önemli olmayabileceği düşünülebilir.</p> 
+            <h2>Süreç</h2>
+            Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
+            <h2>Gerekli Belgeler</h2>
+            Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
+          </div>
     </div>
   )
 }
