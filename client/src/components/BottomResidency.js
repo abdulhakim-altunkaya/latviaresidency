@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
-
+import "../styles/bottomResTimeline.css";
 function BottomResidency() {
   return (
     <div className='bottomResidencyMain'>
@@ -102,7 +102,7 @@ function BottomResidency() {
                 <td><strong>Yatırımın değer kazanması</strong></td>
                 <td>Mümkündür</td>
                 <td>Değildir</td>
-                <td>Değildir</td>
+                <td>Mümkündür</td>
                 <td>Mümkündür</td>
               </tr>
               <tr>
@@ -113,11 +113,11 @@ function BottomResidency() {
                 <td>Mümkündür</td>
               </tr>
               <tr>
-                <td><strong>Kurucu Tipi</strong></td>
-                <td>Gerçek ve/veya Tüzel</td>
-                <td>Sadece Gerçek</td>
-                <td>Gerçek ve/veya Tüzel</td>
-                <td>Sadece Gerçek</td>
+                <td><strong>Risk Seviyesi</strong></td>
+                <td className='greenCube'>Düşük</td>
+                <td className='redCube'>Yüksek</td>
+                <td className='greenCube'>Çok düşük</td>
+                <td className='greenCube'>Çok düşük</td>
               </tr>
               <tr>
                 <td><strong>Yönetim Kurulu (YK) Üyeleri</strong></td>
@@ -182,18 +182,20 @@ function BottomResidency() {
             <h3>3. Faizsiz Devlet Tahvili</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
               + Danışmalığımız 5.000 = Toplam 293.000</p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
-              yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
-              <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
-              <strong>100.000 Euro</strong>: Diğer şirketler
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerine yapacağınız
+              yatırım sayesinde oturum alabilirsiniz. Gayrımenkul ve Şirket yatırımlarına göre daha kolay, banka mevduatı yatırımına 
+              göre daha garanti bir opsiyon olarak görülebilir. 
               </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
-              yatırımızın değer kazanması ve yatırımınızdan aylık veya senelik kâr elde etmeniz pratikte pek mümkün olmayabilir.
-              Ayrıca, yatırımınızın karşılığı olarak aldığınız hisseleri birgün satmak istemeniz halinde, aldığınız bedelin
-              çok altında ve hatta hiç alıcı olmazsa sıfır bedelle satmanız gerekebilir. Dahası, hissesini aldığınız şirket
-              eğer iflas ederse alacağınız oturum kartı iptal edilecektir. Özetle, şirket yatırımı için ayırdığınız para size
-              sadece oturum kartı verecek olup, o paranın geri dönüşünün ve kârının olmayabileceğini gözönünde bulundurmanızı 
-              tavsiye ederiz.</p>   
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerinin faiz geliri
+              olmasa da tahvillerin alış fiyatı ile tahvil süresi sonundaki nominal fiyatı arasındaki farktan kâr elde edilebilir.
+              Örnek olarak: <br/> <br/>
+              Alış fiyatı: 900 <br/>
+              Nominal fiyat: 1000 <br/>
+              Kar: 100 <br/> <br/>
+              Müşteri alış fiyatından tahvili alır. Devlet de tahvil süresi sonunda nominal fiyattan tahvili geri alır. 
+              Nominal fiyat ile alış fiyatı arasındaki farktan elde edilen kâr, genelde banka mevduatı faizinden elde edilen 
+              kârdan biraz daha yüksektir.  
+              </p>   
             <h3>4. Banka Mevduatı</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
               + Danışmalığımız 5.000 = Toplam 310.000</p>
@@ -210,6 +212,69 @@ function BottomResidency() {
             Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
             <h2>Gerekli Belgeler</h2>
             Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
+          </div>
+
+          <div class="timeline">
+            <div class="container left">
+              <div class="date">15 Dec</div>
+              <i class="icon fa fa-home"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">22 Oct</div>
+              <i class="icon fa fa-gift"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="date">10 Jul</div>
+              <i class="icon fa fa-user"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">18 May</div>
+              <i class="icon fa fa-running"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="date">10 Feb</div>
+              <i class="icon fa fa-cog"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">01 Jan</div>
+              <i class="icon fa fa-certificate"></i>
+              <div class="content">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                </p>
+              </div>
+            </div>
           </div>
     </div>
   )

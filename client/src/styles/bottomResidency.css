@@ -79,3 +79,9 @@
     font-weight: bold;
     margin-left: 13px;
 }
+.redCube {
+    background-color: #ff0b0b !important;
+}
+.greenCube {
+    background-color: #0cb444 !important;
+}
