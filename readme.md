@@ -25,3 +25,6 @@ Letonya'da şirket veya bireysel banka hesabı açılması zannedildiği kadar k
             olmayıp, Letonya'da yatırımı olan pekçok Türk şirketinin banka hesabı açsa bile transferlerinde sorunlar 
             yaşadığı görülmektedir. Bankacılık işlemlerinde sorun yaşayan veya banka hesabı açmak isteyen vatandaş 
             ve şirketler gerekli yardımı sağlamaktayız.
+
+
+update price component to 5000 eur all and also add bank deposit

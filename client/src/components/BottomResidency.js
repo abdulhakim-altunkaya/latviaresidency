@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
 import "../styles/bottomResTimeline.css";
+import "../styles/bottomResList.css";
 
 function BottomResidency() {
   return (
@@ -209,10 +210,24 @@ function BottomResidency() {
               "ikincil yükümlülük" ("Subordinate liability") olarak kayıt edilecek olup, bunun manası olur da banka iflas 
               ederse bankadan birincil alacağı olan kişi ve kurumlar bittikten sonra sıranın size gelmesidir. Bankanın 
               iflas etmesini düşük bir ihtimal olarak değerlendirirsek, bu detayın çok da önemli olmayabileceği düşünülebilir.</p> 
-            <h2>Süreç</h2>
-            Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
             <h2>Gerekli Belgeler</h2>
-            Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
+            <div className="list-type5">
+              <ol>
+              
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+              </ol>
+            </div>
           </div>
 
           <div className="main-container">
@@ -223,14 +238,14 @@ function BottomResidency() {
                     <h1 className="blue-text lighten-1 header">Süreç</h1>
                     <ul className="timeline">
                       <li className="event" data-date="1. Hafta">
-                        <h4>Müşterimiz taleplerinin alınması</h4>
+                        <h4>Müşterimizle iletişim</h4>
                         <p>
                           Müşterimiz bizimle iletişime geçtikten sonra kapsamlı bilgilendirme yapılır ve çeşitli görüşmeler sonunda
                           müşterimiz yatırım aracını seçer. Bilahare, gerekli bilgi ve belgeler toplanır ve dosya hazırlığı başlar.
                         </p>
                       </li>
                       <li className="event" data-date="2. Hafta">
-                        <h4>Danışmanlık ücretinin ödenmesi</h4>
+                        <h4>Danışmanlık ücretinin ödenmesi ve Vize</h4>
                         <p>
                           Müşterimiz danışmanlık ücretini öder, kendisinden istenen evrakları hazırlar (apostilli adli sicil
                           kaydı gibi). Ayrıca müşterilerimiz Letonya'ya davet edilir. Vize süreci yaklaşık 1 ay sürmektedir.
@@ -248,8 +263,11 @@ function BottomResidency() {
                         <h4>Başvurunun sonuçlanması</h4>
                         <p>Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
                           transfer edilir. Müşterimiz tekrar Letonya'ya gelir, kendisi ve ailesinin bilgileri ve belgeleri
-                          alınarak oturum kartları düzenlenir. Müşterimiz kartlarını teslim alır. Bütün bu süreçte Müşterimizin
-                          yanında olduğumuz gibi, sonrasında da müşterimiz için gerekli yardım ve danışmanlık sağlanır.
+                          alınarak oturum kartları düzenlenir. Müşterimiz hayırlı olması dileklerimizle kartlarını teslim alır. 
+                         </p>
+                         <p> 
+                          Bütün bu süreçte Müşterimizin yanında olduğumuz gibi, müşterimizin Letonya'ya gelememesi durumlarında 
+                          yine gerekli yardım ve yönlendirmeyi sağlıyoruz. 
                         </p>
                       </li>
                     </ul>
@@ -259,6 +277,8 @@ function BottomResidency() {
             </section>
             <br/>
           </div>
+
+
     </div>
   )
 }
