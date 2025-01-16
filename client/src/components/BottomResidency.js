@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
 import "../styles/bottomResTimeline.css";
+
 function BottomResidency() {
   return (
     <div className='bottomResidencyMain'>
@@ -214,67 +215,49 @@ function BottomResidency() {
             Devlet harçları, oturum izniniz onaylandıktan sonra ödenir.
           </div>
 
-          <div class="timeline">
-            <div class="container left">
-              <div class="date">15 Dec</div>
-              <i class="icon fa fa-home"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
+          <div className="main-container">
+            <section id="timeline" className="timeline-outer">
+              <div className="container" id="content">
+                <div className="row">
+                  <div className="col s12 m12 l12">
+                    <h1 className="blue-text lighten-1 header">Süreç</h1>
+                    <ul className="timeline">
+                      <li className="event" data-date="1. Hafta">
+                        <h4>Müşterimiz taleplerinin alınması</h4>
+                        <p>
+                          Müşterimiz bizimle iletişime geçtikten sonra kapsamlı bilgilendirme yapılır ve çeşitli görüşmeler sonunda
+                          müşterimiz yatırım aracını seçer. Bilahare, gerekli bilgi ve belgeler toplanır ve dosya hazırlığı başlar.
+                        </p>
+                      </li>
+                      <li className="event" data-date="2. Hafta">
+                        <h4>Danışmanlık ücretinin ödenmesi</h4>
+                        <p>
+                          Müşterimiz danışmanlık ücretini öder, kendisinden istenen evrakları hazırlar (apostilli adli sicil
+                          kaydı gibi). Ayrıca müşterilerimiz Letonya'ya davet edilir. Vize süreci yaklaşık 1 ay sürmektedir.
+                          Vize sürecinde müşterimize gerekli yardım sağlanır.
+                        </p>
+                      </li>
+
+                      <li className="event" data-date="6. Hafta">
+                        <h4>Müşterimizin Letonya'ya gelmesi ve Başvuru</h4>
+                        <p>Müşterimiz Letonya'ya gelir, yatırım opsiyonları yerinde görülüp değerlendirilir. Yatırım meblağı
+                          ilgili hesaplara transfer edilir. Başvuru evrakları imzalanır ve başvuru ilgili kuruma yapılır.
+                        </p>
+                      </li>
+                      <li className="event" data-date="12. Hafta">
+                        <h4>Başvurunun sonuçlanması</h4>
+                        <p>Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
+                          transfer edilir. Müşterimiz tekrar Letonya'ya gelir, kendisi ve ailesinin bilgileri ve belgeleri
+                          alınarak oturum kartları düzenlenir. Müşterimiz kartlarını teslim alır. Bütün bu süreçte Müşterimizin
+                          yanında olduğumuz gibi, sonrasında da müşterimiz için gerekli yardım ve danışmanlık sağlanır.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="container right">
-              <div class="date">22 Oct</div>
-              <i class="icon fa fa-gift"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
-              </div>
-            </div>
-            <div class="container left">
-              <div class="date">10 Jul</div>
-              <i class="icon fa fa-user"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
-              </div>
-            </div>
-            <div class="container right">
-              <div class="date">18 May</div>
-              <i class="icon fa fa-running"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
-              </div>
-            </div>
-            <div class="container left">
-              <div class="date">10 Feb</div>
-              <i class="icon fa fa-cog"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
-              </div>
-            </div>
-            <div class="container right">
-              <div class="date">01 Jan</div>
-              <i class="icon fa fa-certificate"></i>
-              <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                </p>
-              </div>
-            </div>
+            </section>
+            <br/>
           </div>
     </div>
   )
