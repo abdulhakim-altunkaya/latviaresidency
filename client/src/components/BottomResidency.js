@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
-import "../styles/bottomResTimeline.css";
 import "../styles/bottomResList.css";
 import Footer from './Footer';
 
@@ -78,7 +77,7 @@ function BottomResidency() {
         </div>
 
         <div>
-            <p>2010 yılında başlayan Yatırım Yoluyla Oturum programı kapsamında bugüne kadar yaklaşık 20.000 başvuru yapılmıştır.
+            <p className='bottomResUpperText'>2010 yılında başlayan Yatırım Yoluyla Oturum programı kapsamında bugüne kadar yaklaşık 20.000 başvuru yapılmıştır.
               Program kapsamında Letonya'ya yaklaşık 1.5 milyar Euroluk yatırım yapılmıştır.
               Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
             <table className='companyTypesTable'>
@@ -140,24 +139,25 @@ function BottomResidency() {
               harçlar ve danışmanlık ücretimiz ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
-              vergi ödeyen bir şirketten veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
-              emlak alabilirsiniz. Letonya'daki bir Leton vatandaşından malesef emlak alamıyorsunuz. Emlak bedelinin banka transferi
+              vergi ödeyen bir şirketten, Leton vatandaşlarından veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
+              emlak alabilirsiniz. Emlak bedelinin banka transferi
               ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı değerinin
-              de en az 80.000 Euro olması gerekmektedir.
+              de en az 80.000 Euro olması gerekmektedir. Tarım ve orman arazileri program kapsamı dışındadır. Üzerine ev ve apartman 
+              inşa edilebilecek arsalar program dahilindedir. 
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Gayrımenkul yatırımı en çok tavsiye ettiğimiz
               yatırım türü olup, alacağınız emlakın her sene değer kazanması ve üstüne kira geliri elde etmeniz mümkündür. 
               Riga emlak piyasasını yakından takip eden uzman ekibimiz doğru gayrımenkul seçiminde size pekçok opsiyon sunacaktır.
               </p>
             <h3>2. Şirket Yatırımı</h3>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
               + Danışmalığımız 5.000 = Toplam 65.000</p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
               yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
               <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
               <strong>100.000 Euro</strong>: Diğer şirketler
               </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
               yatırımızın değer kazanması ve yatırımınızdan aylık veya senelik kâr elde etmeniz pratikte pek mümkün olmayabilir.
               Ayrıca, yatırımınızın karşılığı olarak aldığınız hisseleri birgün satmak istemeniz halinde, aldığınız bedelin
               çok altında ve hatta hiç alıcı olmazsa sıfır bedelle satmanız gerekebilir. Dahası, hissesini aldığınız şirket
@@ -183,13 +183,13 @@ function BottomResidency() {
               kârdan biraz daha yüksektir.  
               </p>   
             <h3>4. Banka Mevduatı</h3>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
               + Danışmalığımız 5.000 = Toplam 310.000</p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
               yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. Yani 280.000 Euroluk yatırımınızı
               5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
               </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya'daki bankalara yapacağınız 
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'daki bankalara yapacağınız 
               mevduat transferinin en az 280.000 Euro olması gerekmektedir. Mevduatınız banka sisteminde 
               "ikincil yükümlülük" ("Subordinate liability") olarak kayıt edilecek olup, bunun manası olur da banka iflas 
               ederse bankadan birincil alacağı olan kişi ve kurumlar bittikten sonra sıranın size gelmesidir. Bankanın 
@@ -227,63 +227,31 @@ function BottomResidency() {
                 <li>Başvuru evraklarının hazırlanması konusunda uzman ekibimiz her türlü yardımı ve kolaylığı sağlayacaktır.</li>
               </ol>
             </div>
-          </div>
 
-          <div className="main-container">
-            <section id="timeline" className="timeline-outer">
-              <div className="container" id="content">
-                <div className="row">
-                  <div className="col s12 m12 l12">
-                    <h1 className="blue-text lighten-1 header">Süreç</h1>
-                    <ul className="timeline">
-                      <li className="event" data-date="1. Hafta">
-                        <h4>Müşterimizle iletişim</h4>
-                        <p>
-                          Müşterimiz bizimle iletişime geçtikten sonra kapsamlı bilgilendirme yapılır ve çeşitli görüşmeler sonunda
-                          müşterimiz yatırım aracını seçer. Bilahare, gerekli bilgi ve belgeler toplanır ve dosya hazırlığı başlar.
-                        </p>
-                      </li>
-                      <li className="event" data-date="2. Hafta">
-                        <h4>Danışmanlık ücretinin ödenmesi ve Vize</h4>
-                        <p>
-                          Müşterimiz danışmanlık ücretini öder, kendisinden istenen evrakları hazırlar (apostilli adli sicil
-                          kaydı gibi). Ayrıca müşterilerimiz Letonya'ya davet edilir. Vize süreci yaklaşık 1 ay sürmektedir.
-                          Vize sürecinde müşterimize gerekli yardım sağlanır.
-                        </p>
-                      </li>
-
-                      <li className="event" data-date="6. Hafta">
-                        <h4>Müşterimizin Letonya'ya gelmesi ve Başvuru</h4>
-                        <p>Müşterimiz Letonya'ya gelir, yatırım opsiyonları yerinde görülüp değerlendirilir. Yatırım meblağı
-                          ilgili hesaplara transfer edilir. Başvuru evrakları imzalanır ve başvuru ilgili kuruma yapılır.
-                        </p>
-                      </li>
-                      <li className="event" data-date="12. Hafta">
-                        <h4>Başvurunun sonuçlanması</h4>
-                        <p>Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
-                          transfer edilir. Müşterimiz tekrar Letonya'ya gelir, kendisi ve ailesinin bilgileri ve belgeleri
-                          alınarak oturum kartları düzenlenir. Müşterimiz hayırlı olması dileklerimizle kartlarını teslim alır. 
-                         </p>
-                         <p> 
-                          Bütün bu süreçte Müşterimizin yanında olduğumuz gibi, müşterimizin Letonya'ya gelememesi durumlarında 
-                          yine gerekli yardım ve yönlendirmeyi sağlıyoruz. 
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <br/>
+            <h2>Süreç</h2>
+            <p><strong>Birinci Ay</strong>: Müşterimizle iletişim, yatırım aracının seçilmesi, Müşterimizin danışmanlık 
+            ücretini ödemesi, müşterimiz için vize davetiyesi iletilmesi, vize başvuru ve oturum kartı başvuruları 
+            için evrak hazırlığı</p>
+            <p><strong>İkinci Ay</strong>: Müşterimizin Letonya'ya gelmesi, yatırım türüne göre ziyaretlerin ve 
+              görüşmelerin yapılması. Başvuru ile ilgili prosedürlerin ve belgelerin imzalanması, yatırım tutarının 
+              ilgili hesaplara transferi, başvuru dosyasının PMLP'ye sunulması</p>
+            <p><strong>Dördüncü Ay</strong>: Başvurunun PMLP tarafından değerlendirilmesi yaklaşık 450 Euro harç ödenmesi
+              durumunda 5 gün, diğer durumlarda yaklaşık 50 gün sürebilmektedir. Genel olarak ise 30 günde başvuru
+              sonuçlandırılmaktadır.
+               Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
+              transfer edilir. Müşterimiz tekrar Letonya'ya gelir ve hayırlı olması dileklerimizle oturum 
+              kartını elden teslim alır.</p>
+            <p>Yaklaşık 3 veya 4 ay süren bu süreçte Müşterimizin yanında olduğumuz gibi, müşterimizin Letonya'ya gelememesi 
+              durumlarında da gerekli yardım ve yönlendirmeyi sağlıyoruz.</p>
           </div>
 
           <div className='bottomCompanyLinks'>
               <br/>
-              <ul>
+
               Daha detaylı bilgi için:
                 <li>
-                  <a href='https://www.ur.gov.lv/en/register/company-or-merchant/limited-liability-company-sia/founding/registration-with-the-enterprise-register/'>
-                    Şirket Sicil Kurumu (Latvijas Republikas Uzņēmumu reģistrs)
+                  <a href='https://www.pmlp.gov.lv/en/real-estate-owner-01072016'>
+                    Letonya Göç İdaresi Kurumu (Pilsonības un migrācijas lietu pārvalde PMLP)
                   </a>
                 </li>
 
@@ -295,6 +263,11 @@ function BottomResidency() {
                 <li>
                   <a href='https://www.liaa.gov.lv/en/invest-latvia'>
                     Letonya Yatırım ve Kalkınma Ajansı (Latvijas Investīciju un attīstības aģentūra LIAA)
+                  </a>
+                </li>
+                <li>
+                  <a href='https://lawyerslatvia.com/latvia-citizenship-by-investment/'>
+                    Lawyers Latvia Kurumsal Hizmetler Firması
                   </a>
                 </li>
                 <li>
@@ -317,7 +290,11 @@ function BottomResidency() {
                     RCP Kurumsal Hizmetler Firması
                   </a>
                 </li>
-              </ul>
+                <li>
+                  <a href='https://www.henleyglobal.com/'>
+                    Henley Global Kurumsal Hizmetler Firması
+                  </a>
+                </li>
             </div>
           
             <div> <br/><br/><br/><br/><br/><br/><br/> </div>

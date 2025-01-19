@@ -40,5 +40,6 @@ body {
   background-color: white; /* Ensure visibility of content */
   box-shadow: -10px 0 15px -5px rgba(127, 1, 1, 0.3), 10px 0 15px -5px rgba(0, 0, 0, 0.3); /* Left and right shadow */
   overflow-y: scroll; /* Enable scrolling without showing scrollbar */
-  scrollbar-width: none; /*Scrolling yes but scrollbar no*/
+  scrollbar-width:thin;
+  overflow-x: hidden;
 }

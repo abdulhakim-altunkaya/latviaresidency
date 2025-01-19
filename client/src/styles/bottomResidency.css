@@ -85,3 +85,11 @@
 .greenCube {
     background-color: #0cb444 !important;
 }
+
+.bottomResUpperText {
+    width: 90%;
+    text-align: justify; /* Justifies the text */
+    word-wrap: break-word; /* Breaks long words to fit within the width */
+    hyphens: auto; /* Allows hyphenation where supported */
+}
+

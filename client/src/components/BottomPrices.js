@@ -118,7 +118,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
               <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
               <span className='spanPrices'> 5000 Euro</span></div>
-              {isVisible3 ? 
+              {isVisible4 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
@@ -136,7 +136,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(5)}>
               <span className='spanListTitle'>Şirket Kurulumu: </span> 
               <span className='spanPrices'> 1500 Euro</span></div>
-              {isVisible4 ? 
+              {isVisible5 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
@@ -156,7 +156,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(6)}>
               <span className='spanListTitle'>İş takibi/Belge onayları (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
-              {isVisible5 ? 
+              {isVisible6 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Letonya'da takip gerektiren herhangi bir durumunuz olması halinde bu hizmetimize başvurabilirsiniz.</li>
@@ -171,7 +171,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(7)}>
               <span className='spanListTitle'> Genel danışmanlık (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
-              {isVisible6 ? 
+              {isVisible7 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Aklınızdaki bütün soruları, danışmak istediğiniz bütün konuları bize sorabilirsiniz.</li>
@@ -182,7 +182,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(8)}>
               <span className='spanListTitle'>Kafile/Heyet rehberliği (günlük): </span> 
               <span className='spanPrices'> 500 Euro</span></div>
-              {isVisible7 ? 
+              {isVisible8 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Rehberlerimiz Türkçe, Letonca, Rusça, İngilizce dillerinde hizmet vermektedirler.</li>
@@ -201,7 +201,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde yazılı tercüme sayfa başı: </span> 
               <span className='spanPrices'> 50 Euro</span></div>
-              {isVisible8 ? 
+              {isVisible9 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Tercümeler isterseniz kağıt olarak isterseniz e-mail olarak yapılabilir.</li>
@@ -218,7 +218,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme (saatlik): </span> 
               <span className='spanPrices'> 120 Euro</span></div>
-              {isVisible9 ? 
+              {isVisible10 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Tercümanın şehir içi seyahat masrafları fiyata dahildir.</li>
@@ -231,7 +231,7 @@ function BottomPrices() {
             <div className='bottomPricesListItem' onClick={() => toggleDetail(11)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme günlük (12 saat, molalı): </span> 
               <span className='spanPrices'> 680 Euro</span></div>
-              {isVisible10 ? 
+              {isVisible11 ? 
               <div className='subDetails'>
                   <ul>
                     <li>Tercümanın şehir içi seyahat masrafları fiyata dahildir.</li>

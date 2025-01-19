@@ -3,12 +3,13 @@
     margin: 15px;
 }
 .bottomCompanyText {
-    width: 90%;
+    width: 95%;
     word-wrap: break-word; /* Ensures words break within the container */
     word-break: break-word; /* Breaks long words */
     overflow-wrap: break-word; /* Wraps text within the container */
     white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
     overflow-x: hidden; /* Hides any overflowing content horizontally */
+    text-align: justify;
 }
 .bottomCompanyHeader {
     width: 100%;

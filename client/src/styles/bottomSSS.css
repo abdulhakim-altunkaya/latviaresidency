@@ -1,0 +1,36 @@
+.questionsMain {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.questionsArea {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.questionCards {
+    margin-bottom: 14px;
+}
+.questionJautajums {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Vertically centers the content */
+    padding: 9px;
+    font-weight: bold;
+    transition: background-color 0.4s ease;
+}
+.questionJautajums:hover {
+    cursor: pointer;
+    background-color: #f365c3;
+}
+.questionAtbildi {
+    align-items: center; /* Vertically centers the content */
+    padding: 9px;
+}
+.plusSign {
+    width: 29px;
+    color: rgb(128, 128, 128);
+}
