@@ -209,5 +209,5 @@ change 1000 to 60000 in the serversavecommentreply endpoint
 change all xxxxx things in the footer component 
 create a component for company set up
 Add limits for contact form inputs and textarea
-
+add how to become a citizen section, reference immigrant invest
 */

@@ -14,6 +14,7 @@ function BottomPrices() {
   const [isVisible8, setIsVisible8] = useState(false);
   const [isVisible9, setIsVisible9] = useState(false);
   const [isVisible10, setIsVisible10] = useState(false);
+  const [isVisible11, setIsVisible11] = useState(false);
 
   const toggleDetail = (num) => {
     if(num === 1) {
@@ -36,6 +37,8 @@ function BottomPrices() {
       setIsVisible9(!isVisible9);
     } else if (num === 10) {
       setIsVisible10(!isVisible10);
+    } else if (num === 11) {
+      setIsVisible11(!isVisible11);
     }
     
   }
@@ -50,7 +53,7 @@ function BottomPrices() {
             <p>Ücretlerimiz standart olup, bütün müşterilerimiz için aynıdır.</p>
             <p>Ücretlerimiz tek seferde alınmakta olup, oturum kartının çıkmaması ve müşterimizin başvurusundan vazgeçmesi 
               halinde alınan ücretin yarısı 30 gün içerisinde iade edilmektedir.</p>
-            <p>Ücretlerimize Letonya kanunları çerçevesinde KDV vergisi (%21) dahildir ve yapılan ödemeler için
+            <p>Ücretlerimize Letonya kanunları çerçevesinde bütün vergiler dahildir ve yapılan ödemeler için
               müşteri ismine fatura düzenlenmektedir.</p>
             <p>Ücretler şirketimizin Letonya'daki banka hesabına yapılmaktadır.</p>
             <p>Ücretlerimizin kapsamına ilişkin detaylı bilgilere aşağıdaki kalemlere tıklayarak ulaşabilirsiniz.</p>
@@ -78,7 +81,7 @@ function BottomPrices() {
             
             <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
               <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 4000 Euro</span></div>
+              <span className='spanPrices'> 5000 Euro</span></div>
               {isVisible2 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
@@ -113,6 +116,24 @@ function BottomPrices() {
               : <></>}
 
             <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
+              <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
+              <span className='spanPrices'> 5000 Euro</span></div>
+              {isVisible3 ? 
+              <div className='subDetails'>
+                  <span>Fiyata dahil hizmetler: </span> <br/>
+                  <ul>
+                    <li>Evrak takibi,</li>
+                    <li>Tercüme işlemleri,</li>
+                    <li>Refakat,</li>
+                    <li>Danışmanlık,</li>
+                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
+                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
+                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
+                  </ul>
+              </div>
+              : <></>}
+
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(5)}>
               <span className='spanListTitle'>Şirket Kurulumu: </span> 
               <span className='spanPrices'> 1500 Euro</span></div>
               {isVisible4 ? 
@@ -132,7 +153,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(5)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(6)}>
               <span className='spanListTitle'>İş takibi/Belge onayları (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
               {isVisible5 ? 
@@ -147,7 +168,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(6)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(7)}>
               <span className='spanListTitle'> Genel danışmanlık (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
               {isVisible6 ? 
@@ -158,7 +179,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(7)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(8)}>
               <span className='spanListTitle'>Kafile/Heyet rehberliği (günlük): </span> 
               <span className='spanPrices'> 500 Euro</span></div>
               {isVisible7 ? 
@@ -177,7 +198,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(8)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde yazılı tercüme sayfa başı: </span> 
               <span className='spanPrices'> 50 Euro</span></div>
               {isVisible8 ? 
@@ -194,7 +215,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme (saatlik): </span> 
               <span className='spanPrices'> 120 Euro</span></div>
               {isVisible9 ? 
@@ -207,7 +228,7 @@ function BottomPrices() {
               </div>
               : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(11)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme günlük (12 saat, molalı): </span> 
               <span className='spanPrices'> 680 Euro</span></div>
               {isVisible10 ? 

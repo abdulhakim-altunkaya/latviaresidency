@@ -3,6 +3,7 @@ import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
 import "../styles/bottomResTimeline.css";
 import "../styles/bottomResList.css";
+import Footer from './Footer';
 
 function BottomResidency() {
   return (
@@ -77,7 +78,9 @@ function BottomResidency() {
         </div>
 
         <div>
-            <p>Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
+            <p>2010 yılında başlayan Yatırım Yoluyla Oturum programı kapsamında bugüne kadar yaklaşık 20.000 başvuru yapılmıştır.
+              Program kapsamında Letonya'ya yaklaşık 1.5 milyar Euroluk yatırım yapılmıştır.
+              Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
             <table className='companyTypesTable'>
               <tr>
                 <th></th>
@@ -121,27 +124,6 @@ function BottomResidency() {
                 <td className='greenCube'>Çok düşük</td>
                 <td className='greenCube'>Çok düşük</td>
               </tr>
-              <tr>
-                <td><strong>Yönetim Kurulu (YK) Üyeleri</strong></td>
-                <td>Kurucular en az bir YK üyesi atar.</td>
-                <td>Bütün Kurucular aynı zamanda YK üyesidir</td>
-                <td>Kurucular ve YK üyeleri farklı olabilir</td>
-                <td>Yönetim kurulu yoktur.</td>
-              </tr>
-              <tr>
-                <td><strong>Kurumlar Vergisi (Yıllık karın %20-%25'i)</strong></td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Ödemez</td>
-              </tr>
-              <tr>
-                <td><strong>KDV</strong></td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
-              </tr>
             </table>
           </div>
 
@@ -158,7 +140,8 @@ function BottomResidency() {
               harçlar ve danışmanlık ücretimiz ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
-              vergi ödeyen bir şirketten veya Letonya'da yaşayan bir yabancıdan emlak alabilirsiniz. Emlak bedelinin banka transferi
+              vergi ödeyen bir şirketten veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
+              emlak alabilirsiniz. Letonya'daki bir Leton vatandaşından malesef emlak alamıyorsunuz. Emlak bedelinin banka transferi
               ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı değerinin
               de en az 80.000 Euro olması gerekmektedir.
               </p>
@@ -181,6 +164,7 @@ function BottomResidency() {
               eğer iflas ederse alacağınız oturum kartı iptal edilecektir. Özetle, şirket yatırımı için ayırdığınız para size
               sadece oturum kartı verecek olup, o paranın geri dönüşünün ve kârının olmayabileceğini gözönünde bulundurmanızı 
               tavsiye ederiz.</p>
+              <p>Bir şirkete oturum izni amacıyla en fazla 10 yabancı başvurabilir.</p>
             <h3>3. Faizsiz Devlet Tahvili</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
               + Danışmalığımız 5.000 = Toplam 293.000</p>
@@ -214,18 +198,33 @@ function BottomResidency() {
             <div className="list-type5">
               <ol>
               
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
-                <li><a href="#">Formget Online Form Builder Create Online </a></li>
+                <li>Pasaport</li>
+                <li>Başvuru sahibinin Letonya'da yaşayacağı adres</li>
+                <li>Sağlık sigortası</li>
+                <li>Fotoğraf</li>
+                <li>Başvuru harçlarının ödendiğine ilişkin makbuzlar. Başvuru harçları genel olarak 100-500 Euro arasında değişir.
+                  Başvurunuza aile üyeleriniz de dahilse, her aile üyesi için ayrı ayrı harç ödenir.
+                   (Başvuru harçları ile Devlet harçları farklıdır. Devlet
+                  harçları başvuru onaylandıktan sonra ödenir)</li>
+                <li>Yatırım türüne göre düzenlenen belgeler: Tapu belgesi, devlet tahvil alımını gösterir 
+                  belgeler, banka mevduatını gösterir belgeler, şirket yatırımını gösterir ticaret sicil kayıtları vb.</li>
+                <li>Adli sicil kaydınız olmadığına dair belge. Türkiye'den alırsanız belgeyi Letonca'ya tercüme ettirmeniz
+                  ve apostil yapmanız gerekecektir. Bunun yerine belgeyi Letonya'daki Riga Büyükelçiliğinden alabilirsiniz. 
+                  Böylelikle apostil veya tercüme yapmanıza gerek kalmaz, üstelik ücretsiz.
+                </li>
+                <li>Yatırım meblağını nasıl kazandığınıza ilişkin belgeler. Şirket sahibiyseniz, şirketiniz bilanço, kâr
+                  belgeleri vb gibi. Yada Türkiye'deki evinizi satıp, satış meblağını gösterebilirsiniz.
+                </li>
+                <li>Letonya'da hayat masraflarını karşılayacak kadar bankada paranız olduğunu gösterir belge. Gayrımenkul için
+                  başvuru sahibi 1500, eşi 500, her bir çocuk 150 Euro. Diğer yatırımlar için başvuru sahibi 500, eşi 500, her
+                  bir çocuk 150 Euro. Aylık olan bu meblağlar yıllık bazda çarpılarak toplam meblağ bulunur.
+                </li>
+                <li>Başvuruya eş ve çocuklar da dahilse, evlilik belgeleri ve doğum belgeleri gerekecektir. 
+                </li>
+                <li>İstenilen bütün belgelerin orijinallerinin, Letonca tercümelerinin ve fotokopilerinin sunulması
+                  gerekmektedir. Devlet kurumlarımız tarafından verilen bazı belgelerin ayrıyeten apostilli olması gerekmektedir.
+                </li>
+                <li>Başvuru evraklarının hazırlanması konusunda uzman ekibimiz her türlü yardımı ve kolaylığı sağlayacaktır.</li>
               </ol>
             </div>
           </div>
@@ -278,7 +277,51 @@ function BottomResidency() {
             <br/>
           </div>
 
+          <div className='bottomCompanyLinks'>
+              <br/>
+              <ul>
+              Daha detaylı bilgi için:
+                <li>
+                  <a href='https://www.ur.gov.lv/en/register/company-or-merchant/limited-liability-company-sia/founding/registration-with-the-enterprise-register/'>
+                    Şirket Sicil Kurumu (Latvijas Republikas Uzņēmumu reģistrs)
+                  </a>
+                </li>
 
+                <li>
+                  <a href='https://www.vid.gov.lv/en'>
+                    Devlet Gelir İdaresi (Valsts ieņēmumu dienests VID)
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.liaa.gov.lv/en/invest-latvia'>
+                    Letonya Yatırım ve Kalkınma Ajansı (Latvijas Investīciju un attīstības aģentūra LIAA)
+                  </a>
+                </li>
+                <li>
+                  <a href='https://immigrantinvest.com/blog/latvia-residence-permit-by-investment-en/'>
+                    Immigrant Invest Kurumsal Hizmetler Firması
+                  </a>
+                </li>
+                <li>
+                  <a href='https://passports.io/'>
+                    Passports.io Kurumsal Hizmetler Firması
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.goldenvisas.com/latvia'>
+                    La Vida Kurumsal Hizmetler Firması
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.residency-bond.eu/latvia-bank.html'>
+                    RCP Kurumsal Hizmetler Firması
+                  </a>
+                </li>
+              </ul>
+            </div>
+          
+            <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+            <div className='footerArea'> <Footer /> </div>
     </div>
   )
 }
