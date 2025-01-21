@@ -203,6 +203,7 @@ app.listen(PORT, () => {
 //add environment variables
 /*Also add this otherwise only index route will be visible when you deploy app to production
 add "::1", to the ignored ip list
+
 change 1000 to 3600000 in the time limit of serversavevisitor endpoint
 change 1000 to 60000 in the serversavecomment endpoint
 change 1000 to 60000 in the serversavecommentreply endpoint
@@ -210,4 +211,6 @@ change all xxxxx things in the footer component
 create a component for company set up
 Add limits for contact form inputs and textarea
 add how to become a citizen section, reference immigrant invest
+add two more comment section to each part
+add car rental page with pictures
 */

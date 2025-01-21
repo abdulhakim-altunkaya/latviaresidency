@@ -64,6 +64,32 @@ function BottomOther() {
           </span>
         </div>
       </div>
+
+      <div className='infoAreas'>
+        <div className='infoSheets' id='companyBox2'>
+          <span className='infoSVG'><img src='/svg_car.svg' alt='Car icon'/></span>
+          <span className='infoTitle'>Araç Kiralama </span>
+          <span className='infoText'>Lüks sedan, normal sedan, SUV,
+            minibüs ve otobüs klasmanlarında şoförlü veya şoförsüz araç kiralama hizmeti sunmaktayız. Araç kiralama hizmetimiz
+            bütün Baltıkları kapsamaktadır.
+          </span>
+        </div>
+        <div className='infoSheets' id='companyBox'>
+          <span className='infoSVG'><img src='/svg_hotel.svg' alt='Hotel icon'/></span>
+          <span className='infoTitle'>Otel Rezervasyon</span>
+          <span className='infoText'>Büyük veya küçük gruplar için talebinize göre otel rezervasyon hizmeti sunmaktayız. Turistik, 
+            tarihi, doğal güzellik, iş görüşmeleri, resmi görüşmeler gibi temalar için ayrı ayrı opsiyonlarımız bulunmaktadır.
+          </span>
+        </div>
+        <div className='infoSheets' id='companyBox2'>
+          <span className='infoSVG'><img src='/svg_transfer.svg' alt='Airport transfer icon'/></span>
+          <span className='infoTitle'>Transfer Hizmetleri</span>
+          <span className='infoText'>Havalimanı, deniz limanı, tren garları ile ikamet edeceğiniz yer arasında 
+            transfer hizmeti sunmaktayız. Ayrıca havalimanı karşılama hizmetimiz de bulunmaktadır. Transfer hizmetimiz Litvanya, 
+            Letonya ve Estonya'yı kapsamaktadır.
+          </span>
+        </div>
+      </div>
       <div> <br/><br/><br/><br/><br/><br/><br/> </div>
       <div className='footerArea'> <Footer /> </div>
       
