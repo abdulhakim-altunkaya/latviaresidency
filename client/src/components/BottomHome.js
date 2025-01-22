@@ -27,9 +27,8 @@ function BottomHome() {
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_university.svg' alt='education icon'/></span>
           <span className='infoTitle'>Kaliteli Eğitim</span>
-          <span className='infoText'>AB üyesi Letonya'da devlet okullarında eğitim sistemi oldukça kaliteli olup, 
-            oturum kartınız sayesinde çocuklarınız ücretsiz olarak eğitim görebilecektir. Letonya okul diplomaları 
-            tüm Avrupa çapında geçerlidir.
+          <span className='infoText'>Letonya'da eğitim kaliteli olup, çocuklarınız ücretsiz olarak eğitim görebilir. 
+            Leton diplomaları bütün Avrupa'da geçerlidir.
           </span>
         </div>
       </div>
@@ -37,26 +36,23 @@ function BottomHome() {
       <div className='infoAreas'>
       <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_children.svg' alt='children icon'/></span>
-          <span className='infoTitle'>Çocuklarınıza yatırım</span>
-          <span className='infoText'>Letonya'dan oturum kartı size Letonya vatandaşlığının önünü açacak olup, eşiniz
-            ve 18 yaş altı çocuklarınız da sizinle birlikte ileride Letonya vatandaşı olabilir. Çocuklarınıza alacağınız
-            ikinci vatandaşlık, onlara yapacağınız en büyük yatırımlardan biri olacaktır.
+          <span className='infoTitle'>Çocuklarınız</span>
+          <span className='infoText'>Oturum kartınızla Letonya'da 10 yıl geçirdikten sonra siz ve aileniz Letonya vatandaşı 
+            olabilirsiniz. Çocuklarınıza alacağınız ikinci vatandaşlık, onlara yapacağınız en büyük yatırımlardan biri olacaktır.
           </span>
         </div>
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_safety.svg' alt='Safe country icon'/></span>
           <span className='infoTitle'>Güvenli Ülke</span>
           <span className='infoText'>Letonya Avrupa ve dünyadaki en güvenli ülkelerden biri olup, siz ve aileniz
-            güven içinde sokaklarda gezebilir, çocuklarınız kendi başlarına okula gidip gelebilir. Suç olayları Fransa 
-            gibi Batı Avrupa ülkerine göre kıyas edilemeyecek kadar düşüktür.
+            güven içinde sokaklarda gezebilir, çocuklarınız kendi başlarına okula gidip gelebilir.
           </span>
         </div>
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_nature.svg' alt='Nature icon'/></span>
           <span className='infoTitle'>Doğal Güzellik</span>
-          <span className='infoText'>Letonya'nın her tarafı orman, göl, nehir ve kumsal sahil şeridi ile kaplı olup
-            doğal güzellikler bozulmadan muhafaza edilmiş ve bu alanlar üzerinde rant veya yapılaşmaya
-            izin verilmemiştir.
+          <span className='infoText'>Letonya'nın her tarafı orman, göl, nehir ve kumsallarla kaplı olup
+            doğal güzellikler bozulmadan muhafaza edilmiştir.
           </span>
         </div>
       </div>
@@ -65,24 +61,24 @@ function BottomHome() {
       <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_euro.svg' alt='travel icon'/></span>
           <span className='infoTitle'>Avrupa Pazarı</span>
-          <span className='infoText'>Letonya'ya yapacağınız yatırım size bütün AB ülkelerinin kapısını açacak olup, 
-            kuracağınız şirket ile hiçbir engel olmadan AB ülkeleriyle ticaret yapabileceksiniz. Ülke ekonomisi ve siyaseti
-            stabil olan Letonya'yı güvenli bir liman olarak düşünebilirsiniz.
+          <span className='infoText'>Güvenli bir liman olan Letonya'ya yapacağınız yatırım size bütün AB ülkelerinin 
+            kapısını açacak olup, 
+            kuracağınız şirket ile hiçbir engel olmadan AB ülkeleriyle ticaret yapabileceksiniz.
           </span>
         </div>
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_health.svg' alt='travel icon'/></span>
           <span className='infoTitle'>Hayat Kalitesi</span>
           <span className='infoText'>Letonya'da hayat kalitesi oldukça yüksek olup, her taraf park ve yeşillik 
-            alanlarla kaplıdır. Trafiği İstanbul ile kıyas edilemeyecek kadar azdır. İnsanlar hoşgörülü ve birbirlerine
-            saygılıdır. Trafikte tartışma, küfür, korna gibi nahoş hiçbir durum yaşamazsınız. 
+            alanlarla kaplıdır. Trafiği az, havası temiz, insanlar hoşgörülü ve birbirlerine
+            saygılıdır.
           </span>
         </div>
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_tree3.svg' alt='travel icon'/></span>
           <span className='infoTitle'>Sağlıklı Yaşam</span>
-          <span className='infoText'>Letonya'da kilometrelerce uzunluktaki tertemiz 
-            sahil şeridinde koşunuzu yapabilir, ailenizle temiz ve sağlıklı bir hayat sürebilirsiniz. Letonya'da başıboş köpek,
+          <span className='infoText'>Letonya'da tertemiz 
+            kumsal sahillerinde koşunuzu yapabilir, ailenizle sağlıklı bir hayat sürebilirsiniz. Letonya'da başıboş köpek,
             kedi, kuduz, kist hidatik gibi hastalıklar kesinlikle bulunmamaktadır. 
           </span>
         </div>
