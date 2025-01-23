@@ -82,7 +82,7 @@ function BottomHome() {
             kedi, kuduz, kist hidatik gibi hastalıklar kesinlikle bulunmamaktadır. 
           </span>
         </div>
-      </div>
+      </div> 
 
       <div className='countryInfoArea'>
         <div className='countryInfoChild1'>
@@ -109,9 +109,9 @@ function BottomHome() {
         <div className='countryInfoChild2'><img src='/photo_old_town.jpg' alt='Old town of Riga with Daugava river 
           view and a few new building on the other side of river'/></div>
       </div>
-      <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      <div> <br/><br/><br/><br/> </div>
       <div> <CommentDisplay /></div>
-      <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      <div> <br/><br/><br/><br/> </div>
       <div className='footerArea'> <Footer /> </div>
     </div>
   )
