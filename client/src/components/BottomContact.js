@@ -5,13 +5,14 @@ import BottomContactForm from './BottomContactForm';
 
 function BottomContact() {
   return (
+    <div>
     <div className='bottomContact'>
       <div>
         <div className='contactTitleArea'>
           <span className='bottomContactSVG'> <img src='/svg_book.svg' alt='About Icon'/></span>
           <span className='titleSpan2'>HAKKIMIZDA</span>
         </div>
-        <div>
+        <div className='bottomAboutText'>
           <p>Riga Danışmanlık Letonya'da yatırım yoluyla oturum alma ve kurumsal hizmetler alanında faaliyet
             gösteren bir danışmanlık firmasıdır. </p>
           <p>Firmamız, alanında tecrübeli uzmanlarımız, tercümanlarımız, takipçilerimiz, avukatlarımız ve muhasebecilerimiz 
@@ -48,7 +49,9 @@ function BottomContact() {
         </div>
       </div>
       <div> <BottomContactForm /> </div>
-      <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      <div> <br/><br/><br/><br/> </div>
+      
+      </div>
       <div className='footerArea'> <Footer /> </div>
     </div>
   )

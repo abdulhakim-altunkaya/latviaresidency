@@ -44,6 +44,7 @@ function BottomPrices() {
   }
 
   return (
+    <div>
     <div className='bottomPricesMainArea'>
         <div className='bottomPricesHeader'>
           <h1>ÜCRETLERİMİZ</h1>
@@ -60,10 +61,13 @@ function BottomPrices() {
         </div>
         <div className='bottomPricesContent2'>
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
-              <span className='spanListTitle'>Gayrımenkul yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>  
-              {isVisible1 ? 
+            <div className='priceEntry'>
+              <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
+                <span className='spanListTitle'>Gayrımenkul yatırımıyla oturum kartı başvurusu: </span> 
+                <span className='spanPrices'> 6000 Euro</span>
+              </div>  
+            </div> 
+            {isVisible1 ? 
               <div className='subDetails'>
                 <span>Fiyata dahil hizmetler: </span> <br/>
                 <ul>
@@ -77,12 +81,15 @@ function BottomPrices() {
                   <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
                 </ul>
               </div>
-              : <></>}
-            
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
-              <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>
-              {isVisible2 ? 
+            : <></>}
+
+            <div className='priceEntry'>
+              <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
+                <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
+                <span className='spanPrices'> 6000 Euro</span>
+              </div>
+            </div>
+            {isVisible2 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
@@ -95,12 +102,15 @@ function BottomPrices() {
                     <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
                   </ul>
               </div>
-              : <></>}
+            : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
-              <span className='spanListTitle'>Limited şirket yatırımıyla oturum kartı başvurusu: </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>
-              {isVisible3 ? 
+            <div className='priceEntry'>
+              <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
+                <span className='spanListTitle'>Limited şirket yatırımıyla oturum kartı başvurusu: </span> 
+                <span className='spanPrices'> 6000 Euro</span>
+              </div>
+            </div>
+            {isVisible3 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
@@ -113,12 +123,15 @@ function BottomPrices() {
                     <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
                   </ul>
               </div>
-              : <></>}
+            : <></>}
 
-            <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
-              <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
-              <span className='spanPrices'> 5000 Euro</span></div>
-              {isVisible4 ? 
+            <div className='priceEntry'>
+              <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
+                <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
+                <span className='spanPrices'> 6000 Euro</span>
+              </div>
+            </div>
+            {isVisible4 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
                   <ul>
@@ -131,11 +144,13 @@ function BottomPrices() {
                     <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
                   </ul>
               </div>
-              : <></>}
+            : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(5)}>
               <span className='spanListTitle'>Şirket Kurulumu: </span> 
               <span className='spanPrices'> 1500 Euro</span></div>
+              </div>
               {isVisible5 ? 
               <div className='subDetails'>
                   <span>Fiyata dahil hizmetler: </span> <br/>
@@ -153,9 +168,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(6)}>
               <span className='spanListTitle'>İş takibi/Belge onayları (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
+              </div>
               {isVisible6 ? 
               <div className='subDetails'>
                   <ul>
@@ -168,9 +185,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(7)}>
               <span className='spanListTitle'> Genel danışmanlık (saatlik): </span> 
               <span className='spanPrices'> 80 Euro</span></div>
+              </div>
               {isVisible7 ? 
               <div className='subDetails'>
                   <ul>
@@ -179,9 +198,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(8)}>
               <span className='spanListTitle'>Kafile/Heyet rehberliği (günlük): </span> 
               <span className='spanPrices'> 500 Euro</span></div>
+              </div>
               {isVisible8 ? 
               <div className='subDetails'>
                   <ul>
@@ -198,9 +219,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde yazılı tercüme sayfa başı: </span> 
-              <span className='spanPrices'> 50 Euro</span></div>
+              <span className='spanPrices'> 70 Euro</span></div>
+              </div>
               {isVisible9 ? 
               <div className='subDetails'>
                   <ul>
@@ -215,9 +238,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme (saatlik): </span> 
               <span className='spanPrices'> 120 Euro</span></div>
+              </div>
               {isVisible10 ? 
               <div className='subDetails'>
                   <ul>
@@ -228,9 +253,11 @@ function BottomPrices() {
               </div>
               : <></>}
 
+            <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(11)}>
               <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme günlük (12 saat, molalı): </span> 
               <span className='spanPrices'> 680 Euro</span></div>
+              </div>
               {isVisible11 ? 
               <div className='subDetails'>
                   <ul>
@@ -242,6 +269,7 @@ function BottomPrices() {
               </div>
               : <></>}
             
+        </div>
         </div>
         <div> <br/><br/><br/><br/><br/><br/><br/> </div>
         <div className='footerArea'> <Footer /> </div>

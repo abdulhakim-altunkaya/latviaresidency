@@ -2,12 +2,14 @@
     width: 100%;
     margin: auto;
     box-sizing: border-box;
+    
 }
 .questionsArea {
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
 }
 .questionCards {
     margin-bottom: 14px;
@@ -21,6 +23,7 @@
     padding: 9px;
     font-weight: bold;
     transition: background-color 0.4s ease;
+    font-size: 16px;
 }
 .questionJautajums:hover {
     cursor: pointer;
@@ -33,4 +36,12 @@
 .plusSign {
     width: 29px;
     color: rgb(128, 128, 128);
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .plusSign {
+        width: 22px;
+        color: rgb(128, 128, 128);
+    }
 }

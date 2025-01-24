@@ -32,3 +32,8 @@
     align-items: center;
     margin-top: 10px;
 }
+
+.bottomAboutText {
+    text-align: justify;
+    font-size: 16px;
+}

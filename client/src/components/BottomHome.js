@@ -69,9 +69,8 @@ function BottomHome() {
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_health.svg' alt='travel icon'/></span>
           <span className='infoTitle'>Hayat Kalitesi</span>
-          <span className='infoText'>Letonya'da hayat kalitesi oldukça yüksek olup, her taraf park ve yeşillik 
-            alanlarla kaplıdır. Trafiği az, havası temiz, insanlar hoşgörülü ve birbirlerine
-            saygılıdır.
+          <span className='infoText'>Letonya'da hayat kalitesi yüksek olup, her taraf parklarla kaplıdır. 
+            Trafiği az, havası temiz, insanlar hoşgörülü ve birbirlerine saygılıdır.
           </span>
         </div>
         <div className='infoSheets'>

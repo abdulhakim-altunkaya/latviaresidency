@@ -1,4 +1,5 @@
 .contactFormArea {
+    margin-top: 15px;
     background-color: #e8edf0;
     padding: 20px;
     max-width: 450px;
@@ -52,4 +53,19 @@
 .button1111:hover {
     background-color: #33188f;
     font-weight: bolder;
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .formUpperInputs input {
+        box-sizing: border-box; /* Includes padding and border in the total width */
+        border: none;
+        outline: none;
+        width: 158px;
+        border-radius: 4px;
+        height: 35px;
+        padding: 8px;
+        font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+    }
 }

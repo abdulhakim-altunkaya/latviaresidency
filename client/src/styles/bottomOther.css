@@ -119,6 +119,7 @@
         font-weight: bold;
         padding-top: 6px;
         padding-bottom: 6px;
+        font-size: 18px;
     }
     .infoSVG2 img {
         width: 50px; /* Ensure SVG image does not overflow */
@@ -132,6 +133,8 @@
         line-height: 1.2; /* Improve readability */
         color: #474747;
         font-style: italic;
+        text-align: justify;
+        font-size: 16px;
     }
 
     #companyBox {
