@@ -27,7 +27,7 @@ function BottomHome() {
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_university.svg' alt='education icon'/></span>
           <span className='infoTitle'>Kaliteli Eğitim</span>
-          <span className='infoText'>Letonya'da eğitim kaliteli olup, çocuklarınız ücretsiz olarak eğitim görebilir. 
+          <span className='infoText'>Letonya'da eğitim kaliteli olup, çocuklarınız devlet okullarında ücretsiz olarak eğitim görebilir. 
             Leton diplomaları bütün Avrupa'da geçerlidir.
           </span>
         </div>

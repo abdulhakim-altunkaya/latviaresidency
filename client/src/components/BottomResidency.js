@@ -33,7 +33,7 @@ function BottomResidency() {
                 <span className='infoCardTitle'>Önce Geçici sonra Süresiz Oturum</span>
               </div>
               <div className='infoCardLower'>
-                <span>İlk olarak 5 yıllık oturum alan yatırımcılarımız, 5 yılın sonunda süresiz oturuma 
+                <span>İlk 5 yıl geçici oturumlarla Letonya'da ikamet eden yatırımcılarımız, 5 yılın sonunda süresiz oturuma 
                   ve 10. yılın sonunda da Letonya vatandaşlığına başvurabilirler.</span>
                 <span>Süresiz oturum için 5 yıllık oturumun 4 yılını Letonya'da geçirmiş olmak, ulusal marş,
                    genel tarih ve biraz Letonca bilmek gerekmektedir.</span>
