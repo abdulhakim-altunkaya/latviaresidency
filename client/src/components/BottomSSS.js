@@ -50,13 +50,15 @@ function BottomSSS() {
         <h2>SIK SORULAN SORULAR</h2>
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(21)}>
-            <div>5 yıllık oturum izni bitince tekrardan 5 yıllık oturum izni alabilir miyim?</div>
+            <div>Geçici ve süresi oturum farkı nedir?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible21 ? 
             <div className='questionAtbildi'>
-            Evet. Eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman pekala tekrardan 5 yıllık oturum 
-            iznini alabilirsiniz. Bunun için yatırımını olduğu gibi muhafaza etmiş olmanız gerekmektedir.</div>
+            Yatırım yoluyla oturum başvurunuz onayladığında size ilk beş yıl boyunca geçici oturumlar verilir. Bu 
+            oturumlar bazen birer yıllık bazen de daha uzun olabilir. Beşinci yılın sonunda ise yatırımınız
+            eğer hala aynı şekilde devam ediyorsa bu defa süresiz oturuma başvurabilirsiniz. Süresiz oturum için
+            geçici oturumlarla Letonya'da en az 4 yıl geçirmiş olmak gerekir. Yoksa yine geçici oturum alırsınız.</div>
           : <></> }
 
         </div>
@@ -68,40 +70,42 @@ function BottomSSS() {
           </div>
           {isVisible22 ? 
           <div className='questionAtbildi'>
-            Vatandaşlık için önce 5 yıllık oturum, sonra süresiz oturum almalısınız. Letonya'daki
-            sürenizin 10.yılında vatandaşlık için başvurabilirsiniz. Vatandaşlık için Letonya tarihini, dilini ve genel kültürünü de 
-            bilmeniz gerekmektedir.</div>
+            Vatandaşlık için önce 5 yıl boyunca geçici oturumlar, beşinci yılın sonunda da sonra süresiz oturum 
+            almalısınız. Letonya'daki
+            sürenizin 10.yılında vatandaşlık için başvurabilirsiniz. Vatandaşlık için Letonya tarihini, 
+            dilini ve genel kültürünü de bilmeniz gerekmektedir.</div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(23)}>
-            <div>5 yıllık oturum iznini 5 yıl sonra süresiz oturum iznine çevirebilir miyim?</div>
+            <div>Geçici oturum iznini 5 yıl sonra süresiz oturum iznine çevirebilir miyim?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible23 ? 
           <div className='questionAtbildi'>
-              Evet, A2 seviyesinde Letonca bilmeniz, 5 yıllık oturum süresinin 4 yılını Letonya'da geçirmiş olmanız,
+              Evet, A2 seviyesinde Letonca bilmeniz, 5 yıl boyunca aldığınız oturum süresinin 4 yılını 
+              Letonya'da geçirmiş olmanız,
               Letonya milli marşı ve Letonya genel tarihini biraz bilmeniz halinde süresiz 
-              oturum alabilirsiniz. Yoksa, tekrardan 5 yıllık oturum alırsınız.  </div>
+              oturum alabilirsiniz. Yoksa, tekrardan geçici oturum alırsınız.  </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(24)}>
-            <div>5 yıllık oturum izni bitince tekrardan 5 yıllık oturum izni alabilir miyim?</div>
+            <div>Süresiz oturum almam ve Letonya'da yaşamam şart mı</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible24 ? 
           <div className='questionAtbildi'>
-            Evet. Eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman pekala tekrardan 5 yıllık oturum 
+            Şart değildir. Eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman pekala tekrardan geçici oturum 
             iznini alabilirsiniz. Bunun için yatırımınızı olduğu gibi muhafaza etmiş olmanız gerekmektedir. 
-            Alacağınız ikinci 5 yıllık oturum kartı için 5000 Euro başvuru harcı ödenir. İkinci oturum kartı 
-            için başvurunuzu ilk oturum kartınızın süresi bitmeden veya süresi bittikten sonraki
+            Beş yıl sonra yapacağınız geçici oturum kartı için 5000 Euro başvuru harcı ödenir. Bu oturum kartı 
+            için başvurunuzu son oturum kartınızın süresi bitmeden veya süresi bittikten sonraki
             40 gün içerisinde yapmanız gerekmektedir. Eğer su süreyi kaçırırsanız, o zaman sil baştan 
             yeni başvuru yapar gibi başvuru yapmanız gerekir, ki bu durumda bütün harçları tekrar ödemek 
-            durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her beş yılda bir 5 yıllık 
-            oturum kartı alabilirsiniz. 5 yıllık geçici oturum kartları 
+            durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her zaman geçici
+            oturum kartı alabilirsiniz. Geçici oturum kartları 
             için Letonca bilmeniz veya Letonya'da yaşamanız şart değildir.</div>
           : <></> }
         </div>
@@ -120,7 +124,7 @@ function BottomSSS() {
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(26)}>
-            <div>5 yıllık oturum izniyle başka bir AB ülkesinde çalışabilir miyim?</div>
+            <div>Geçici oturum izniyle başka bir AB ülkesinde çalışabilir miyim?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible26 ? 
@@ -161,20 +165,20 @@ function BottomSSS() {
           </div>
           {isVisible29 ? 
           <div className='questionAtbildi'>
-            Evet, müşterilerimize davetiye gönderiyor, başvuru formunu doldurmasına, 
-            evraklarını hazırlamasına ve randevu almasına yardımcı oluyoruz.</div>
+            Evet, başvuru formunun doldurulmasına, 
+            evrakların hazırlamasına ve randevu alınmasına yardımcı oluyoruz.</div>
           : <></> }
         </div>
         
       
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(30)}>
-            <div>5 yıllık oturum kartını aldıktan hemen sonra yatırımımı satabilir miyim?</div>
+            <div>Geçici oturum kartını aldıktan hemen sonra yatırımımı satabilir miyim?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible30 ? 
           <div className='questionAtbildi'>
-            5 yıllık oturum aldıktan sonra yatırımınızı satmanız halinde oturumunuz iptal edilir.</div>
+            Oturum aldıktan sonra yatırımınızı satmanız halinde oturumunuz iptal edilir.</div>
           : <></> }
         </div>   
       

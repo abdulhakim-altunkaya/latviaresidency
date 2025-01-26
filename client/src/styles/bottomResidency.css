@@ -1,95 +1,207 @@
-.bottomResidencyMain {
-    width: 100%;
-    margin: 15px;
-}
-.bottomResidencyHeader {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-family: "Monda";
+/* Media query for small screens */
+@media (min-width: 781px) {
+
+    .bottomResidencyMain {
+        width: 100%;
+        margin: 15px;
+    }
+    .bottomResidencyHeader {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+    }
+    
+    .infoResidencyCardsMain {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Horizontally center children */
+        justify-content: center; /* Vertically center children */
+    }
+    .infoResidencyCardsRows {
+        display: flex;
+        flex-direction: row;
+    }
+    .infoResidencyCards1, .infoResidencyCards2, .infoResidencyCards3, .infoResidencyCards4 {
+        background-color: aqua;
+        height: 200px;
+        width: 400px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    
+        position: relative;
+        border: 1px solid transparent; /* Transparent border for the gradient */
+        border-radius: 10px; /* Adjust based on design */
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-sizing: border-box; /* Ensures proper sizing */
+        padding: 1px; /* Inner padding inside the gradient border */
+    }
+    .infoResidencyCards1  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #3da077, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards2  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #f1e547, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards3  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #f45084, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards4  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #3c54da, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencySvg {
+        width: 40px;
+    }
+    
+    .infoCardUpper {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 5px 0 5px;
+        align-items: center;
+    }
+    .infoCardLower {
+        font-size: 14px;
+        padding: 0 5px 10px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoCardLower span {
+        margin-top: 10px;
+    }
+    .infoCardTitle {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 13px;
+    }
+    .redCube {
+        background-color: #ff0b0b !important;
+    }
+    .greenCube {
+        background-color: #0cb444 !important;
+    }
+    
+    .bottomResUpperText {
+        width: 90%;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
 }
 
-.infoResidencyCardsMain {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Horizontally center children */
-    justify-content: center; /* Vertically center children */
-}
-.infoResidencyCardsRows {
-    display: flex;
-    flex-direction: row;
-}
-.infoResidencyCards1, .infoResidencyCards2, .infoResidencyCards3, .infoResidencyCards4 {
-    background-color: aqua;
-    height: 200px;
-    width: 400px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
 
-    position: relative;
-    border: 1px solid transparent; /* Transparent border for the gradient */
-    border-radius: 10px; /* Adjust based on design */
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-sizing: border-box; /* Ensures proper sizing */
-    padding: 1px; /* Inner padding inside the gradient border */
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .bottomResidencyMain {
+        width: 100%;
+        margin-left: 15px;
+    }
+    .bottomResidencyHeader {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+    }
+    
+    .infoResidencyCardsMain {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Horizontally center children */
+        justify-content: center; /* Vertically center children */
+    }
+    .infoResidencyCardsRows {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoResidencyCards1, .infoResidencyCards2, .infoResidencyCards3, .infoResidencyCards4 {
+        background-color: aqua;
+        height: 200px;
+        width: 90%;
+        display: flex;
+        margin-left: 6px;
+        flex-direction: column;
+        text-align: justify;
+        position: relative;
+        border: 1px solid transparent; /* Transparent border for the gradient */
+        border-radius: 10px; /* Adjust based on design */
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-sizing: border-box; /* Ensures proper sizing */
+        padding: 1px; /* Inner padding inside the gradient border */
+    }
+    .infoResidencyCards1  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #3da077, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards2  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #f1e547, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards3  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #f45084, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencyCards4  {
+        background-image: linear-gradient(white, white), /* Inner background */
+                          linear-gradient(45deg, #ebf1f1, #3c54da, #ebf1f1); /* Gradient border */
+    }
+    .infoResidencySvg {
+        width: 40px;
+    }
+    
+    .infoCardUpper {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 5px 0 5px;
+        align-items: center;
+    }
+    .infoCardLower {
+        font-size: 14px;
+        padding: 0 5px 10px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoCardLower span {
+        margin-top: 10px;
+    }
+    .infoCardTitle {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 13px;
+    }
+    .redCube {
+        background-color: #ff0b0b !important;
+    }
+    .greenCube {
+        background-color: #0cb444 !important;
+    }
+    
+    .bottomResUpperText {
+        width: 92%;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .bottomCompanyText2 {
+        width: 92% !important;
+    }
+    .companyTypesTable2 {
+        width: 96% !important;
+    }
+    .bottomCompanyLinks2 {
+        width: 96% !important;
+    }
 }
-.infoResidencyCards1  {
-    background-image: linear-gradient(white, white), /* Inner background */
-                      linear-gradient(45deg, #ebf1f1, #3da077, #ebf1f1); /* Gradient border */
-}
-.infoResidencyCards2  {
-    background-image: linear-gradient(white, white), /* Inner background */
-                      linear-gradient(45deg, #ebf1f1, #f1e547, #ebf1f1); /* Gradient border */
-}
-.infoResidencyCards3  {
-    background-image: linear-gradient(white, white), /* Inner background */
-                      linear-gradient(45deg, #ebf1f1, #f45084, #ebf1f1); /* Gradient border */
-}
-.infoResidencyCards4  {
-    background-image: linear-gradient(white, white), /* Inner background */
-                      linear-gradient(45deg, #ebf1f1, #3c54da, #ebf1f1); /* Gradient border */
-}
-.infoResidencySvg {
-    width: 40px;
-}
-
-.infoCardUpper {
-    display: flex;
-    flex-direction: row;
-    padding: 5px 5px 0 5px;
-    align-items: center;
-}
-.infoCardLower {
-    font-size: 14px;
-    padding: 0 5px 10px 5px;
-    display: flex;
-    flex-direction: column;
-}
-.infoCardLower span {
-    margin-top: 10px;
-}
-.infoCardTitle {
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 13px;
-}
-.redCube {
-    background-color: #ff0b0b !important;
-}
-.greenCube {
-    background-color: #0cb444 !important;
-}
-
-.bottomResUpperText {
-    width: 90%;
-    text-align: justify; /* Justifies the text */
-    word-wrap: break-word; /* Breaks long words to fit within the width */
-    hyphens: auto; /* Allows hyphenation where supported */
-}
-

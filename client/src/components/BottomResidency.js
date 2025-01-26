@@ -6,6 +6,7 @@ import Footer from './Footer';
 
 function BottomResidency() {
   return (
+    <div>
     <div className='bottomResidencyMain'>
         <div className='bottomResidencyHeader'>
           <h1>YATIRIM YOLUYLA OTURMA İZNİ</h1>
@@ -13,7 +14,7 @@ function BottomResidency() {
         <div className='infoResidencyCardsMain'>
 
           <div className='infoResidencyCardsRows'>
-
+ 
             <div className='infoResidencyCards1'>
               <div className='infoCardUpper'>
                 <img src='/svg_family.svg' alt='family icon' className='infoResidencySvg'/>
@@ -35,7 +36,7 @@ function BottomResidency() {
               <div className='infoCardLower'>
                 <span>İlk 5 yıl geçici oturumlarla Letonya'da ikamet eden yatırımcılarımız, 5 yılın sonunda süresiz oturuma 
                   ve 10. yılın sonunda da Letonya vatandaşlığına başvurabilirler.</span>
-                <span>Süresiz oturum için 5 yıllık oturumun 4 yılını Letonya'da geçirmiş olmak, ulusal marş,
+                <span>Süresiz oturum için ilk 5 yılın 4 yılını Letonya'da geçirmiş olmak, ulusal marş,
                    genel tarih ve biraz Letonca bilmek gerekmektedir.</span>
               </div>
             </div>
@@ -50,7 +51,8 @@ function BottomResidency() {
                   <span className='infoCardTitle'>Letonya Vatandaşlığı</span>
                 </div>
                 <div className='infoCardLower'>
-                  <span>Vatandaşlık başvurusu için ilk olarak geçici oturum, sonra süresiz oturum almış olmak ve 10 yıllık sürenin 
+                  <span>Vatandaşlık başvurusu için ilk 5 yıl boyunca geçici oturum, sonra süresiz oturum 
+                    almış olmak ve 10 yıllık sürenin 
                     çoğunu Letonya'da geçirmiş olmak gerekmektedir. 
                   </span>
                   <span>Şartları sağlayan Türk vatandaşları, kendi vatandaşlığını kaybetmeden,
@@ -80,7 +82,7 @@ function BottomResidency() {
             <p className='bottomResUpperText'>2010 yılında başlayan Yatırım Yoluyla Oturum programı kapsamında bugüne kadar yaklaşık 20.000 başvuru yapılmıştır.
               Program kapsamında Letonya'ya yaklaşık 1.5 milyar Euroluk yatırım yapılmıştır.
               Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
-            <table className='companyTypesTable'>
+            <table className='companyTypesTable companyTypesTable2'>
               <tr>
                 <th></th>
                 <th>Gayrımenkul</th>
@@ -90,31 +92,31 @@ function BottomResidency() {
               </tr>
               <tr>
                 <td><strong>Minimum Yatırım</strong></td>
-                <td>250.000 Euro</td>
-                <td>50.000 Euro</td>
-                <td>250.000 Euro</td>
-                <td>280.000 Euro</td>
+                <td>250.000</td>
+                <td>50.000</td>
+                <td>250.000</td>
+                <td>280.000</td>
               </tr>
               <tr>
                 <td><strong>Devlet Harcı</strong></td>
                 <td>%5</td>
-                <td>10.000 Euro</td>
+                <td>10.000</td>
                 <td>38.000</td>
-                <td>25.000 Euro</td>
+                <td>25.000</td>
               </tr>
               <tr>
                 <td><strong>Yatırımın değer kazanması</strong></td>
-                <td>Mümkündür</td>
-                <td>Değildir</td>
-                <td>Mümkündür</td>
-                <td>Mümkündür</td>
+                <td>Mümkün</td>
+                <td>Değil</td>
+                <td>Mümkün</td>
+                <td>Mümkün</td>
               </tr>
               <tr>
                 <td><strong>Yatırımdan aylık/senelik kâr</strong></td>
-                <td>Mümkündür</td>
-                <td>Değildir</td>
-                <td>Değildir</td>
-                <td>Mümkündür</td>
+                <td>Mümkün</td>
+                <td>Değil</td>
+                <td>Değil</td>
+                <td>Mümkün</td>
               </tr>
               <tr>
                 <td><strong>Risk Seviyesi</strong></td>
@@ -125,8 +127,7 @@ function BottomResidency() {
               </tr>
             </table>
           </div>
-
-          <div className='bottomCompanyText'>
+          <div className='bottomCompanyText bottomCompanyText2'>
             <h3>1. Gayrımenkul Yatırımı</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 12.500 
               + Danışmalığımız 5.000 = Toplam 267.000</p>
@@ -245,9 +246,8 @@ function BottomResidency() {
               durumlarında da gerekli yardım ve yönlendirmeyi sağlıyoruz.</p>
           </div>
 
-          <div className='bottomCompanyLinks'>
+          <div className='bottomCompanyLinks bottomCompanyLinks2'>
               <br/>
-
               Daha detaylı bilgi için:
                 <li>
                   <a href='https://www.pmlp.gov.lv/en/real-estate-owner-01072016'>
@@ -298,6 +298,7 @@ function BottomResidency() {
             </div>
           
             <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+            </div>
             <div className='footerArea'> <Footer /> </div>
     </div>
   )

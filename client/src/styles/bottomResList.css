@@ -53,3 +53,11 @@
     counter-increment: li-counter;
     border-radius: 5px;
     }
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .list-type5{
+        width:320px;
+        margin-left: 5px;
+    }
+}

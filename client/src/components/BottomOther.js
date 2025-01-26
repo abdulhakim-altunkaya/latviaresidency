@@ -43,10 +43,11 @@ function BottomOther() {
 
       <div className='infoAreas2'>
         <div className='infoSheets2' id='companyBox2'>
-          <span className='infoSVG2'><img src='/svg_court.svg' alt='Judicial icon'/></span>
-          <span className='infoTitle2'>Avukatlık Hizmetleri</span>
-          <span className='infoText2'>Letonya'da kişisel veya kurumsal olarak ihtiyaç duyabileceğiniz avukatlık hizmetleri
-            konusunda sizleri alanında tecrübeli uzman avukatlarla tanıştırmakta, adli süreçleriniz takibini yapabilmekteyiz.
+          <span className='infoSVG2'><img src='/svg_accounting.svg' alt='Accounting icon'/></span>
+          <span className='infoTitle2'>Şirket İşlemleri</span>
+          <span className='infoText2'>Şirketinizin ihtiyaç duyacağı banka hesabı açma, muhasebe hizmetleri, insan kaynakları, 
+            ihalelere katılım, ticari alan kiralama, reklam, pazar araştırması ve diğer teknik konularda 
+            detaylı hizmetler sunmaktayız.
           </span>
         </div>
         <div className='infoSheets2' id='companyBox'>
@@ -59,9 +60,9 @@ function BottomOther() {
         </div>
         <div className='infoSheets2' id='companyBox2'>
           <span className='infoSVG2'><img src='/svg_customs1.svg' alt='Customs, tax, accounting icon'/></span>
-          <span className='infoTitle2'>Gümrük, Vergi, Muhasebe</span>
-          <span className='infoText2'>Letonya gümrüklerinden mal çekme, gerekli vergileri ödeme, şirketinizin muhasebe
-            işlemlerinin takibi ve vergi işlemleri konularında uzmanlarımızla kurumsal hizmetler sunmaktayız.
+          <span className='infoTitle2'>Gümrük, Vergi</span>
+          <span className='infoText2'>Letonya gümrüklerinden mal çekme ve vergi işlemleri konularında uzmanlarımızla 
+            kurumsal hizmetler sunmaktayız.
           </span>
         </div>
       </div>

@@ -17,34 +17,34 @@
 
 /* Media query for big screens */
 @media (min-width: 781px) {
-html {
-  font-size: 14px;
-  font-family: "Maven Pro", sans-serif;
-  height: 100%; /* Ensure html fills the viewport */
-}
+  html {
+    font-size: 14px;
+    font-family: "Maven Pro", sans-serif;
+    height: 100%; /* Ensure html fills the viewport */
+  }
 
-body {
-  margin: 0;
-  height: 100%; /* Ensure body fills the viewport */
-  background-color: white;
-  background-image: url("../public/photo_black_heads.jpg");
-  background-size: cover; /* Ensures the image covers the viewport */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat;/* Prevent tiling */
-  overflow: hidden; /* Prevent scrolling */
-}
+  body {
+    margin: 0;
+    height: 100%; /* Ensure body fills the viewport */
+    background-color: white;
+    background-image: url("../public/photo_black_heads.jpg");
+    background-size: cover; /* Ensures the image covers the viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;/* Prevent tiling */
+    overflow: hidden; /* Prevent scrolling */
+  }
 
-.App {
-  width: 60%;
-  margin: auto;
-  height: 100vh; /* Allow `.App` to take full height of the body */
-  max-height: 100%; /* Restrict `.App` height to viewport */
-  background-color: white; /* Ensure visibility of content */
-  box-shadow: -10px 0 15px -5px rgba(127, 1, 1, 0.3), 10px 0 15px -5px rgba(0, 0, 0, 0.3); /* Left and right shadow */
-  overflow-y: scroll; /* Enable scrolling without showing scrollbar */
-  scrollbar-width:thin;
-  overflow-x: hidden;
-}
+  .App {
+    width: 60%;
+    margin: auto;
+    height: 100vh; /* Allow `.App` to take full height of the body */
+    max-height: 100%; /* Restrict `.App` height to viewport */
+    background-color: white; /* Ensure visibility of content */
+    box-shadow: -10px 0 15px -5px rgba(127, 1, 1, 0.3), 10px 0 15px -5px rgba(0, 0, 0, 0.3); /* Left and right shadow */
+    overflow-y: scroll; /* Enable scrolling without showing scrollbar */
+    scrollbar-width:thin;
+    overflow-x: hidden;
+  }
 }
 /* Media query for small screens */
 @media (max-width: 780px) {
