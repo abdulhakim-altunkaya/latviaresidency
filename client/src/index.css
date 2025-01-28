@@ -35,7 +35,7 @@
   }
 
   .App {
-    width: 60%;
+    width: 66%;
     margin: auto;
     height: 100vh; /* Allow `.App` to take full height of the body */
     max-height: 100%; /* Restrict `.App` height to viewport */

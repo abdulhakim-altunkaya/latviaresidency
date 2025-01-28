@@ -130,7 +130,7 @@ function BottomResidency() {
           <div className='bottomCompanyText bottomCompanyText2'>
             <h3>1. Gayrımenkul Yatırımı</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 12.500 
-              + Danışmalığımız 5.000 = Toplam 267.000</p>
+              + Danışmalığımız 6.000 = Toplam 268.000</p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya emlak fiyatları diğer AB
               ülkelerine kıyasla oldukça uygun olup, 2025 yılı itibariyle ülkemizden bile ucuzdur. En çok tavsiye ettiğimiz 
               yatırım türüdür.
@@ -152,7 +152,7 @@ function BottomResidency() {
               </p>
             <h3>2. Şirket Yatırımı</h3>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
-              + Danışmalığımız 5.000 = Toplam 65.000</p>
+              + Danışmalığımız 6.000 = Toplam 66.000</p>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
               yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
               <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
@@ -168,7 +168,7 @@ function BottomResidency() {
               <p>Bir şirkete oturum izni amacıyla en fazla 10 yabancı başvurabilir.</p>
             <h3>3. Faizsiz Devlet Tahvili</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
-              + Danışmalığımız 5.000 = Toplam 293.000</p>
+              + Danışmalığımız 6.000 = Toplam 294.000</p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerine yapacağınız
               yatırım sayesinde oturum alabilirsiniz. Gayrımenkul ve Şirket yatırımlarına göre daha kolay, banka mevduatı yatırımına 
               göre daha garanti bir opsiyon olarak görülebilir. 
@@ -185,7 +185,7 @@ function BottomResidency() {
               </p>   
             <h3>4. Banka Mevduatı</h3>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
-              + Danışmalığımız 5.000 = Toplam 310.000</p>
+              + Danışmalığımız 6.000 = Toplam 311.000</p>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
               yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. Yani 280.000 Euroluk yatırımınızı
               5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
@@ -217,8 +217,8 @@ function BottomResidency() {
                   belgeleri vb gibi. Yada Türkiye'deki evinizi satıp, satış meblağını gösterebilirsiniz.
                 </li>
                 <li>Letonya'da hayat masraflarını karşılayacak kadar bankada paranız olduğunu gösterir belge. Gayrımenkul için
-                  başvuru sahibi 1500, eşi 500, her bir çocuk 150 Euro. Diğer yatırımlar için başvuru sahibi 500, eşi 500, her
-                  bir çocuk 150 Euro. Aylık olan bu meblağlar yıllık bazda çarpılarak toplam meblağ bulunur.
+                  başvuru sahibi 2220, eşi 740, her bir çocuk 222 Euro. Diğer yatırımlar için başvuru sahibi 740, eşi 740, her
+                  bir çocuk 222 Euro. Aylık olan bu meblağlar yıllık bazda çarpılarak toplam meblağ bulunur.
                 </li>
                 <li>Başvuruya eş ve çocuklar da dahilse, evlilik belgeleri ve doğum belgeleri gerekecektir. 
                 </li>
@@ -231,7 +231,7 @@ function BottomResidency() {
 
             <h2>Süreç</h2>
             <p><strong>Birinci Ay</strong>: Müşterimizle iletişim, yatırım aracının seçilmesi, Müşterimizin danışmanlık 
-            ücretini ödemesi, müşterimiz için vize davetiyesi iletilmesi, vize başvuru ve oturum kartı başvuruları 
+            ücretini ödemesi, vize başvuru ve oturum kartı başvuruları 
             için evrak hazırlığı</p>
             <p><strong>İkinci Ay</strong>: Müşterimizin Letonya'ya gelmesi, yatırım türüne göre ziyaretlerin ve 
               görüşmelerin yapılması. Başvuru ile ilgili prosedürlerin ve belgelerin imzalanması, yatırım tutarının 

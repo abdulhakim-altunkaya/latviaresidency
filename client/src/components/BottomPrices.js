@@ -221,7 +221,7 @@ function BottomPrices() {
 
             <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde yazılı tercüme sayfa başı: </span> 
+              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce yazılı tercüme sayfa başı (400 kelime): </span> 
               <span className='spanPrices'> 70 Euro</span></div>
               </div>
               {isVisible9 ? 
@@ -240,7 +240,7 @@ function BottomPrices() {
 
             <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme (saatlik): </span> 
+              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce sözlü tercüme (saatlik): </span> 
               <span className='spanPrices'> 120 Euro</span></div>
               </div>
               {isVisible10 ? 
@@ -255,7 +255,7 @@ function BottomPrices() {
 
             <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(11)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce dillerinde sözlü tercüme günlük (12 saat, molalı): </span> 
+              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce sözlü tercüme günlük (12 saat, molalı): </span> 
               <span className='spanPrices'> 680 Euro</span></div>
               </div>
               {isVisible11 ? 

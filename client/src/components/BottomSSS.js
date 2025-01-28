@@ -112,13 +112,13 @@ function BottomSSS() {
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(25)}>
-            <div>Başvurum reddedilirse veya başvurudan vazgeçersem danışmanlık ücretim iade edilir mi?</div>
+            <div>Oturum kartı başvurum reddedilirse veya başvurudan vazgeçersem danışmanlık ücretim iade edilir mi?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible25 ? 
           <div className='questionAtbildi'>
-              Başvurunuzun reddedilmesi veya başvurudan vazgeçmeniz halinde firmamıza ödediğiniz ücretin yarısı
-              30 gün içerisinde iade edilir.</div>
+              Oturum kartı başvurunuzun reddedilmesi veya başvurudan vazgeçmeniz halinde firmamıza ödediğiniz ücretin yarısı
+              30 gün içerisinde iade edilir. Vize başvurunuzun reddedilmesi halinde ise danışmanlık ücretinin 2/3 iade edilir.</div>
           : <></> }
         </div>
 

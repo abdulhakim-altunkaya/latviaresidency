@@ -16,7 +16,7 @@ function BottomContact() {
           <p>Riga Danışmanlık Letonya'da yatırım yoluyla oturum alma ve kurumsal hizmetler alanında faaliyet
             gösteren bir danışmanlık firmasıdır. </p>
           <p>Firmamız, alanında tecrübeli uzmanlarımız, tercümanlarımız, takipçilerimiz, avukatlarımız ve muhasebecilerimiz 
-            tarafından 2025 yılında kurulmuştur. </p>
+            tarafından 2008 yılında kurulmuştur. </p>
           <p>Amacımız müşterilerimize en güzel hizmeti sunmak, yapacakları yatırımın değerini korumasını sağlamak, bunu yaparken
             de Letonya oturum kartı imkanı sunmaktır.</p>
           <p>Bu çerçevede, müşterilerimizi en iyi şekilde ağırlamaya, kapsamlı bilgi sunmaya, başta fiyatlarımız olmak üzere
