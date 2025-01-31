@@ -102,7 +102,7 @@ function BottomSSS() {
             iznini alabilirsiniz. Bunun için yatırımınızı olduğu gibi muhafaza etmiş olmanız gerekmektedir. 
             Beş yıl sonra yapacağınız geçici oturum kartı için 5000 Euro başvuru harcı ödenir. Bu oturum kartı 
             için başvurunuzu son oturum kartınızın süresi bitmeden veya süresi bittikten sonraki
-            40 gün içerisinde yapmanız gerekmektedir. Eğer su süreyi kaçırırsanız, o zaman sil baştan 
+            40 gün içerisinde yapmanız gerekmektedir. Eğer bu süreyi kaçırırsanız, o zaman sil baştan 
             yeni başvuru yapar gibi başvuru yapmanız gerekir, ki bu durumda bütün harçları tekrar ödemek 
             durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her zaman geçici
             oturum kartı alabilirsiniz. Geçici oturum kartları 

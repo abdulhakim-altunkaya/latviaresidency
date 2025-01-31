@@ -28,8 +28,8 @@ function BottomOther() {
           <span className='infoSVG2'><img src='/svg_tourist.svg' alt='Tourist icon'/></span>
           <span className='infoTitle2'>Kafile Rehberliği</span>
           <span className='infoText2'>İşadamı ve bürokrat heyetlerimiz, turistik kafileler ve vatandaşlarımıza Letonya'ya 
-            yapacakları seyahat boyunca tecrübeli ve dil bilen rehberlerimiz hizmet etmektedir. Rehberlerimiz Rusya,
-            Belarus, Estonya, Litvanya, Baltıklar ve İskandinav ülkelerinde görev alabilmektedir.  
+            yapacakları seyahat boyunca tecrübeli ve dil bilen rehberlerimiz hizmet etmektedir. Rehberlerimiz 
+            Letonya, Estonya, Litvanya, Baltıklar ve İskandinav ülkelerinde görev alabilmektedir.  
           </span>
         </div>
         <div className='infoSheets2' id='companyBox3' onClick={ () => navigate("/sirket-firma-kurulus")}>
