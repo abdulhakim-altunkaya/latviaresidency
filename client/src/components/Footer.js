@@ -7,6 +7,9 @@ const Footer = () => {
   return (
     <footer className="footer" role="contentinfo" aria-label="Footer">
       <div className="footer-content">
+        <p>E-mail: <a href="mailto:letonyaoturum@gmail.com" 
+          aria-label="Email contact to letonyaoturum@gmail.com">letonyaoturum@gmail.com</a></p>
+        <p>Telefon/Whatsapp: +371 20669310</p>
         <div className="footer-header">
           <p>Simgeler:&nbsp;
             <a href="https://icons8.com/icons" target="_blank" rel="noopener noreferrer" 
@@ -27,8 +30,6 @@ const Footer = () => {
                 Letonya Merkez İstatistik Bürosu - Centrālā Statistikas Pārvalde </a>
           </p>
         </div>
-        <p>Contact: <a href="mailto:xxxxxxx@gmail.com" aria-label="Email contact to XXXXXX">xxxxxxx@gmail.com</a></p>
-
       </div>
     </footer>
   );

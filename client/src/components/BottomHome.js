@@ -19,7 +19,7 @@ function BottomHome() {
         </div>
         <div className='infoSheets'>
           <span className='infoSVG'><img src='/svg_travel.svg' alt='Travel icon'/></span>
-          <span className='infoTitle'>Schengen Oturumu</span>
+          <span className='infoTitle'>Schengen</span>
           <span className='infoText'>Schengen üyesi Letonya'dan alacağınız oturum kartıyla bütün AB üyesi ülkelere,
             Norveç, İsviçre ve İzlanda'ya istediğiniz gibi seyahat edebilirsiniz.
           </span>

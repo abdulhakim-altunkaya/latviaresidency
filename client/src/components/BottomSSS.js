@@ -85,8 +85,7 @@ function BottomSSS() {
           {isVisible23 ? 
           <div className='questionAtbildi'>
               Evet, A2 seviyesinde Letonca bilmeniz, 5 yıl boyunca aldığınız oturum süresinin 4 yılını 
-              Letonya'da geçirmiş olmanız,
-              Letonya milli marşı ve Letonya genel tarihini biraz bilmeniz halinde süresiz 
+              Letonya'da geçirmiş olmanız halinde süresiz 
               oturum alabilirsiniz. Yoksa, tekrardan geçici oturum alırsınız.  </div>
           : <></> }
         </div>

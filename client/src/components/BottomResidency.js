@@ -100,7 +100,7 @@ function BottomResidency() {
               <tr>
                 <td><strong>Devlet Harcı</strong></td>
                 <td>%5</td>
-                <td>10.000</td>
+                <td>%1,5 + 12.500</td>
                 <td>38.000</td>
                 <td>25.000</td>
               </tr>
@@ -129,8 +129,8 @@ function BottomResidency() {
           </div>
           <div className='bottomCompanyText bottomCompanyText2'>
             <h3>1. Gayrımenkul Yatırımı</h3>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 12.500 
-              + Danışmalığımız 6.000 = Toplam 268.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 
+              + %1,5 tapu harcı + Harç 12.500 + Danışmanlık 6.000 = Toplam 271.750 Euro</p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya emlak fiyatları diğer AB
               ülkelerine kıyasla oldukça uygun olup, 2025 yılı itibariyle ülkemizden bile ucuzdur. En çok tavsiye ettiğimiz 
               yatırım türüdür.
@@ -142,9 +142,9 @@ function BottomResidency() {
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
               vergi ödeyen bir şirketten, Leton vatandaşlarından veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
               emlak alabilirsiniz. Emlak bedelinin banka transferi
-              ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı değerinin
-              de en az 80.000 Euro olması gerekmektedir. Tarım ve orman arazileri program kapsamı dışındadır. Üzerine ev ve apartman 
-              inşa edilebilecek arsalar program dahilindedir. 
+              ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı 
+              kadastro değerinin de en az 80.000 Euro olması gerekmektedir. Tarım ve orman arazileri program kapsamı
+               dışındadır. Üzerine ev ve apartman inşa edilebilecek arsalar program dahilindedir. 
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Gayrımenkul yatırımı en çok tavsiye ettiğimiz
               yatırım türü olup, alacağınız emlakın her sene değer kazanması ve üstüne kira geliri elde etmeniz mümkündür. 

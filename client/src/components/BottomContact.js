@@ -25,12 +25,12 @@ function BottomContact() {
             yatırımlarına ilişkin bilgileri en iyi şekilde koruyoruz. </p>
         </div>
       </div>
-      
+       
       <div>
         <div className='contactTitleArea'>
           <span className='bottomContactSVG2'> <img src='/svg_whatsapp.svg' alt='Whatsapp Icon'/></span>
           <span className='titleSpan4'>Whatsapp: </span>
-          <span className='titleSpan3'>+371 22288999</span>
+          <span className='titleSpan3'>+371 20669310</span>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ function BottomContact() {
         <div className='contactTitleArea'>
           <span className='bottomContactSVG2'> <img src='/svg_mail.svg' alt='Email Icon'/></span>
           <span className='titleSpan4'>E-mail: </span>
-          <span className='titleSpan3'>info@letonyaoturum.com</span>
+          <span className='titleSpan3'>letonyaoturum@gmail.com</span>
         </div>
       </div>
 

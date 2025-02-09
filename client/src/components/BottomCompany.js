@@ -130,15 +130,16 @@ function BottomCompany() {
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
                 <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na başvuru
                   dosyası sunulur (3 gün). </span>
-                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Sicil Kurumu şirketin kurulmasına onay verdikten sonra KDV 
-                  numarası çıkarılır </span>
               </div>
               <div className='processTableRows'>
                 <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip e-imza başvurusu yapabilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
                 <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip geçici hesabı normal banka hesabına 
                   dönüştürebilir.</span>
+                <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
+                <span className='processTableBox'>Opsiyonel: Şirkete KDV numarası çıkarılması için başvuru yapılabilir.
+                  Bunun için ayrıca ücret ödenir.
+                </span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
                 <span className='processTableBox'>Müşterimize kaşeleri ve şirket belgeleri teslim edilir.</span>
               </div>
