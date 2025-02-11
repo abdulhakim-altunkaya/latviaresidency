@@ -63,12 +63,12 @@ app.post("/serversavevisitor", async (req, res) => {
   const ipVisitor = req.headers['x-forwarded-for'] ? req.headers['x-forwarded-for'].split(',')[0] : req.socket.remoteAddress || req.ip;
   let client;
   // Check if the IP is in the ignored list
-  if (ignoredIPs.includes(ipVisitor)) {
+  if (ignoredIPs.includes(ipVisitor)) { 
     return; // Simply exit the function, doing nothing for this IP
   }
   // Check if IP exists in cache and if last visit was less than 1 hour ago 
   if (ipCache[ipVisitor] && Date.now() - ipCache[ipVisitor] < 1000) {
-    return res.status(429).json({message: 'Too many requests from this IP.'});
+    return res.status(429).json({myMessage: 'Too many requests from this IP.'});
   }
 
   ipCache[ipVisitor] = Date.now();//save visitor ip to ipCache
@@ -120,10 +120,10 @@ app.post("/serversavecomment", async (req, res) => {
     const result = await client.query(
       `INSERT INTO latviaresidency_comments (date, name, comment) values ($1, $2, $3)`, [date, name, text]
     );
-    res.status(201).json({message: "Comment saved"});
+    res.status(201).json({message: "Yorumunuz kaydedildi"});
   } catch (error) {
     console.log(error.message);
-    res.status(500).json({message: "Error while saving comment"})
+    res.status(500).json({message: "Yorumunuz kaydederken hata oluştu."})
   } finally {
     if(client) client.release();
   }
@@ -148,10 +148,10 @@ app.post("/serversavecommentreply", async (req, res) => {
       `INSERT INTO latviaresidency_comments (date, name, comment, parent_id) values ($1, $2, $3, $4)`, 
       [date, name, text, commentId]
     );
-    res.status(201).json({message: "Reply saved"});
+    res.status(201).json({message: "Cevabınız kaydedildi."});
   } catch (error) {
     console.log(error.message);
-    res.status(500).json({message: "Error while saving reply"})
+    res.status(500).json({message: "Cevabınız kaydedilirken hata oluştu."})
   } finally {
     if(client) client.release();
   }

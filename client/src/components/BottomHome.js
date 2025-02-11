@@ -1,8 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import axios from "axios";
 import CommentDisplay from './CommentDisplay'; 
 import Footer from './Footer'; 
 
-function BottomHome() {
+function BottomHome() { 
+
+  useEffect(() => {
+    const getData = () => {
+      // Fire-and-forget request to log visitor data
+      axios.post("/serversavevisitor", {})
+        .then((response) => {
+          console.log('Visitor logged successfully:', response.data.myMessage);
+        })
+        .catch((error) => {
+          console.error('Error logging visit:', error.response?.data?.myMessage || error.message);
+        });
+    };
+  
+    getData(); // Call the function
+  }, []);
+
   return (
     <div className='bottomHomeArea'>
       <div className='infoHeaderArea'>
