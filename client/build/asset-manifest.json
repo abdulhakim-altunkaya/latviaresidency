@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a9a8f10.css",
+    "main.js": "/static/js/main.b612591e.js",
+    "static/media/photo_black_heads.jpg": "/static/media/photo_black_heads.8ba4106af8c88180784d.jpg",
+    "index.html": "/index.html",
+    "main.8a9a8f10.css.map": "/static/css/main.8a9a8f10.css.map",
+    "main.b612591e.js.map": "/static/js/main.b612591e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a9a8f10.css",
+    "static/js/main.b612591e.js"
+  ]
+}

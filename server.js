@@ -11,16 +11,12 @@ app.use(express.json());//we need this as we send data from frontend to backend 
 
 //Make sure static files are served from build directory
 //this line can be commented out during development.
-//app.use(express.static(path.join(__dirname, "client/build")));
+app.use(express.static(path.join(__dirname, "client/build")));
 
 //server test route
 app.get("/serversendhello", (req, res) => {
   res.status(200).json({myMessage: "Hello from backend"});
 })
-
-
-/* //Then go to server.js file and make sure you serve static files from build directory:
-app.use(express.static(path.join(__dirname, 'client/build'))); */
 
 app.post("/api/save-message", async (req, res) => {
   const messageObject = req.body;
@@ -49,7 +45,7 @@ app.post("/api/save-message", async (req, res) => {
 //We will save each visitor data to database. 
 const ipCache = {}
 // List of IPs to ignore (server centers, ad bots, my ip etc) 
-const ignoredIPs = ["66.249.68.5", "66.249.68.4", "66.249.88.2", "66.249.89.2", "66.249.65.32", "66.249.88.3", 
+const ignoredIPs = ["::1", "66.249.68.5", "66.249.68.4", "66.249.88.2", "66.249.89.2", "66.249.65.32", "66.249.88.3", 
   "209.85.238.224", "80.89.77.205", "212.3.197.186", "80.89.74.90", "80.89.79.74", "80.89.77.116", "80.89.73.22", 
   "66.249.64.10", "66.249.64.6", "66.249.64.5", "66.249.66.169", "66.249.66.160", "212.3.194.116", "212.3.194.116", 
   "66.249.73.233", "66.249.73.234", "62.103.210.169", "66.249.66.161", "66.249.69.65", "66.249.68.33", "66.249.68.37",
@@ -67,7 +63,7 @@ app.post("/serversavevisitor", async (req, res) => {
     return; // Simply exit the function, doing nothing for this IP
   }
   // Check if IP exists in cache and if last visit was less than 1 hour ago 
-  if (ipCache[ipVisitor] && Date.now() - ipCache[ipVisitor] < 1000) {
+  if (ipCache[ipVisitor] && Date.now() - ipCache[ipVisitor] < 3600000 ) {
     return res.status(429).json({myMessage: 'Too many requests from this IP.'});
   }
 
@@ -105,7 +101,7 @@ app.post("/serversavecomment", async (req, res) => {
   const ipVisitor = req.headers['x-forwarded-for'] ? req.headers['x-forwarded-for'].split(',')[0] : req.socket.remoteAddress || req.ip;
   // Check if IP exists in cache and if last comment was less than 1 minute ago
   
-  if (ipCache2[ipVisitor] && Date.now() - ipCache2[ipVisitor] < 1000) {
+  if (ipCache2[ipVisitor] && Date.now() - ipCache2[ipVisitor] < 60000 ) {
     return res.status(429).json({message: 'Too many comments'});
   }
  
@@ -133,7 +129,7 @@ app.post("/serversavecommentreply", async (req, res) => {
   //preventing spam replies
   const ipVisitor = req.headers['x-forwarded-for'] ? req.headers['x-forwarded-for'].split(',')[0] : req.socket.remoteAddress || req.ip;
   // Check if IP exists in cache and if last reply was less than 1 minute ago
-  if (ipCache2[ipVisitor] && Date.now() - ipCache2[ipVisitor] < 1000) {
+  if (ipCache2[ipVisitor] && Date.now() - ipCache2[ipVisitor] < 60000) {
     return res.status(429).json({message: 'Too many comments'});
   }
   ipCache2[ipVisitor] = Date.now();//save visitor ip to ipCache2
@@ -182,35 +178,27 @@ app.get("/servergetcomments", async (req, res) => {
 //This code helps with managing routes that are not defined on react frontend. If you dont add, only index 
 //route will be visible.
 //this line can be commented out during development.
-/* app.get('*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-}); */
-
-/*
-UNCOMMENT THIS IN SERVER.JS: app.use(express.static(path.join(__dirname, 'client/build'))); 
-*/
-
+});
 
 const PORT = process.env.PORT ||5000;
 app.listen(PORT, () => {
   console.log("Port is open on " + PORT);
 })
 
-//remove "build" from gitignore before production deployment
 //create "build" folder-- npm run build in client folder
-//You can remove cors before production
-//Fix server api routes before production, remove "localhost" part
 //add environment variables
-/*Also add this otherwise only index route will be visible when you deploy app to production
-add "::1", to the ignored ip list
 
-change 1000 to 3600000 in the time limit of serversavevisitor endpoint
-change 1000 to 60000 in the serversavecomment endpoint
-change 1000 to 60000 in the serversavecommentreply endpoint
-change all xxxxx things in the footer component 
-create a component for company set up
-Add limits for contact form inputs and textarea
+
+
+//Fix server api routes before production, remove "localhost" part
+//remove "build" from gitignore before production deployment
+/*
 add how to become a citizen section, reference immigrant invest
-add two more comment section to each part
 add car rental page with pictures
+*/
+//You can remove cors before production
+/*
+UNCOMMENT THIS IN SERVER.JS: app.use(express.static(path.join(__dirname, 'client/build'))); 
 */
