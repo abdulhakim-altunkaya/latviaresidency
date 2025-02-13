@@ -3,10 +3,25 @@ import "../styles/bottomResidency.css"
 import "../styles/bottomCompany.css";
 import "../styles/bottomResList.css";
 import Footer from './Footer';
+import { Helmet } from "react-helmet";
 
 function BottomResidency() {
-  return (
-    <div>
+return (
+  <div>
+    {/* Helmet for SEO */}
+    <Helmet>
+      <title>SIK SORULAN SORULAR | Letonya Oturum</title>
+      <meta
+        name="description"
+        content="Letonya'da yatırım yoluyla oturum türleri, vatandaşlık ve yatırım konularında en çok 
+        merak edilen soruların yanıtlarını burada bulabilirsiniz."
+      />
+      <meta
+        name="keywords"
+        content="Letonya, oturum izni, vatandaşlık, yatırım, gayrımenkul yatırımı, banka mevduatı, faizsiz devlet tahvilleri,
+          karşılaştırmalı tablo, yatırım yoluyla oturum, süreç, gerekli evrak listesi, lazım belgeler"
+      />
+    </Helmet>
     <div className='bottomResidencyMain'>
         <div className='bottomResidencyHeader'>
           <h1>YATIRIM YOLUYLA OTURMA İZNİ</h1>

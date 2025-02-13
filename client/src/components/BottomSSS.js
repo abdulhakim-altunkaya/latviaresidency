@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "../styles/bottomSSS.css";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import { Helmet } from "react-helmet";
 
 function BottomSSS() {
 
@@ -45,6 +46,20 @@ function BottomSSS() {
 
   return (
     <div>
+
+      {/* Helmet for SEO */}
+      <Helmet>
+        <title>SIK SORULAN SORULAR | Letonya Oturum</title>
+        <meta
+          name="description"
+          content="Letonya'da oturum, vatandaşlık ve yatırım konularında en çok merak edilen soruların 
+          yanıtlarını burada bulabilirsiniz. Oturum, şirket kurma, yatırım, vatandaşlık hakkında nasıl alınır"
+        />
+        <meta
+          name="keywords"
+          content="Letonya, oturum izni, vatandaşlık, yatırım, sık sorulan sorular"
+        />
+      </Helmet>
       
       <div className='questionsArea'>
         <h2>SIK SORULAN SORULAR</h2>

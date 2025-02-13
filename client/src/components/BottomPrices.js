@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "../styles/bottomPrices.css";
 import Footer from './Footer';
+import { Helmet } from "react-helmet";
 
 function BottomPrices() {
 
@@ -46,6 +47,20 @@ function BottomPrices() {
   return (
     <div>
     <div className='bottomPricesMainArea'>
+      <Helmet>
+        <title>SIK SORULAN SORULAR | Letonya Oturum Fiyat Listesi</title>
+        <meta
+          name="description"
+          content="Letonya'da yatırım yoluyla oturum başvurusu fiyat listesi, tercüme hizmetleri fiyat listesi, araç kiralama, 
+          mihmandarlık, kafile rehberliği, sözlü tercüme ve yazılı tercüme fiyat listelerine buradan ulaşabilirsiniz."
+        />
+        <meta
+          name="keywords"
+          content="Letonya, oturum izni, vatandaşlık, yatırım, gayrımenkul yatırımı, banka mevduatı, faizsiz devlet tahvilleri,
+            fiyat, ücret, danışmanlık ücreti, sözlü ve yazılı tercüme, araç kiralama fiyatları, detaylı fiyat listesi, fatura,
+            Letonya gayrımenkul yatırımı ücreti, başvuru ücreti"
+        />
+      </Helmet>
         <div className='bottomPricesHeader'>
           <h1>ÜCRETLERİMİZ</h1>
         </div>

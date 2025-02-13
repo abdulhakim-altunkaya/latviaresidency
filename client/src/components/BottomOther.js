@@ -2,6 +2,7 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 import Footer from './Footer'; 
 import "../styles/bottomOther.css"
+import { Helmet } from "react-helmet";
 
 function BottomOther() {
   
@@ -9,6 +10,46 @@ function BottomOther() {
 
   return (
     <div className='bottomOtherArea'>
+
+    <Helmet>
+      {/* Basic SEO Tags */}
+      <title>DİĞER HİZMETLERİMİZ | Letonya Oturum</title>
+      <meta
+        name="description"
+        content="Letonya'da tercüme, rehberlik, şirket kurulumu, araç kiralama, muhasebe ve vergi işlemleri dahil olmak üzere geniş kapsamlı profesyonel hizmetler sunuyoruz. Deneyimli ekibimiz Baltık ülkeleri genelinde iş, seyahat ve konaklama ihtiyaçlarınızı karşılamak için yanınızdadır."
+      />
+
+      {/* Expanded keywords */}
+      <meta
+        name="keywords"
+        content="Letonya, tercüme, rehberlik, şirket kurulumu, araç kiralama, muhasebe, vergi, gümrük, otel rezervasyon, transfer hizmetleri, Baltık ülkeleri, profesyonel danışmanlık"
+      />
+      <meta name="robots" content="index, follow" />
+
+      {/* Canonical Link (tweak URL to your actual page) */}
+      <link rel="canonical" href="https://www.letonyaoturum.com/diger-hizmetler" />
+
+      {/* Open Graph Tags */}
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="DİĞER HİZMETLERİMİZ | Letonya Oturum" />
+      <meta
+        property="og:description"
+        content="Letonya'da tercüme, rehberlik, şirket kurulumu, araç kiralama ve diğer hizmetlerimiz hakkında detaylı bilgi."
+      />
+      {/* This image should represent your page’s content or brand */}
+      <meta property="og:image" content="https://www.letonyaoturum.com/svg_certification.svg" />
+      <meta property="og:url" content="https://www.letonyaoturum.com/diger-hizmetler" />
+
+      {/* Twitter Card Tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="DİĞER HİZMETLERİMİZ | Letonya Oturum" />
+      <meta
+        name="twitter:description"
+        content="Letonya'da tercüme, rehberlik, şirket kurulumu, araç kiralama ve diğer hizmetlerimiz hakkında detaylı bilgi."
+      />
+      <meta name="twitter:image" content="https://www.letonyaoturum.com/svg_certification.svg" />
+    </Helmet>
+
 
       <div className='infoHeaderArea2'>
         <h1>DİĞER HİZMETLERİMİZ</h1>
