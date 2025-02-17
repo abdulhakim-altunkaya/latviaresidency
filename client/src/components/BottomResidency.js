@@ -114,8 +114,8 @@ return (
               </tr>
               <tr>
                 <td><strong>Devlet Harcı</strong></td>
-                <td>%5</td>
                 <td>%1,5 + 12.500</td>
+                <td>10.000</td>
                 <td>38.000</td>
                 <td>25.000</td>
               </tr>
