@@ -9,6 +9,7 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());//we need this as we send data from frontend to backend by using req.body
 
+// 1) Serve the static files from the React app
 //Make sure static files are served from build directory
 //this line can be commented out during development.
 app.use(express.static(path.join(__dirname, "client/build")));
@@ -174,6 +175,15 @@ app.get("/servergetcomments", async (req, res) => {
 });
 
 
+// 2) (Optional) Explicitly handle the sitemap route
+//Before adding this line, make sure you have put sitemap.xml in public folder.
+//When it is in public folder, express will serve it by default but 
+//just to be sure, you can add this line here.
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'build', 'sitemap.xml'));
+});
+
+// 3) Catch-all handler for other routes
 //This line must be under all server routes. Otherwise you will have like not being able to fetch comments etc.
 //This code helps with managing routes that are not defined on react frontend. If you dont add, only index 
 //route will be visible.
