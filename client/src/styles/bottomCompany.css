@@ -1,86 +1,182 @@
-.bottomCompanyMainArea {
-    width: 100%;
-    margin: 15px;
-}
-.bottomCompanyText {
-    width: 95%;
-    word-wrap: break-word; /* Ensures words break within the container */
-    word-break: break-word; /* Breaks long words */
-    overflow-wrap: break-word; /* Wraps text within the container */
-    white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
-    overflow-x: hidden; /* Hides any overflowing content horizontally */
-    text-align: justify;
-}
-.bottomCompanyHeader {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-family: "Monda";
-}
+/* Media query for big screens */
+@media (min-width: 781px) {
+    .bottomCompanyMainArea {
+        width: 100%;
+        margin: 15px;
+    }
+    .bottomCompanyText {
+        width: 95%;
+        word-wrap: break-word; /* Ensures words break within the container */
+        word-break: break-word; /* Breaks long words */
+        overflow-wrap: break-word; /* Wraps text within the container */
+        white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
+        overflow-x: hidden; /* Hides any overflowing content horizontally */
+        text-align: justify;
+    }
+    .bottomCompanyHeader {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+    }
 
-.processTable{
-    background-color: rgb(228, 241, 228);
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    padding: 10px;
-    justify-content: space-around;
-    border-radius: 10px;
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
-}
-.processTableRows {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-.processTableRowMiddle {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.processTableBox {
-    color: #ffffff;
-    background-color: #324960;
-    height: 80px;
-    width: 200px;
-    border-radius: 6px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-.processTableArrows {
-    width: 30px;
-}
+    .processTable{
+        background-color: rgb(228, 241, 228);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        justify-content: space-around;
+        border-radius: 10px;
+        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+    }
+    .processTableRows {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .processTableRowMiddle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .processTableBox {
+        color: #ffffff;
+        background-color: #324960;
+        height: 80px;
+        width: 200px;
+        border-radius: 6px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .processTableArrows {
+        width: 30px;
+    }
 
-.companyTypesTable tr td,
-.companyTypesTable tr th {
-    width: 160px; /* Maximum width for cells */
-    overflow: visible; /* Allows content to be fully visible */
-    white-space: normal; /* Allows text to wrap onto the next line */
-    word-wrap: break-word; /* Ensures words wrap properly if they are too long */
-    word-break: break-word; /* Breaks long words into the next line */
-    font-size: 14px;
-    padding: 5px;
-}
+    .companyTypesTable tr td,
+    .companyTypesTable tr th {
+        width: 160px; /* Maximum width for cells */
+        overflow: visible; /* Allows content to be fully visible */
+        white-space: normal; /* Allows text to wrap onto the next line */
+        word-wrap: break-word; /* Ensures words wrap properly if they are too long */
+        word-break: break-word; /* Breaks long words into the next line */
+        font-size: 14px;
+        padding: 5px;
+    }
 
-.companyTypesTable th {
-    background-color: rgba(0, 101, 153, 0.8);
-    text-align: center;
-}
-.companyTypesTable td {
-    background-color: rgba(162, 223, 254, 0.4);
-}
+    .companyTypesTable th {
+        background-color: rgba(0, 101, 153, 0.8);
+        text-align: center;
+    }
+    .companyTypesTable td {
+        background-color: rgba(162, 223, 254, 0.4);
+    }
 
-.bottomCompanyLinks a {
-    text-decoration: none;
-}
+    .bottomCompanyLinks a {
+        text-decoration: none;
+    } 
 
-.leavesCompany {
-    width: 18px;
+    .leavesCompany {
+        width: 18px;
+    }
+}
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .bottomCompanyMainArea {
+        width: 100%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .bottomCompanyText {
+        width: 95%;
+        word-wrap: break-word; /* Ensures words break within the container */
+        word-break: break-word; /* Breaks long words */
+        overflow-wrap: break-word; /* Wraps text within the container */
+        white-space: normal; /* Prevents long inline content from forcing a horizontal scroll */
+        overflow-x: hidden; /* Hides any overflowing content horizontally */
+        text-align: justify;
+    }
+    .bottomCompanyHeader {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+    }
+
+    .processTable{
+        background-color: rgb(228, 241, 228);
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        padding: 5px;
+        justify-content: space-around;
+        border-radius: 10px;
+        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+    }
+    .processTableRows {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 98%;
+    }
+    .processTableRowMiddle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .processTableBox {
+        color: #ffffff;
+        background-color: #324960;
+        height: 180px;
+        width: 120px;
+        border-radius: 6px;
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .processTableArrows {
+        width: 20px;
+    }
+    .companyTypesTable {
+        table-layout: fixed; 
+        width: 97%;  /* or some other fixed width */
+    }
+    .companyTypesTable tr td,
+    .companyTypesTable tr th {
+        width: 50px; /* Maximum width for cells */
+        overflow: visible; /* Allows content to be fully visible */
+        white-space: normal; /* Allows text to wrap onto the next line */
+        word-wrap: break-word; /* Ensures words wrap properly if they are too long */
+        word-break: break-word; /* Breaks long words into the next line */
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .companyTypesTable th {
+        background-color: rgba(0, 101, 153, 0.8);
+        text-align: center;
+    }
+    .companyTypesTable td {
+        background-color: rgba(162, 223, 254, 0.4);
+    }
+
+    .bottomCompanyLinks a {
+        text-decoration: none;
+    } 
+
+    .leavesCompany {
+        width: 16px;
+    }
+
 }

@@ -6,7 +6,7 @@
       padding: 20px;
       border: 1px solid #ddd;
       border-radius: 4px;
-      background-color: #7eeef3;
+      background-color: #f2f2f2;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       
     }
@@ -121,7 +121,7 @@
       padding: 8px;
       border: 1px solid #ddd;
       border-radius: 4px;
-      background-color: #f1ec81;
+      background-color: #f2f2f2;
       margin-bottom: 20px;
     }
     .comment-form {

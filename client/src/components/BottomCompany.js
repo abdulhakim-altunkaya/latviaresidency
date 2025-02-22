@@ -4,6 +4,7 @@ import Footer from "./Footer.js";
 
 function BottomCompany() {
   return (
+    <div>
     <div className='bottomCompanyMainArea'>
         <div className='bottomCompanyHeader'>
           <h1>ŞİRKET KURULUMU</h1>
@@ -11,7 +12,7 @@ function BottomCompany() {
         <div>
 
           <h3>Şirket Türleri</h3>
-          <div>
+          <div> 
             <p>Letonya'daki belli başlı şirket türleri aşağıda karşılaştırmalı olarak sunulmaktadır.</p>
             <table className='companyTypesTable'>
               <tr>
@@ -30,8 +31,8 @@ function BottomCompany() {
               </tr>
               <tr>
                 <td><strong>Minimum Sermaye Tutaru</strong></td>
-                <td>2800 Euro</td>
-                <td>1-2799 Euro</td>
+                <td>2800 Eur</td>
+                <td>1-2799</td>
                 <td>25000</td>
                 <td>-</td>
               </tr>
@@ -57,11 +58,11 @@ function BottomCompany() {
                 <td>Sadece Gerçek</td>
               </tr>
               <tr>
-                <td><strong>Yönetim Kurulu (YK) Üyeleri</strong></td>
+                <td><strong>Yönetim Kurulu Üyeleri</strong></td>
                 <td>Kurucular en az bir YK üyesi atar.</td>
                 <td>Bütün Kurucular aynı zamanda YK üyesidir</td>
                 <td>Kurucular ve YK üyeleri farklı olabilir</td>
-                <td>Yönetim kurulu yoktur.</td>
+                <td>YK yok</td>
               </tr>
               <tr>
                 <td><strong>Kurumlar Vergisi (Yıllık karın %20-%25'i)</strong></td>
@@ -205,9 +206,10 @@ function BottomCompany() {
               </ul>
             </div>
           </div> 
-          <div> <br/><br/><br/><br/><br/><br/><br/> </div>
-          <div className='footerArea'> <Footer /> </div>
         </div>
+    </div>
+    <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+    <div className='footerArea'> <Footer /> </div>
     </div>
   )
 }
