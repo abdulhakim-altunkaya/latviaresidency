@@ -126,8 +126,8 @@ function BottomCompany() {
                 </span>
               </div>
               <div className='processTableRows processTableRowMiddle'>
-                <span className='processTableBox'>Geçici banka hesabı açılır. Müşterimiz tarafından 
-                şirket sermayesi transfer edilir.</span>
+                <span className='processTableBox'>Geçici banka hesabı açılır.  
+                Şirket sermayesi transfer edilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
                 <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na başvuru
                   dosyası sunulur (3 gün). </span>
@@ -137,7 +137,7 @@ function BottomCompany() {
               <div className='processTableRows'>
                 <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip e-imza başvurusu yapabilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip geçici hesabı normal banka hesabına 
+                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip geçici hesabı kalıcı hesaba 
                   dönüştürebilir.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
                 <span className='processTableBox'>Opsiyonel: Şirkete KDV numarası çıkarılması için başvuru yapılabilir.

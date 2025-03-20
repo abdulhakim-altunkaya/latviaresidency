@@ -67,10 +67,7 @@ function BottomPrices() {
         <div className='bottomPricesContent1'>
             <p>Şeffaflık ve müşteri memnuniyeti prensiplerimiz çerçevesinde 2025 yılı ücretlerimiz aşağıda sunulmaktadır.</p>
             <p>Ücretlerimiz standart olup, bütün müşterilerimiz için aynıdır.</p>
-            <p>Ücretlerimiz tek seferde alınmakta olup, oturum kartının çıkmaması ve müşterimizin başvurusundan vazgeçmesi 
-              halinde alınan ücretin yarısı 30 gün içerisinde iade edilmektedir.</p>
-            <p>Ücretlerimize Letonya kanunları çerçevesinde bütün vergiler dahildir ve yapılan ödemeler için
-              müşteri ismine fatura düzenlenmektedir.</p>
+            <p>Ücretlerimiz tek seferde alınmaktadır.</p>
             <p>Ücretler şirketimizin Letonya'daki banka hesabına yapılmaktadır.</p>
             <p>Ücretlerimizin kapsamına ilişkin detaylı bilgilere aşağıdaki kalemlere tıklayarak ulaşabilirsiniz.</p>
         </div>
@@ -79,7 +76,7 @@ function BottomPrices() {
             <div className='priceEntry'>
               <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
                 <span className='spanListTitle'>Gayrımenkul yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
+                <span className='spanPrices'> 15000 Euro</span>
               </div>  
             </div> 
             {isVisible1 ? 
@@ -101,7 +98,7 @@ function BottomPrices() {
             <div className='priceEntry'>
               <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
                 <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
+                <span className='spanPrices'> 15000 Euro</span>
               </div>
             </div>
             {isVisible2 ? 
@@ -122,7 +119,7 @@ function BottomPrices() {
             <div className='priceEntry'>
               <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
                 <span className='spanListTitle'>Limited şirket yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
+                <span className='spanPrices'> 15000 Euro</span>
               </div>
             </div>
             {isVisible3 ? 
@@ -143,7 +140,7 @@ function BottomPrices() {
             <div className='priceEntry'>
               <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
                 <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
-                <span className='spanPrices'> 6000 Euro</span>
+                <span className='spanPrices'> 15000 Euro</span>
               </div>
             </div>
             {isVisible4 ? 

@@ -145,17 +145,19 @@ return (
           <div className='bottomCompanyText bottomCompanyText2'>
             <h3>1. Gayrımenkul Yatırımı</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 
-              + %1,5 tapu harcı + Harç 12.500 + Danışmanlık 6.000 = Toplam 271.750 Euro</p>
+              + %1,5 tapu harcı + Harç 12.500 + Danışmanlık 15.000 = Toplam 280.750 Euro</p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya emlak fiyatları diğer AB
               ülkelerine kıyasla oldukça uygun olup, 2025 yılı itibariyle ülkemizden bile ucuzdur. En çok tavsiye ettiğimiz 
               yatırım türüdür.
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında herşey dahil anahtar
-              ve oturum kartı teslim fiyatımız 5000 Euro'dur. Alacağınız emlakın en az 250.000 Euro olacağı olacağı düşünüldüğünde,
-              harçlar ve danışmanlık ücretimiz ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
+              ve oturum kartı teslim danışmanlık fiyatımız 15.000 Euro'dur. Alacağınız emlakın en az 250.000 Euro olacağı 
+              olacağı düşünüldüğünde,
+              harçlar ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
-              vergi ödeyen bir şirketten, Leton vatandaşlarından veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
+              vergi ödeyen bir şirketten, Leton vatandaşlarından veya Letonya'da yaşayan bir yabancıdan
+               (AB vatandaşı ve uzun süre oturum izinli) 
               emlak alabilirsiniz. Emlak bedelinin banka transferi
               ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı 
               kadastro değerinin de en az 80.000 Euro olması gerekmektedir. Tarım ve orman arazileri program kapsamı
@@ -167,7 +169,7 @@ return (
               </p>
             <h3>2. Şirket Yatırımı</h3>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
-              + Danışmalığımız 6.000 = Toplam 66.000</p>
+              + Danışmalığımız 15.000 = Toplam 75.000</p>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
               yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
               <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
@@ -183,10 +185,15 @@ return (
               <p>Bir şirkete oturum izni amacıyla en fazla 10 yabancı başvurabilir.</p>
             <h3>3. Faizsiz Devlet Tahvili</h3>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
-              + Danışmalığımız 6.000 = Toplam 294.000</p>
+              + Danışmalığımız 15.000 = Toplam 303.000</p>
+              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/> Bu yatırım türü için Letonya'da 
+              banka hesabı açmanız gerekecek olup, Ukrayna'daki savaşın başlangıcından
+               bu yana yabancıların banka hesabı açması oldukça zorlaşmıştır. Bu yüzden bu yatırım türü malesef halihazırda 
+               (2025 yılı itibariyle) kullanılamamaktadır.
+              </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerine yapacağınız
-              yatırım sayesinde oturum alabilirsiniz. Gayrımenkul ve Şirket yatırımlarına göre daha kolay, banka mevduatı yatırımına 
-              göre daha garanti bir opsiyon olarak görülebilir. 
+              yatırım sayesinde oturum alabilirsiniz. Gayrımenkul ve Şirket yatırımlarına göre daha kolay, 
+              banka mevduatı yatırımına göre daha garanti bir opsiyon olarak görülebilir. 
               </p>
               <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerinin faiz geliri
               olmasa da tahvillerin alış fiyatı ile tahvil süresi sonundaki nominal fiyatı arasındaki farktan kâr elde edilebilir.
@@ -200,10 +207,15 @@ return (
               </p>   
             <h3>4. Banka Mevduatı</h3>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
-              + Danışmalığımız 6.000 = Toplam 311.000</p>
+              + Danışmalığımız 15.000 = Toplam 320.000</p>
+              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/> Bu yatırım türü için Letonya'da
+               banka hesabı açmanız gerekecek olup, Ukrayna'daki savaşın başlangıcından
+               bu yana yabancıların banka hesabı açması oldukça zorlaşmıştır. Bu yüzden bu yatırım türü malesef halihazırda 
+               (2025 yılı itibariyle) kullanılamamaktadır.
+              </p>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
-              yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. Yani 280.000 Euroluk yatırımınızı
-              5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
+              yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. 
+              Yani 280.000 Euroluk yatırımınızı 5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
               </p>
               <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'daki bankalara yapacağınız 
               mevduat transferinin en az 280.000 Euro olması gerekmektedir. Mevduatınız banka sisteminde 
@@ -218,7 +230,8 @@ return (
                 <li>Başvuru sahibinin Letonya'da yaşayacağı adres</li>
                 <li>Sağlık sigortası</li>
                 <li>Fotoğraf</li>
-                <li>Başvuru harçlarının ödendiğine ilişkin makbuzlar. Başvuru harçları genel olarak 100-500 Euro arasında değişir.
+                <li>Başvuru harçlarının ödendiğine ilişkin makbuzlar. Başvuru harçları genel 
+                  olarak 100-500 Euro arasında değişir.
                   Başvurunuza aile üyeleriniz de dahilse, her aile üyesi için ayrı ayrı harç ödenir.
                    (Başvuru harçları ile Devlet harçları farklıdır. Devlet
                   harçları başvuru onaylandıktan sonra ödenir)</li>
@@ -257,8 +270,10 @@ return (
                Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
               transfer edilir. Müşterimiz tekrar Letonya'ya gelir ve hayırlı olması dileklerimizle oturum 
               kartını elden teslim alır.</p>
-            <p>Yaklaşık 3 veya 4 ay süren bu süreçte Müşterimizin yanında olduğumuz gibi, müşterimizin Letonya'ya gelememesi 
-              durumlarında da gerekli yardım ve yönlendirmeyi sağlıyoruz.</p>
+            <p>Süreç en az 4 ay sürmekte olup, bazı durumlarda başvuru sahibinden
+              ilave evrak ve bilgi istenebilmekte, bu yüzden süreç 10 ay bile sürebilmektedir. Uzmanlarımız bu sürecin 
+              en hızlı ve en rahat şekilde bitmesi için sürecin en başından en sonuna kadar sizlerin yanında olacaktır. </p>
+              
           </div>
 
           <div className='bottomCompanyLinks bottomCompanyLinks2'>
