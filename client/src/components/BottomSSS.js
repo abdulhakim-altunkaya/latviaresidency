@@ -65,7 +65,7 @@ function BottomSSS() {
         <h2>SIK SORULAN SORULAR</h2>
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(21)}>
-            <div>Geçici ve süresi oturum farkı nedir?</div>
+            <div>Geçici ve süresiz oturum farkı nedir?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible21 ? 
@@ -107,17 +107,19 @@ function BottomSSS() {
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(24)}>
-            <div>Süresiz oturum almam ve Letonya'da yaşamam şart mı</div>
+            <div>Letonya'da yaşamam şart mı? Süresiz oturum almazsam ne olur?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible24 ? 
           <div className='questionAtbildi'>
-            Şart değildir. Eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman pekala tekrardan geçici oturum 
+            Letonya'da yaşamanız geçici oturum almanız için şart değildir. Letonya'da yaşamanız süresiz oturum almanız için 
+            şarttır. İlk beş yıl geçici oturumlar aldıktan sonra,
+            eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman altıncı yılınızda da geçici oturum 
             iznini alabilirsiniz. Bunun için yatırımınızı olduğu gibi muhafaza etmiş olmanız gerekmektedir. 
-            Beş yıl sonra yapacağınız geçici oturum kartı için 5000 Euro başvuru harcı ödenir. Bu oturum kartı 
+            Beş yıl sonra yapacağınız geçici oturum kartı başvurusu için 5000 Euro başvuru harcı ödenir. Bu oturum kartı 
             için başvurunuzu son oturum kartınızın süresi bitmeden veya süresi bittikten sonraki
             40 gün içerisinde yapmanız gerekmektedir. Eğer bu süreyi kaçırırsanız, o zaman sil baştan 
-            yeni başvuru yapar gibi başvuru yapmanız gerekir, ki bu durumda bütün harçları tekrar ödemek 
+            yeni başvuru yapar gibi başvuru yapmanız gerekir ki bu durumda bütün harçları tekrar ödemek 
             durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her zaman geçici
             oturum kartı alabilirsiniz. Geçici oturum kartları 
             için Letonca bilmeniz veya Letonya'da yaşamanız şart değildir.</div>
@@ -131,8 +133,8 @@ function BottomSSS() {
           </div>
           {isVisible25 ? 
           <div className='questionAtbildi'>
-              Oturum kartı başvurunuzun reddedilmesi veya başvurudan vazgeçmeniz halinde firmamıza ödediğiniz ücretin yarısı
-              30 gün içerisinde iade edilir. Vize başvurunuzun reddedilmesi halinde ise danışmanlık ücretinin 2/3 iade edilir.</div>
+              Malesef edilmemektedir. Her bir müşterimiz için uzmanlarımız zamanlarını harcamakta, evrakları 
+              hazırlanmakta, başvuru dosyası için pekçok kişi ve kurumla görüşülmektedir.</div>
           : <></> }
         </div>
 
@@ -143,7 +145,7 @@ function BottomSSS() {
           </div>
           {isVisible26 ? 
           <div className='questionAtbildi'>
-            Hayır. Uzun süreli oturum izinleriyle başka bir AB ülkesinde çalışmak istemeniz halinde, 
+            Hayır. Geçici oturum izinleriyle başka bir AB ülkesinde çalışmak istemeniz halinde, 
             o ülkenin koyduğu ilave şartları karşılamak durumundasınız. Sözkonusu şartlar her AB ülkesinde 
             farklılık göstermektedir.</div>
           : <></> }
@@ -156,7 +158,7 @@ function BottomSSS() {
           </div>
           {isVisible27 ? 
           <div className='questionAtbildi'>
-              Bütün yabancılar başvurabilir. Herhangi bir sınırlama bulunmamaktadır</div>
+              Bütün yabancılar başvurabilir. Herhangi bir sınırlama bulunmamaktadır.</div>
           : <></> }
         </div>
 
