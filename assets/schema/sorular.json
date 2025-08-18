@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.letonyaoturum.com/sorular.html#webpage",
+      "url": "https://www.letonyaoturum.com/sorular.html",
+      "name": "Sık Sorulan Sorular - Letonya Yatırım & Oturum",
+      "description": "Letonya oturum izni SSS: Yatırım yoluyla oturum, vatandaşlık, vize ve başvuru süreci hakkında Türk yatırımcılar için cevaplar. Cevapları bulun!",
+      "inLanguage": "tr",
+      "datePublished": "2025-08-17",
+      "dateModified": "2025-08-17",
+      "isPartOf": {
+        "@id": "https://www.letonyaoturum.com/#website"
+      },
+      "publisher": {
+        "@id": "https://www.letonyaoturum.com/#organization"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Geçici ve süresiz oturum farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yatırım yoluyla oturum başvurunuz onayladığında size ilk beş yıl boyunca geçici oturumlar verilir. Bu oturumlar bazen birer yıllık bazen de daha uzun olabilir. Beşinci yılın sonunda ise yatırımınız eğer hala aynı şekilde devam ediyorsa bu defa süresiz oturuma başvurabilirsiniz. Süresiz oturum için geçici oturumlarla Letonya'da en az 4 yıl geçirmiş olmak gerekir. Yoksa yine geçici oturum alırsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Letonya vatandaşlığı alabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vatandaşlık için önce 5 yıl boyunca geçici oturumlar, beşinci yılın sonunda da sonra süresiz oturum almalısınız. Letonya'daki sürenizin 10.yılında vatandaşlık için başvurabilirsiniz. Vatandaşlık için Letonya tarihini, dilini ve genel kültürünü de bilmeniz gerekmektedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geçici oturum iznini 5 yıl sonra süresiz oturum iznine çevirebilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, A2 seviyesinde Letonca bilmeniz, 5 yıl boyunca aldığınız oturum süresinin 4 yılını Letonya'da geçirmiş olmanız halinde süresiz oturum alabilirsiniz. Yoksa, tekrardan geçici oturum alırsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Letonya'da yaşamam şart mı? Süresiz oturum almazsam ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Letonya'da yaşamanız geçici oturum almanız için şart değildir. Letonya'da yaşamanız süresiz oturum almanız için şarttır. İlk beş yıl geçici oturumlar aldıktan sonra, eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman altıncı yılınızda da geçici oturum iznini alabilirsiniz. Bunun için yatırımınızı olduğu gibi muhafaza etmiş olmanız gerekmektedir. Beş yıl sonra yapacağınız geçici oturum kartı başvurusu için 5000 Euro başvuru harcı ödenir. Bu oturum kartı için başvurunuzu son oturum kartınızın süresi bitmeden veya süresi bittikten sonraki 40 gün içerisinde yapmanız gerekmektedir. Eğer bu süreyi kaçırırsanız, o zaman sil baştan yeni başvuru yapar gibi başvuru yapmanız gerekir ki bu durumda bütün harçları tekrar ödemek durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her zaman geçici oturum kartı alabilirsiniz. Geçici oturum kartları için Letonca bilmeniz veya Letonya'da yaşamanız şart değildir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oturum kartı başvurum reddedilirse veya başvurudan vazgeçersem danışmanlık ücretim iade edilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malesef edilmemektedir. Her bir müşterimiz için uzmanlarımız zamanlarını harcamakta, evrakları hazırlanmakta, başvuru dosyası için pekçok kişi ve kurumla görüşülmektedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geçici oturum izniyle başka bir AB ülkesinde çalışabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Geçici oturum izinleriyle başka bir AB ülkesinde çalışmak istemeniz halinde, o ülkenin koyduğu ilave şartları karşılamak durumundasınız. Sözkonusu şartlar her AB ülkesinde farklılık göstermektedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yatırım yoluyla oturum programına bütün ülkeler başvurabilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bütün yabancılar başvurabilir. Herhangi bir sınırlama bulunmamaktadır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vatandaşlık şartlarını sağlarsam, çifte vatandaşlık alabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NATO ve AB ülke vatandaşları çifte vatandaşlık alabilirler. Yani Türk vatandaşı olarak çifte vatandaşlık alabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vize konusunda yardımcı oluyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, başvuru formunun doldurulmasına, evrakların hazırlamasına ve randevu alınmasına yardımcı oluyoruz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geçici oturum kartını aldıktan hemen sonra yatırımımı satabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oturum aldıktan sonra yatırımınızı satmanız halinde oturumunuz iptal edilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.letonyaoturum.com/#organization",
+      "name": "Turhan Kurumsal Hizmetler ve Danışmanlık",
+      "url": "https://www.letonyaoturum.com/",
+      "logo": "https://www.letonyaoturum.com/assets/icons/pyramid.svg",
+      "image": "https://www.letonyaoturum.com/assets/images/svg_plus.svg",
+      "description": "Türk yatırımcılara Letonya’da yatırım yoluyla oturum izni, şirket kurulumu ve vize danışmanlığı hizmetleri sunan firma.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Riga",
+        "addressCountry": "LV"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "letonyaoturum@gmail.com",
+        "telephone": "+37120669310",
+        "contactType": "Customer Service",
+        "areaServed": "LV",
+        "availableLanguage": ["Turkish", "Latvian", "Russian", "English"]
+      },
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "sameAs": [
+        "mailto:letonyaoturum@gmail.com"
+      ]
+    }
+  ]
+}

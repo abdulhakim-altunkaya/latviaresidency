@@ -1,0 +1,18 @@
+
+DEPLOYMENT
+point the nameserver to netlify
+delete from render
+update the google analytics and search console
+add cors to eumaps
+
+
+DONE
+Pages finished
+small screen styling finished
+"send us an email" section finished with api endpoint
+footer finished
+visitor logging finished with api endpoint
+add description and name tags 
+try to replace all "div" and "span" tags
+sitemap and robots created
+json-ld files added

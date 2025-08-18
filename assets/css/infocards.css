@@ -1,0 +1,159 @@
+/* Media query for big screens */
+@media (min-width: 781px) {
+
+.infoAreas {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.infoSheets {
+    width: 250px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoSheets:hover {
+    background-color: rgb(245, 245, 240);
+    box-shadow: 
+        -7px 0 10px -5px rgba(0, 0, 0, 0.2), /* Left shadow */
+        7px 0 10px -5px rgba(0, 0, 0, 0.2);  /* Right shadow */
+}
+
+.infoTitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Monda";
+}
+.infoSVG img {
+    width: 50px; /* Ensure SVG image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+.infoText {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.4; /* Improve readability */
+    color: #474747;
+    font-style: italic;
+    font-family: "Ubuntu";
+    display: flex;
+    text-align: justify;
+}
+.countryInfoArea {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.countryInfoChild1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    font-family: "DM Sans","Monda";
+}
+.countryInfoChild1cTitle {
+    font-family: "Lobster", 'Trebuchet MS';
+    font-size: 22px;
+}
+.countryInfoChild2 {
+    flex: 2;
+    overflow: hidden;  /* This will hide any overflowed content */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryInfoChild2 img {
+    width: 450px;    /* Make the image take up the full width of the container */
+       /* Ensure the height is also fully covered */
+    object-fit: cover;  /* Preserve the aspect ratio and cover the container */
+    object-position: center;  /* Center the image within the container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(139, 0, 0, 0.8); /* Dark red box shadow */
+}
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+
+.infoAreas {
+    width: 96%;
+    margin: auto; 
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.infoSheets {
+    width: 150px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoTitle {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Monda";
+    text-align: center;
+}
+.infoSVG img {
+    width: 50px; /* Ensure SVG image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+.infoText {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.4; /* Improve readability */
+    color: #474747;
+    font-style: italic;
+    font-family: "Ubuntu";
+    display: flex;
+    text-align: justify;
+}
+.countryInfoArea {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.countryInfoChild1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: "DM Sans","Monda";
+}
+.countryInfoChild1cTitle {
+    font-family: "Lobster", 'Trebuchet MS';
+    font-size: 22px;
+}
+
+
+.countryInfoChild2 img {
+    width: 300px;    /* Make the image take up the full width of the container */
+       /* Ensure the height is also fully covered */
+    object-fit: cover;  /* Preserve the aspect ratio and cover the container */
+    object-position: center;  /* Center the image within the container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(139, 0, 0, 0.8); /* Dark red box shadow */
+}
+}

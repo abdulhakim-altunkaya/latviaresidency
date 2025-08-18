@@ -1,0 +1,88 @@
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .questionsArea {
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        font-family: "Maven Pro";
+        line-height: 1.5;
+        padding-right: 20px;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .questionCards {
+        margin-bottom: 14px;
+    }
+    .questionJautajums {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; /* Vertically centers the content */
+        padding: 9px;
+        font-weight: bold;
+        transition: background-color 0.4s ease;
+        font-size: 16px;
+    }
+    .questionJautajums:hover {
+        cursor: pointer;
+        background-color: #f365c3;
+    }
+    .questionAtbildi {
+        align-items: center; /* Vertically centers the content */
+        padding: 9px;
+    }
+    .plusSign {
+        width: 29px;
+        color: rgb(128, 128, 128);
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+
+    .questionsArea {
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        font-family: "Maven Pro";
+        line-height: 1.5;
+        padding-right: 10px;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .questionsArea h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .questionCards {
+        margin-bottom: 14px;
+    }
+    .questionJautajums {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; /* Vertically centers the content */
+        padding: 9px;
+        font-weight: bold;
+        transition: background-color 0.4s ease;
+        font-size: 14px;
+    }
+    .questionJautajums:active {
+        cursor: pointer;
+        background-color: #f365c3;
+    }
+    .questionAtbildi {
+        align-items: center; /* Vertically centers the content */
+        padding: 9px;
+        font-size: 13px;
+    }
+    .plusSign {
+        width: 22px;
+        margin-left: 10px;
+        color: rgb(128, 128, 128);
+    }
+}
