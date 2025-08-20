@@ -1,5 +1,5 @@
 /* Media query for small screens */
-@media (max-width: 780px) {
+@media (min-width: 781px) {
     .questionsArea {
         width: 100%;
         margin: auto;
