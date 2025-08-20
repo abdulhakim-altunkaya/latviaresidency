@@ -276,7 +276,23 @@
 
 
 
-
+<script>
+  async function logVisitor() {
+    try {
+      const response = await axios.post('https://www.eumaps.org/api/save-visitor/letonya-oturum', {});
+      console.log('Visitor log response:', response.data);
+    } catch (error) {
+      if (error.response?.status === 429) {
+        console.log('Visitor already logged recently; skipping.');
+      } else {
+        console.log('Visitor log error:', error.message);
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    logVisitor();
+  });
+</script>
 
 </body>
 </html>
