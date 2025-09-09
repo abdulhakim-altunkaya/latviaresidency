@@ -1,6 +1,8 @@
 /* Media query for big screens */
 @media (min-width: 781px) {
-
+    .companyContentAreaSmall {
+        display: none;
+    }
     .companyContentArea {
         font-family: "Ubuntu";
         line-height: 1.5;
@@ -94,6 +96,26 @@
 }
 /* Media query for small screens */
 @media (max-width: 780px) {
+    .companyContentArea {
+        display: none;
+    }
+    .companyContentAreaSmall {
+        font-family: "Ubuntu";
+        line-height: 1.5;
+    }
+    .companyContentArea h3 {
+        font-size: 16px;
+    }
+    .companyHeader {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+        font-size: 20px;
+    }
     .bottomCompanyText {
         width: 97%;
         font-size: 13px;
@@ -107,23 +129,7 @@
     .bottomCompanyText h3 {
         font-size: 16px;
     }
-    .companyHeader {
-        width: 100%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: black;
-        font-family: "Monda";
-        font-size: 20px;
-    }
-    .companyContentArea {
-        font-family: "Ubuntu";
-        line-height: 1.5;
-    }
-    .companyContentArea h3 {
-        font-size: 16px;
-    }
+
     .processTable {
         width: 96%;
         margin: auto;

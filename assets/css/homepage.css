@@ -1,0 +1,33 @@
+/* Media query for big screens */
+@media (min-width: 781px) {
+ .indexContentAreaSmall {
+    display: none;
+ }
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+ .indexContentArea {
+    display: none;
+ }
+.countryInfoArea {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans","Monda";
+}
+.countryInfoArea h2 {
+    font-family: "Lobster", 'Trebuchet MS';
+    font-size: 22px;
+}
+.countryInfoArea img {
+    width: 100%;
+    margin: auto;
+    object-fit: cover;  /* Preserve the aspect ratio and cover the container */
+    object-position: center;  /* Center the image within the container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(139, 0, 0, 0.8); /* Dark red box shadow */
+}
+}

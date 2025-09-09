@@ -69,13 +69,14 @@
 @media (max-width: 780px) {
     .contactFormArea h2 {
         font-family: "Ubuntu", 'Trebuchet MS', sans-serif;
-        font-size: 18px;
+        font-size: 17px;
+        margin-left: 15px;
     }
     .contactForm {
-        margin-top: 15px;
+        width: 90%;
+        margin: auto;
         background-color: #e8edf0;
         padding: 10px;
-        width: 330px;
         border-radius: 8px;
     }
     .formUpperInputs {
@@ -88,11 +89,11 @@
         box-sizing: border-box; /* Includes padding and border in the total width */
         border: none;
         outline: none;
-        width: 155px;
+        width: 120px;
         border-radius: 4px;
         height: 35px;
         padding: 8px;
-        font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: "Ubuntu", 'Trebuchet MS', sans-serif;
         font-size: 14px;
     }
     .formTextArea textarea {
@@ -104,7 +105,7 @@
         border-radius: 8px;
         padding: 12px;
         resize: none;
-        font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: "Ubuntu", 'Trebuchet MS', sans-serif;
         font-size: 14px;
     }
     .formTextArea textarea {
@@ -113,15 +114,15 @@
 
 
     .button1111 {
-    font-family: "Maven Pro", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    padding: 4px;
-    width: 80px;
-    background: #4822cc;
-    border-radius: 4px;
-    color: white;
-    user-select: none;
-    cursor: pointer;
+        font-family: "Maven Pro", 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        padding: 4px;
+        width: 80px;
+        background: #4822cc;
+        border-radius: 4px;
+        color: white;
+        user-select: none;
+        cursor: pointer;
     }
     .button1111:active {
         background-color: #33188f;

@@ -23,31 +23,17 @@
         text-align: justify;
         font-size: 16px;
     }
-    .titleSpan3 {
-        font-size: 20px;
-        padding-left: 10px;
-    }
-    .titleSpan4 {
-        font-weight: bolder;
-        font-size: 20px;
-        padding-left: 10px;
-    }
-    .bottomContact {
-        padding: 20px;
-    }
-    .bottomContactSVG2 img {
-        width: 28px; /* Ensure SVG image does not overflow */
-        height: auto; /* Maintain aspect ratio */
-    }
     .contactTitleArea {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-top: 10px;
     }
+        .contactTitleArea img {
+        width: 25px;
+    }
     .creaditsArea {
         margin-top: 30px;
-        padding: 7px;
         font-family: "Ubuntu", sans-serif;
         font-size: 13px;
     }
@@ -59,43 +45,24 @@
 /* Media query for small screens */
 @media (max-width: 780px) {
     .aboutArea {
-        width: 96%;
-        font-family: "Maven pro";
+        width: 90%;
+        margin: auto;
+        font-family: "Ubuntu";
         line-height: 1.5;
-        padding-right: 10px;
         text-align: justify; /* Justifies the text */
         word-wrap: break-word; /* Breaks long words to fit within the width */
         hyphens: auto; /* Allows hyphenation where supported */
+        font-size: 13px;
     }    
     .aboutTitleArea {
-        width: 100%;
+        width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         color: black;
         font-family: "Monda";
-        font-size: 20px;
-    }
-    .aboutText {
-        text-align: justify;
-        font-size: 14px;
-    }
-    .titleSpan3 {
-        font-size: 15px;
-        padding-left: 10px;
-    }
-    .titleSpan4 {
-        font-weight: bolder;
-        font-size: 15px;
-        padding-left: 10px;
-    }
-    .bottomContact {
-        padding: 20px;
-    }
-    .bottomContactSVG2 img {
-        width: 24px; /* Ensure SVG image does not overflow */
-        height: auto; /* Maintain aspect ratio */
+        font-size: 19px;
     }
     .contactTitleArea {
         display: flex;
@@ -103,14 +70,8 @@
         align-items: center;
         margin-top: 10px;
     }
-    .creaditsArea {
-        margin-top: 30px;
-        padding: 7px;
-        font-family: "Ubuntu", sans-serif;
-        font-size: 13px;
-    }
-    .creaditsArea a {
-        text-decoration: none;
+    .contactTitleArea img {
+        width: 25px;
     }
 
 }
