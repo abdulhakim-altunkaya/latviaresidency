@@ -1,6 +1,8 @@
 /* Media query for big screens */
 @media (min-width: 781px) {
-
+    .residencyContentAreaSmall {
+        display: none;
+    } 
     .residencyContentArea {
         font-family: "Ubuntu";
         line-height: 1.5;
@@ -131,16 +133,19 @@
 @media (max-width: 780px) {
 
     .residencyContentArea {
+        display: none;
+    } 
+    .residencyContentAreaSmall {
+        width: 96%;
+        margin: auto;
         font-family: "Ubuntu";
         line-height: 1.5;
-        padding-right: 10px;
         text-align: justify; /* Justifies the text */
         word-wrap: break-word; /* Breaks long words to fit within the width */
         hyphens: auto; /* Allows hyphenation where supported */
     } 
- 
     .residencyHeader { 
-        width: 100%;
+        width: 80%;
         margin: auto;
         display: flex;
         align-items: center;
@@ -163,20 +168,21 @@
         flex-direction: column;
     }
     .infoResidencyCards1, .infoResidencyCards2, .infoResidencyCards3, .infoResidencyCards4 {
-        background-color: aqua;
+        width: 90%;
+        margin: auto;
         height: 210px;
-        width: 300px;
-        margin: 5px;
+        margin-bottom: 5px;
         display: flex;
         flex-direction: column;
-    
+        padding: 1px; /* Inner padding inside the gradient border */
         position: relative;
         border: 1px solid transparent; /* Transparent border for the gradient */
         border-radius: 10px; /* Adjust based on design */
         background-origin: border-box;
         background-clip: content-box, border-box;
         box-sizing: border-box; /* Ensures proper sizing */
-        padding: 1px; /* Inner padding inside the gradient border */
+
+        background-color: aqua;
     }
     .infoResidencyCards1  {
         background-image: linear-gradient(white, white), /* Inner background */
@@ -227,7 +233,7 @@
 
 
     .residencyTable {
-        width: auto;
+        width: 90%;
         margin: auto;
     }
     .residencyTable tr td,
@@ -255,11 +261,15 @@
     }
     .residencyLinks {
         font-size: 14px;
+        width: 90%;
+        margin: auto;
     }
     .residencyLinks a {
         text-decoration: none;
     }
-    .residencyContent1 p, .residencyContent2 p {
+    .residencyContent1, .residencyContent2 {
         font-size: 13px;
+        width: 90%;
+        margin: auto;
     }
 }

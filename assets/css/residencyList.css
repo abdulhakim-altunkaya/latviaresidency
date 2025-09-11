@@ -59,8 +59,8 @@
 /* Media query for small screens */
 @media (max-width: 780px) {
 .list-type5{
-    width:320px;
-    margin-left: 5px;
+    width:96%;
+    
 }
 .list-type5 ol {
     list-style-type: none;
