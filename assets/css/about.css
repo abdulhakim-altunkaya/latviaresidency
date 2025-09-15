@@ -62,7 +62,9 @@
         justify-content: center;
         color: black;
         font-family: "Monda";
-        font-size: 19px;
+    }
+    .aboutTitleArea h1 {
+        font-size: 25px;
     }
     .contactTitleArea {
         display: flex;

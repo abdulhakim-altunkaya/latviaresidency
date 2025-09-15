@@ -95,13 +95,15 @@
         font-family: "Maven Pro", "Monda";
     }
     .servicesHeader {
-        width: 100%;
+        width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         color: black;
         font-family: "Monda";
+    }
+    .servicesHeader h1 {
         font-size: 20px;
     }
     .infoAreas2 {
@@ -111,6 +113,8 @@
         padding-top: 20px;
     }
     .infoSheets2 {
+        width: 90%;
+        margin: auto;
         padding: 7px;
         background-color: white;
         border-radius: 10px;

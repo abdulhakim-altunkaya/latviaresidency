@@ -26,6 +26,7 @@
         font-family: "Monda";
         font-size: 25px;
     }
+    
     .processTable {
         background-color: rgb(228, 241, 228);
         display: flex;
@@ -114,7 +115,9 @@
         justify-content: center;
         color: black;
         font-family: "Monda";
-        font-size: 20px;
+    }
+    .companyHeader h1 {
+        font-size: 25px;
     }
     .bottomCompanyText {
         width: 97%;

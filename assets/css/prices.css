@@ -74,14 +74,16 @@
         hyphens: auto; /* Allows hyphenation where supported */
     }
     .pricesHeader {
-        width: 100%;
+        width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         color: black;
         font-family: "Monda";
-        font-size: 20px;
+    }
+    .pricesHeader h1{
+        font-size: 25px;
     }
     .pricesContent1, .pricesContent2 {
         width: 95%;
