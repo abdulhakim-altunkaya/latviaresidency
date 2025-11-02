@@ -1,0 +1,173 @@
+/* Media query for big screens */
+@media (min-width: 781px) {
+    .articleArea {
+        width: 96%;
+        margin: auto;
+        font-family: "Maven pro";
+        line-height: 1.5;
+
+    }    
+    .articleText {
+        text-align: justify;
+        font-size: 16px;
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .articleAreaImages {
+        display: block;
+        width: 70%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+    .articleAreaImagesSmall {
+        display: block;
+        width: 20%;
+    }
+    .articleText a {
+        text-decoration: none;
+    }
+    .articleArea ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .articleTable { 
+        width: 30%;
+        border: 3px solid white;
+        font-size: 14px;
+    }
+
+    /* Header */
+    .articleTable thead th {
+        text-align: left;
+        padding: 5px 6px;
+        background: #02343F;
+        color:#F0EDCC;
+        font-weight: bold;
+    }
+
+    /* Body rows */
+    .articleTable tbody td {
+        padding: 5px 6px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .articleTable tbody tr {
+        color: #02343F;
+        background:#F0EDCC;
+    }
+
+    .articleTable2 { 
+      width: 30%;
+      border: 3px solid white;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    /* Header */
+    .articleTable2 thead th {
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 600;
+      background: #0A174E;
+      color: #F5D042;
+      font-weight: bold;
+    }
+
+    /* Body rows */
+    .articleTable2 tbody td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .articleTable2 tbody tr {
+      background: #F5D042;
+      color: #0A174E;
+    }
+
+
+}
+/* Media query for small screens */
+@media (max-width: 780px) {
+ .articleArea {
+        width: 90%;
+        margin: auto;
+        font-family: "Maven pro";
+        line-height: 1.5;
+    }    
+    .articleAreaImages {
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .articleAreaImagesSmall {
+        display: block;
+        width: 40%;
+    }
+    .articleText {
+        text-align: justify;
+        font-size: 14px;
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .articleText a {
+        text-decoration: none;
+    }
+    .articleTable { 
+        width: 80%;
+        border: 3px solid white;
+        text-align: left;
+    }
+
+    /* Header */
+    .articleTable thead th {
+        text-align: left;
+        padding: 5px 6px;
+        background: #02343F;
+        color:#F0EDCC;
+        font-weight: bold;
+    }
+
+    /* Body rows */
+    .articleTable tbody td {
+        padding: 5px 6px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .articleTable tbody tr {
+        color: #02343F;
+        background:#F0EDCC;
+    }
+
+    .articleTable2 { 
+      width: 90%;
+      border: 3px solid white;
+      background: #fff;
+    }
+
+    /* Header */
+    .articleTable2 thead th {
+      text-align: left;
+      padding: 6px 8px;
+      background: #0A174E;
+      color: #F5D042;
+      font-weight: bold;
+    }
+
+    /* Body rows */
+    .articleTable2 tbody td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .articleTable2 tbody tr {
+      background: #F5D042;
+      color: #0A174E;
+    }
+    .articleArea ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+}

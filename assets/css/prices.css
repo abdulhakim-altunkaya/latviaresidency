@@ -73,17 +73,8 @@
         word-wrap: break-word; /* Breaks long words to fit within the width */
         hyphens: auto; /* Allows hyphenation where supported */
     }
-    .pricesHeader {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: black;
-        font-family: "Monda";
-    }
-    .pricesHeader h1{
-        font-size: 25px;
+    .pricesMainArea h2 {
+        font-family: "Maven Pro";
     }
     .pricesContent1, .pricesContent2 {
         width: 95%;

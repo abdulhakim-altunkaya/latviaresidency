@@ -1,0 +1,48 @@
+/* Media query for big screens */
+@media (min-width: 781px) {
+    .lifeArea {
+        width: 100%;
+        font-family: "Maven Pro", "Manrope", sans-serif;
+        line-height: 1.5;
+        padding-right: 10px;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+    }
+    .lifeAreaHeaders {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items:center;
+        margin-bottom: 0px;
+    }
+    .lifeAreaHeaders h3 {
+        margin-left: 20px;
+    }
+    .headerIcons {
+        width: 30px;
+    }
+    .lifeAreaList {
+        margin: 0px;
+    }
+    .lifeArea ul {
+        list-style-type: none;
+    }
+    .lifeArea a {
+        display: inline-block;  /* Enables width and full background fill */
+        width: 40%;             /* Fixed width for all links */
+        text-decoration: none;
+        padding: 4px 6px;      /* Optional: Adds space around text for better hover area */
+        box-sizing: border-box; /* Ensures padding doesn't overflow the width */
+        transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth hover transition */
+    }
+
+    .lifeArea a:hover {
+        background-color: #F5D042;
+        color: #0A174E;
+    }
+}
+/* Media query for small screens */
+@media (max-width: 780px) {
+
+}
