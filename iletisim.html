@@ -110,59 +110,105 @@
   </section>
 </main>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const form = document.querySelector('.contactFormArea');
-      const inputName = document.getElementById('inputName');
-      const inputMail = document.getElementById('inputMail');
-      const inputMessage = document.getElementById('inputMessage');
-      const resultArea = document.getElementById('resultArea');
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.contactFormArea');
+    const inputName = document.getElementById('inputName');
+    const inputMail = document.getElementById('inputMail');
+    const inputMessage = document.getElementById('inputMessage');
+    const resultArea = document.getElementById('resultArea');
 
-      const validateEmail = (email) => {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(String(email).toLowerCase());
-      };
+    const validateEmail = (email) => {
+      const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return re.test(String(email).toLowerCase());
+    };
 
-      form.addEventListener('submit', async (e) => {
-        e.preventDefault();
+    const getErrorMessage = (code) => {
+      switch (code) {
+        case 1:
+          return 'Bu bağlantı üzerinden mesaj gönderilemiyor.';
+        case 2:
+          return 'Çok fazla mesaj gönderdiniz. Lütfen daha sonra tekrar deneyiniz.';
+        case 3:
+        case 4:
+          return 'Lütfen tüm alanları doğru şekilde doldurunuz.';
+        case 5:
+          return 'İsim çok uzun.';
+        case 6:
+        case 10:
+          return 'Lütfen geçerli bir e-mail adresi giriniz.';
+        case 7:
+          return 'Konu çok uzun.';
+        case 8:
+          return 'Mesaj çok uzun.';
+        case 9:
+          return 'Mesaj gönderilemedi.';
+        case 11:
+          return 'Sunucu hatası. Lütfen daha sonra tekrar deneyiniz.';
+        default:
+          return 'Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyiniz.';
+      }
+    };
 
-        // Name validation
-        if (inputName.value.length < 2 || inputName.value.length > 50) {
-          resultArea.textContent = 'İsim 2 ile 50 karakter arasında olmalıdır.';
-          return;
-        }
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
 
-        // Email validation
-        if (!validateEmail(inputMail.value)) {
-          resultArea.textContent = 'Geçerli bir e-mail adresi giriniz.';
-          return;
-        }
+      const name = inputName.value.trim();
+      const email = inputMail.value.trim();
+      const message = inputMessage.value.trim();
 
-        // Message validation
-        if (inputMessage.value.length < 10 || inputMessage.value.length > 500) {
-          resultArea.textContent = 'Mesaj 10 ile 500 karakter arasında olmalıdır.';
-          return;
-        }
-        try {
-          const messageObject = {
-            inputName: inputName.value,
-            inputMail: inputMail.value,
-            inputMessage: inputMessage.value
-          };
-          console.log(messageObject);
-          const res = await axios.post('https://www.eumaps.org/api/save-message/letonya-oturum', messageObject);
-          resultArea.textContent = `${res.data.resMessage} \u2714`;
-        } catch (error) {
-          if (error.response) {
-            resultArea.textContent = error.response.data.resMessage;
-            console.log(error.message);
-          } else {
-            resultArea.textContent = 'Mesaj gönderilirken hata oluştu. Lütfen doğrudan mail gönderiniz.';
-            console.log(error.message);
+      // Name validation
+      if (name.length < 2 || name.length > 50) {
+        resultArea.textContent = 'İsim 2 ile 50 karakter arasında olmalıdır.';
+        return;
+      }
+
+      // Email validation
+      if (!validateEmail(email)) {
+        resultArea.textContent = 'Geçerli bir e-mail adresi giriniz.';
+        return;
+      }
+
+      // Message validation
+      if (message.length < 10 || message.length > 500) {
+        resultArea.textContent = 'Mesaj 10 ile 500 karakter arasında olmalıdır.';
+        return;
+      }
+
+      try {
+        const res = await axios.post(
+          'https://www.eumaps.org/api/post/message',
+          {
+            name,
+            email,
+            subject: 'Letonya Oturum contact',
+            message,
+            source: 'letonyaoturum'
           }
+        );
+
+        if (!res.data?.resStatus) {
+          resultArea.textContent = getErrorMessage(res.data?.resErrorCode);
+          return;
         }
-      });
+
+        resultArea.textContent = 'Mesaj başarıyla gönderildi ✔';
+        form.reset();
+
+      } catch (error) {
+        if (error.response) {
+          resultArea.textContent = getErrorMessage(
+            error.response.data?.resErrorCode
+          );
+        } else {
+          resultArea.textContent =
+            'Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyiniz.';
+        }
+
+        console.log(error.message);
+      }
     });
-  </script>
+  });
+</script>
   <script type="application/ld+json">
     {
   "@context": "https://schema.org",
